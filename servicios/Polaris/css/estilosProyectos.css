@@ -527,7 +527,6 @@ body, html {
 }
 #txtContenedorBody1 {
     position: relative;
-    width: 40%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -538,10 +537,11 @@ body, html {
     text-align: start;
 
     letter-spacing: 0.05em;
+    left: 50px;
+
 }
 #txtOpcionesContenedorBody1{
     position: relative;
-    width: 30%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -550,42 +550,16 @@ body, html {
     line-height: 2vw; 
     color: #404040;
     text-decoration: none;
+    text-align: start;
+    left: 50px;
 
 }
 #imgMobileContenedor1{
     display: none;
 }
 #imgContenedor1{
-    position: relative;
-    left: 50px;
+    clip-path: inset(10% 10% 10% 10%);
 }
-#txtDosContenedorBody1 {
-    position: relative;
-    width: 40%;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.5vw;
-    
-    color: #1C1F2A;
-    text-align: start;
-
-    letter-spacing: 0.05em;
-}
-#txtDosOpcionesContenedorBody1{
-    position: relative;
-    width: 30%;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4vw;
-    color: #404040;
-    text-decoration: none;
-
-}
-
 
 /*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
 
