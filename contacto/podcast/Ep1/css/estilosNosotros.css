@@ -1,0 +1,1253 @@
+
+
+body, html { 
+    ---variableprueba:90vw;
+
+}
+
+/* change transition duration to control the speed of fade effect */
+.carousel-item {
+    transition: transform 0s ease-in-out;
+  }
+  
+  .carousel-fade .active.carousel-item-start,
+  .carousel-fade .active.carousel-item-end {
+    transition: opacity 0s 0s;
+  }
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 768px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 450px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+    #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        Top:25px;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;           
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 40%;
+        height: 50px;
+        left: 50%;
+        top: 130px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: justify;
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 400px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:94px;
+        Height:89px;
+        Top:85px;
+        left: 18%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 45.6%;
+        height: 20px;
+        left: 49%;
+        top: 375px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+
+        font-size: 3.4vw;
+        line-height: 2.5vw;     
+        
+        color: #FFFFFF;
+        }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+    margin-left: 0;
+    margin-right: 0;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    
+    color: #1C1F2A;
+    text-align: center;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1C1F2A; 
+    color: #404040;
+    text-decoration: none;
+    left: 5%;
+
+
+}
+#imgContenedor1{
+    position: relative;
+    width: 280px;
+    height: 150px;
+    margin-top: 10%;
+    left: 5%;
+
+    }
+#txtUnoContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 19px;
+    
+    color: white;
+    background: #1C1F2A;
+    
+    letter-spacing: 0.05em;
+    left: 0;
+
+    }
+#imgDosContenedor1{
+    position: relative;
+    width: 150%;
+    height: 40vw;
+    left: -8%;
+
+    }
+    
+#txtDosContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    
+    color: #1C1F2A;
+    text-align: left;
+
+    letter-spacing: 0.05em;
+    left: 5%;
+
+
+}
+#txtDosOpcionesContenedorBody1{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1C1F2A; 
+    color: #404040;
+    text-decoration: none;
+    left: 5%;
+}
+
+
+/*------------------------------------------------ Contenedor 2 - Historia de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados {
+    position: relative;
+    width: 100%;
+
+    height: auto;
+
+    background: transparent;	
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArtDestacado {
+    position: relative;
+    left: 0%;
+    height:auto;
+}
+#ContenedorArtDestacado{
+    width: 100%;
+    max-width: 1000px ;
+    max-height:540px ;
+
+}
+#imgArticuloDestacado{
+    position: relative; 
+    width:100%;
+    height:100%;
+}
+
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.70vw; 
+    color: #1C1F2A;
+    letter-spacing: 0.05em;
+}
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1C1F2A; 
+}
+
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+/*------------------------------------------------ Contenedor 2 - Control del carousel ------------------------------------------------- */
+#controlCarouselArtDestacadoDesktop {
+    position: relative;
+    height: auto;
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+/*----------------------------------------------------- Contenedor 3  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 0px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody3 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    
+    color: #1C1F2A;
+    text-align: center;
+    top: 35%;
+
+    letter-spacing: 0.02em;
+}
+#txtOpcionesContenedorBody3{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1C1F2A; 
+    left: 5%;
+}
+
+
+/*------------------------------------------------ Contenedor lideres de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArticulos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 80vw;
+
+    
+    height:80vw;
+
+
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    border: 1px solid grey;
+
+}
+#imgArticulo:hover{
+    border: 5px solid #1C1F2A;
+}
+#rowSuperior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+    #hero {
+        background:#64AE45; 
+        position:relative; 
+        top: 0px; 
+        height: 630px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 530px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 75px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 43px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    #imgHome {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 130px;
+        top: 280px;
+
+        Width:188.37px;
+        Height:182.05px;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 40.75%;
+            height: 134px;
+            left: 51.8%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: justify;
+            text-decoration: none;
+            color: #FFFFFF;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    
+    color: #1C1F2A;
+    text-align: center;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+#imgContenedor1{
+    position: relative;
+    width: 300px;
+    height: 160px;
+    margin-top: 10%;
+    }
+#txtUnoContenedorBody1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size:x-large;
+
+    color: white;
+    text-align: center;
+    background: #1C1F2A;
+    
+    letter-spacing: 0.05em;
+    }
+#imgDosContenedor1{
+    width: 130%;
+    height: 31.8vw;
+    
+    }
+    
+#txtDosContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;    
+    color: #1C1F2A;
+    text-align: right;
+    top: 47.5%;
+
+    letter-spacing: 0.05em;
+
+}
+#txtDosOpcionesContenedorBody1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------ Contenedor 2 - Historia de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados {
+    position: relative;
+    width: 100%;
+
+    height: auto;
+
+    background: transparent;	
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArtDestacado {
+    position: relative;
+    left: 0%;
+    height:auto;
+}
+#ContenedorArtDestacado{
+    width: 100%;
+    max-width: 1000px ;
+    max-height:540px ;
+
+}
+#imgArticuloDestacado{
+    position: relative; 
+    width:100%;
+    height:100%;
+}
+
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.70vw; 
+    color: #1C1F2A;
+    letter-spacing: 0.05em;
+}
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #1C1F2A; 
+}
+
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+/*------------------------------------------------ Contenedor 2 - Control del carousel ------------------------------------------------- */
+#controlCarouselArtDestacadoDesktop {
+    position: relative;
+    height: auto;
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+/*----------------------------------------------------- Contenedor 3  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody3 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    
+    color: #1C1F2A;
+    text-align: center;
+    top: 35%;
+
+    letter-spacing: 0.02em;
+}
+#txtOpcionesContenedorBody3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------ Contenedor lideres de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArticulos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 20vw;
+    max-width: 290px;
+    min-width: 180px;
+    
+    height:21vw;
+    max-height: 290px;
+    min-height: 150px;
+
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    border: 1px solid grey;
+
+}
+#imgArticulo:hover{
+    border: 5px solid #1C1F2A;
+}
+#rowSuperior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1200px)
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        background:#64AE45; 
+        position:relative; 
+        top: 0px; 
+        height: 630px; 
+        overflow: hidden;
+        max-width: 1700px;
+
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 530px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 43px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+
+    #imgHome {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 220px;
+        top: 290px;
+
+        Width:218.37px;
+        Height:212.05px;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 40.75%;
+            height: 134px;
+            left: 50.8%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: justify;
+            text-decoration: none;
+            color: #FFFFFF;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    
+    color: #1C1F2A;
+    text-align: center;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+#imgContenedor1{
+    width: 448px;
+    height: 265px;
+    }
+#txtUnoContenedorBody1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size:x-large;
+
+    color: white;
+    text-align: center;
+    background: #1C1F2A;
+    
+    letter-spacing: 0.05em;
+    }
+#imgDosContenedor1{
+    width: 130%;
+    height: 380px;
+    }
+    
+#txtDosContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;    
+    color: #1C1F2A;
+    text-align: right;
+    top: 47.5%;
+
+    letter-spacing: 0.05em;
+
+}
+#txtDosOpcionesContenedorBody1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------ Contenedor 2 - Historia de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados {
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+
+    height: auto;
+
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArtDestacado {
+    position: relative;
+    left: 0%;
+    height: 37vw;
+}
+#ContenedorArtDestacado{
+    width: 59vw;
+    max-width: 1000px ;
+    height: 38vw;
+    max-height:640px ;
+
+}
+#imgArticuloDestacado{
+    position: relative; 
+    width:100%;
+    height:100%;
+}
+
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.46vw; 
+    color: #1C1F2A;
+    letter-spacing: 0.05em;
+}
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    color: #1C1F2A; 
+}
+
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+/*------------------------------------------------ Contenedor 2 - Control del carousel ------------------------------------------------- */
+#controlCarouselArtDestacadoDesktop {
+    position: relative;
+    height: auto;
+
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+/*----------------------------------------------------- Contenedor 3  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody3 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    
+    color: #1C1F2A;
+    text-align: center;
+    top: 35%;
+
+    letter-spacing: 0.02em;
+}
+#txtOpcionesContenedorBody3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------ Contenedor lideres de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArticulos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 20vw;
+    max-width: 290px;
+    min-width: 200px;
+    
+    height:20vw;
+    max-height: 290px;
+    min-height: 200px;
+
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    border: 1px solid grey;
+
+}
+#imgArticulo:hover{
+    border: 5px solid #1C1F2A;
+}
+#rowSuperior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+}

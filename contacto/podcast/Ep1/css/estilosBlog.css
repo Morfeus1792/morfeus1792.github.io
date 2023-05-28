@@ -1,0 +1,1033 @@
+
+
+body, html { 
+    ---variableprueba:90vw;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 768px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 420px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+    #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        top: 6vw;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;           
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 70%;
+        height: 116px;
+        left: 9%;
+        top: 25vw;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 3.6vw;
+        line-height: 4.5vw;           
+        color: #FFFFFF;
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 325px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:74px;
+        Height:69px;
+        Top:345px;
+        left: 8.51%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 45.6%;
+        height: 20px;
+        left: 49%;
+        top: 375px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+
+        font-size: 3.4vw;
+        line-height: 2.5vw;     
+        
+        color: #FFFFFF;
+        }
+
+/*--------------------------------------------------------------- Contenedor 1  ----------------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: 120px;
+    align-content:start;
+    margin-top: 0px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    position: relative;
+    top: 0;
+    left: 5%;
+
+    visibility: visible;
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 300;
+
+    font-size: 15px;
+
+    text-decoration: none;
+    color: #818181;
+}
+/*----------------------------------------------------- Contenedor de Articulos Destacados  ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados{
+    position: relative; 
+    align-content: center;
+    height: 116vw;
+    min-height: 650px;
+    width: 100%;
+    background:#1C1F2A;
+    overflow: hidden;
+    padding: 0;
+}
+#ContenedorArtDestacado{
+    width: 110vw;
+    height: 54vw;
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+}
+
+#imgArticuloDestacado{
+    position: relative; 
+    width:110%;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    object-fit:cover;
+}
+
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.46vw; 
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+}
+
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    color: #F2F2F2; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+
+#controlCarouselArtDestacadoDesktop {
+    position: relative;
+    left: 0;
+    top: -50px;
+    z-index: 100;
+}
+
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+/*---------------Articulos---------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    display: none;
+}
+#contenedorCarouselArticulosMobile {
+    position: relative;
+    width: 100%;
+    left:5%;
+    background: transparent;	
+    z-index: 0;
+    padding: 5px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#itemCarouselProyectos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 80vw;
+    height:80vw;
+    margin:0;
+    padding: 0;
+    border: 1px solid grey;
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+}
+#imgArticulo:hover{
+    border: 3px solid #1C1F2A;
+}
+#NombreProyecto{
+    position: relative;
+    z-index: 5;
+    top: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 41px;
+    color: white;
+    background: #1C1F2A 50%;
+    width: 100%;
+    height: 10%;
+}
+#carouselProyectosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+
+
+#categoriaArticulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#autorArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 43px;
+    color: #1C1F2A;
+    opacity: 50%;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#leerMasArticulo{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 43px;
+    color: #64AE45;
+    cursor: pointer;
+}
+#leerMasArticulo:hover{
+    font-weight: 400;
+    color: #1C1F2A;
+}
+
+
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+    #hero {
+        position:relative; 
+        background:#64AE45; 
+        top: 0px; 
+        height: 450px; 
+        overflow: hidden;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 400px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 100px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 40px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 25.75%;
+            height: 134px;
+            left: 65.8%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 22px;
+            text-align: justify;
+            text-decoration: none;
+            color: #FFFFFF;
+    }
+    #leerMasIntro {
+        display:none;
+    }
+    #imgHome {
+        display:none;
+    }
+
+/*------------------------------------------------ Contenedor 1 - Articulos Destacados ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+    margin-top: 50px;
+    height:550px;
+    max-height: 550px;
+    height:50vw;
+
+}
+#ContenedorArtDestacado{
+    width: 59vw;
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+}
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.46vw; 
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+}
+
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    color: #F2F2F2; 
+}
+
+#controlCarouselArtDestacadoDesktop {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    z-index: 100;
+}
+
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    /* identical to box height, or 307% */
+    display: flex;
+    align-items: flex-end;
+    /* Verde corporativo */
+    color: #64AE45;
+}
+
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArtDestacado {
+    position: relative;
+    left: 0%;
+}
+#ContenedorArtDestacado{
+    width: 130vw;
+    height:50vw;
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticuloDestacado{
+    position: relative; 
+    width:100%;
+    height:100%;
+    
+    object-fit:cover;
+
+
+}
+#imgArticuloDestacado:hover{
+    border: 5px solid #1C1F2A;
+}
+
+/*--------------------------------------------------------------- Contenedor 1  ----------------------------------------------------------- */
+
+#contenedorBody1{
+    display: none;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+
+/*------------------------------------------------ Carrousel Articulos ------------------------------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+    
+}
+#itemCarouselArticulos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 27vw;
+    max-width: 500px;
+    height:27vw;
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    border: 1px solid grey;
+}
+#imgArticulo:hover{
+    border: 5px solid #1C1F2A;
+}
+#rowSuperior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+#rowInferior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#categoriaArticulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#autorArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 43px;
+    color: #1C1F2A;
+    opacity: 50%;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#leerMasArticulo{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 43px;
+    color: #64AE45;
+    cursor: pointer;
+}
+#leerMasArticulo:hover{
+    font-weight: 400;
+    color: #1C1F2A;
+}
+
+#carouselProyectosControl{
+    position: relative;
+    left: 0%; 
+
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+
+		
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1200px)
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        background:#64AE45;  
+        position:relative; 
+        top: 0px; 
+        height: 500px; 
+        overflow: hidden;
+        max-width: 1700px;
+
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 400px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 43px;        
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 20.75%;
+            height: 134px;
+            left: 70.8%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 26px;
+            text-align: justify;
+            text-decoration: none;
+            color: #FFFFFF;
+    }
+    #leerMasIntro {
+        display:none;
+    }
+    #imgHome {
+        display:none;
+    }
+
+/*--------------------------------------------------------------- Contenedor 1  ----------------------------------------------------------- */
+
+#contenedorBody1{
+    display: none;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+
+/*------------------------------------------------ Contenedor 1 - Articulos Destacados ------------------------------------------------- */
+
+#contenedorCarouselArtDestacados {
+    position: relative;
+    width: 100%;
+    max-width: 1700px;
+    height: 38vw;
+    max-height: 700px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    margin-top: 50px;
+
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArtDestacado {
+    position: relative;
+    left: 0%;
+}
+#ContenedorArtDestacado{
+    width: 59vw;
+    height: 38vw;
+    object-fit:cover;
+    padding: 0;
+    margin:0;
+    padding: 0;
+}
+#imgArticuloDestacado{
+    position: relative; 
+    width:100%;
+    height:100%;
+}
+#imgArticuloDestacado:hover{
+    border: 5px solid #1C1F2A;
+}
+#categoríaArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+#tituloCategoríaArtDestacado {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.46vw; 
+    color: #FFFFFF;
+    letter-spacing: 0.05em;
+}
+#parrafoArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.1vw;
+    color: #F2F2F2; 
+}
+#controlCarouselArtDestacadoDesktop {
+    position: relative;
+    top: -120px;
+    left: 30%;
+    z-index: 100;
+}
+#leerMasArtDestacado {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 43px;
+    display: flex;
+    align-items: flex-end;
+    color: #64AE45;
+}
+
+
+/*------------------------------------------------ Carrousel Articulos ------------------------------------------------- */
+
+#contenedorCarouselArticulosDesktop {
+    position: relative;
+    width: 100%;
+    left: 1px;
+    background: transparent;	
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    max-width: 1700px;
+}
+#contenedorCarouselArticulosMobile {
+    display: none;
+}
+#itemCarouselArticulos {
+    position: relative;
+    left: 4%;
+}
+#ContenedorImagenArticulo{
+    width: 27vw;
+    max-width: 500px;
+    height:27vw;
+    margin:0;
+    padding: 0;
+    object-fit:cover;
+
+}
+#imgArticulo{
+    position: relative; 
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    z-index: 0;
+    border: 1px solid grey;
+}
+#imgArticulo:hover{
+    border: 5px solid #1C1F2A;
+}
+#rowSuperior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+
+}
+#rowInferior{
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#categoriaArticulo{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#nombreArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#autorArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 43px;
+    color: #1C1F2A;
+    opacity: 50%;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#parrafoArticulo{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #1C1F2A;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+}
+#leerMasArticulo{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 43px;
+    color: #64AE45;
+    cursor: pointer;
+}
+#leerMasArticulo:hover{
+    font-weight: 400;
+    color: #1C1F2A;
+}
+
+#carouselProyectosControl{
+    position: relative;
+    left: 4%; 
+
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+}

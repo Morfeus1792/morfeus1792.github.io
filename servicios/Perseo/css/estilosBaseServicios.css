@@ -1,0 +1,2230 @@
+
+/* Se le proporcionan los margenes y color a la página;*/
+* {
+    padding: 0;
+	margin: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 100%;
+	background: transparent;
+	
+    }
+
+@media (min-width: 1px) and (max-width: 300px) { 
+
+		/*---------------------------------------------------------------------------------------------------------------------- */
+		/*------------------------------------------------ Footer de la página web --------------------------------------------- */
+		/*---------------------------------------------------------------------------------------------------------------------- */
+		
+		#contenedorFooter {
+			position: relative;
+			width: 100%;
+			height: 650px;
+			left: 0%;
+			font-family: 'Montserrat';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 64px;
+			line-height: 75px;
+			display: inline-block;
+			text-align: left;
+			padding:50px 0% 0px 0%;
+			background: #1C1F2A;
+			z-index: 0;
+			overflow: hidden;
+		}
+		
+		/*-------------------------------------- Texto principal y logo en el contenedor ----------------------------------- */
+		#txtContenedorFooter {
+			position: absolute;
+			width: 75%;
+			height: 133px;
+			left: 10%;
+			top: 35px;
+			font-family: 'Montserrat';
+
+			font-style: normal;
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 22px;
+			color: #64AE45;
+			text-align: left;
+		}
+		#logoFooter {
+			display: none;
+		
+			position: absolute;
+			width: 12%;
+			height: 21px;
+			left: 6%;
+			top: 48px;
+		}
+		
+		/*-------------------------------------- Ubicación y números de contacto por país ----------------------------------- */
+		
+		/*------- Venezuela ------- */
+		#imgUbicacion{
+			position: absolute;
+			width: 16px;
+			left: 10%;
+			top: 190px;
+		}
+		#imgPhone{
+			position: absolute;
+			width: 20px;
+			left: 10%;
+			top: 300px;
+		}
+		#imgBanderaVenezuela{
+			position: absolute;
+			width: 16px;
+			left: 23%;
+			top: 200px;
+		}
+		#txtVenezuela  {
+			position: absolute;
+			left: 30%;
+			top: 200px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtTelefonoVenezuela  {
+			position: absolute;
+			width: 16px;
+			left: 25%;
+			top: 305px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: lowercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		
+		/*------- República Dominicana -------*/
+		
+		#imgBanderaDominicana {
+			position: absolute;
+			width: 16px;
+			left: 23%;
+			top: 230px;
+		}
+		#txtDominicana  {
+			position: absolute;
+			left: 30%;
+			top: 230px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtTelefonoDominicana  {
+			position: absolute;
+			width: 16px;
+			left: 25%;
+			top: 335px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: lowercase;
+			text-decoration: none;
+			color: #FFFFFF;
+			text-align: left;
+		
+		}
+		
+		/*---------- Estados Unidos ---------- */
+		
+		#imgBanderaEstadosUnidos {
+			position: absolute;
+			width: 16px;
+			left: 23%;
+			top: 260px;
+		}
+		#txtEstadosUnidos  {
+			position: absolute;
+			left: 30%;
+			top: 260px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtTelefonoEstadosUnidos  {
+			position: absolute;
+			width: 16px;
+			left: 25%;
+			top: 365px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: lowercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		
+		/*-------------------------------------- Enlaces en el footer de la web -----------------------------------*/ 
+		#txtNosotros  {
+			display: none;
+		
+			position: absolute;
+			width: 10%;
+			height:30px;
+			left: 24%;
+			top: 300px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtNosotros:hover  {
+			
+			font-weight: 500;
+			color: #64AE45;
+		}
+		#txtBlog  {
+			display: none;
+		
+			position: absolute;
+			width: 10%;
+			height:30px;
+			left: 24%;
+			top: 350px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtBlog:hover  {
+			font-weight: 500;
+			color: #64AE45;
+		}
+		#txtPodcast  {
+			display: none;
+		
+			position: absolute;
+			width: 10%;
+			height:30px;
+			left: 24%;
+			top: 400px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtPodcast:hover  {
+			font-weight: 500;
+			color: #64AE45;
+		}
+		#txtContactoFooter  {
+			display: none;
+		
+			position: absolute;
+			width: 10%;
+			height:30px;
+			left: 24%;
+			top: 450px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: uppercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtContactoFooter:hover  {
+			font-weight: 500;
+			color: #64AE45;
+		}
+		/*------------------------------ Imagen y logo de correo en el footer ----------------------------------- */
+		#imgCorreo{
+			position: absolute;
+			width: 20px;
+			left: 10%;
+			top: 420px;
+		}
+		#txtCorreoContacto{
+			position: absolute;
+			width: 20px;
+			left: 25%;
+			top: 420px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 12px;
+			letter-spacing: 0.2em;
+			text-transform: lowercase;
+			text-decoration: none;
+			color: #FFFFFF;
+		}
+		#txtCorreoContacto:hover  {
+			font-weight: 500;
+			color: #64AE45;
+		}
+		/*------------------------------Iconos de las redes sociales en el footer----------------------------------- */
+		#imgWhatsaap{
+			position: absolute;
+			width: 20px;
+			left: 10%;
+			top: 500px;
+		}
+		#imgLinkedin{
+			position: absolute;
+			width: 20px;
+			left: 25%;
+			top: 500px;
+		}
+		#imgInstagram{
+			position: absolute;
+			width: 20px;
+			left: 40%;
+			top: 500px;
+		}
+		#imgTwitter{
+			position: absolute;
+			width: 20px;
+			left: 55%;
+			top: 500px;
+		}
+		/*----------------Parte final del footer donde está la linea y el texto con los derechos de autor------------- */
+		#lineaDivisoraFooter {
+			position: absolute;
+			width: 90%;
+			left: 5%;
+			top: 550px;
+			opacity: 10%;
+			border: 1px solid #FFFFFF;
+		}
+		#txtContenedorFooterDerechos {
+			position: absolute;
+			width: 55%;
+			left: 10%;
+			top: 595px;
+			font-family: 'Roboto';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 12px;
+			line-height: 14px;
+			color: rgba(200, 200, 200, 0.5);
+		}
+		
+		/*---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+		
+		
+	}
+@media (min-width: 300px) and (max-width: 768px) { 
+
+/*---------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------ Footer de la página web --------------------------------------------- */
+/*---------------------------------------------------------------------------------------------------------------------- */
+
+#contenedorFooter {
+	position: relative;
+	width: 100%;
+	height: 650px;
+	left: 0%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 0px 0%;
+	background: #1C1F2A;
+	z-index: 0;
+	overflow: hidden;
+}
+
+/*-------------------------------------- Texto principal y logo en el contenedor ----------------------------------- */
+#txtContenedorFooter {
+	position: absolute;
+	width: 75%;
+	height: 133px;
+	left: 10%;
+	top: 35px;
+	font-family: 'Montserrat';
+	font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 27px;
+	color: #64AE45;
+    text-align: left;
+}
+#logoFooter {
+    display: none;
+
+	position: absolute;
+	width: 12%;
+	height: 21px;
+	left: 6%;
+	top: 48px;
+}
+
+/*-------------------------------------- Ubicación y números de contacto por país ----------------------------------- */
+
+/*------- Venezuela ------- */
+#imgUbicacion{
+	position: absolute;
+	width: 16px;
+	left: 10%;
+	top: 190px;
+}
+#imgPhone{
+	position: absolute;
+	width: 20px;
+	left: 10%;
+	top: 300px;
+}
+#imgBanderaVenezuela{
+	position: absolute;
+	width: 16px;
+	left: 23%;
+	top: 200px;
+}
+#txtVenezuela  {
+	position: absolute;
+	left: 30%;
+	top: 200px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoVenezuela  {
+	position: absolute;
+    width: 16px;
+	left: 25%;
+	top: 305px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*------- República Dominicana -------*/
+
+#imgBanderaDominicana {
+	position: absolute;
+	width: 16px;
+	left: 23%;
+	top: 230px;
+}
+#txtDominicana  {
+	position: absolute;
+	left: 30%;
+	top: 230px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoDominicana  {
+	position: absolute;
+    width: 16px;
+	left: 25%;
+	top: 335px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+    text-align: left;
+
+}
+
+/*---------- Estados Unidos ---------- */
+
+#imgBanderaEstadosUnidos {
+	position: absolute;
+	width: 16px;
+	left: 23%;
+	top: 260px;
+}
+#txtEstadosUnidos  {
+	position: absolute;
+	left: 30%;
+	top: 260px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoEstadosUnidos  {
+	position: absolute;
+    width: 16px;
+	left: 25%;
+	top: 365px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*-------------------------------------- Enlaces en el footer de la web -----------------------------------*/ 
+#txtNosotros  {
+    display: none;
+
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 300px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtNosotros:hover  {
+    
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtBlog  {
+    display: none;
+
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtBlog:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtPodcast  {
+    display: none;
+
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 400px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtPodcast:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtContactoFooter  {
+    display: none;
+
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 450px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtContactoFooter:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------ Imagen y logo de correo en el footer ----------------------------------- */
+#imgCorreo{
+	position: absolute;
+	width: 20px;
+	left: 10%;
+	top: 420px;
+}
+#txtCorreoContacto{
+	position: absolute;
+	width: 20px;
+	left: 25%;
+	top: 420px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtCorreoContacto:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------Iconos de las redes sociales en el footer----------------------------------- */
+#imgWhatsaap{
+	position: absolute;
+	width: 20px;
+	left: 10%;
+	top: 500px;
+}
+#imgLinkedin{
+	position: absolute;
+	width: 20px;
+	left: 25%;
+	top: 500px;
+}
+#imgInstagram{
+	position: absolute;
+	width: 20px;
+	left: 40%;
+	top: 500px;
+}
+#imgTwitter{
+	position: absolute;
+	width: 20px;
+	left: 55%;
+	top: 500px;
+}
+/*----------------Parte final del footer donde está la linea y el texto con los derechos de autor------------- */
+#lineaDivisoraFooter {
+	position: absolute;
+	width: 90%;
+	left: 5%;
+	top: 550px;
+	opacity: 10%;
+	border: 1px solid #FFFFFF;
+}
+#txtContenedorFooterDerechos {
+	position: absolute;
+	width: 55%;
+	left: 10%;
+	top: 595px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(200, 200, 200, 0.5);
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+    }
+
+
+@media (min-width: 768px) and (max-width: 1600px) { 
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------ Footer de la página web --------------------------------------------- */
+/*---------------------------------------------------------------------------------------------------------------------- */
+
+#contenedorFooter {
+	position: relative;
+	width: 100%;
+	height: 650px;
+	left: 0%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 0px 0%;
+	background: #1C1F2A;
+	z-index: 0;
+}
+
+/*-------------------------------------- Texto principal y logo en el contenedor ----------------------------------- */
+#txtContenedorFooter {
+	position: absolute;
+	width: 70%;
+	height: 133px;
+	left: 24%;
+	top: 50px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 45px;
+	color: #64AE45;
+}
+#logoFooter {
+	position: absolute;
+	width: 12%;
+	height: 21px;
+	left: 6%;
+	top: 48px;
+}
+
+/*-------------------------------------- Ubicación y números de contacto por país ----------------------------------- */
+
+/*------- Venezuela ------- */
+#imgUbicacion{
+	position: absolute;
+	width: 16px;
+	left: 30%;
+	top: 300px;
+}
+#imgBanderaVenezuela{
+	position: absolute;
+	width: 16px;
+	left: 35%;
+	top: 306px;
+}
+#txtVenezuela  {
+	position: absolute;
+	width: 32px;
+	left: 37%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoVenezuela  {
+	position: absolute;
+	width: 16px;
+	left: 35%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*------- República Dominicana -------*/
+
+#imgBanderaDominicana {
+	position: absolute;
+	width: 16px;
+	left: 49%;
+	top: 306px;
+}
+#txtDominicana  {
+	position: absolute;
+	width: 20%;
+	left: 51%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoDominicana  {
+	position: absolute;
+	width: 16px;
+	left: 49%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*---------- Estados Unidos ---------- */
+
+#imgBanderaEstadosUnidos {
+	position: absolute;
+	width: 16px;
+	left: 70%;
+	top: 306px;
+}
+#txtEstadosUnidos  {
+	position: absolute;
+	width: 15%;
+	left: 72%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtTelefonoEstadosUnidos  {
+	position: absolute;
+	width: 16px;
+	left: 70%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*-------------------------------------- Enlaces en el footer de la web -----------------------------------*/ 
+#txtNosotros  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 16%;
+	top: 300px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtNosotros:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtBlog  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 16%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtBlog:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtPodcast  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 16%;
+	top: 400px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtPodcast:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+#txtContactoFooter  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 16%;
+	top: 450px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtContactoFooter:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------ Imagen y logo de correo en el footer ----------------------------------- */
+#imgCorreo{
+	position: absolute;
+	width: 16px;
+	left: 30%;
+	top: 400px;
+}
+#txtCorreoContacto{
+	position: absolute;
+	width: 16px;
+	left: 35%;
+	top: 400px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+#txtCorreoContacto:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------Iconos de las redes sociales en el footer----------------------------------- */
+#imgWhatsaap{
+	position: absolute;
+	width: 16px;
+	left: 35%;
+	top: 480px;
+}
+#imgLinkedin{
+	position: absolute;
+	width: 16px;
+	left: 42%;
+	top: 480px;
+}
+#imgInstagram{
+	position: absolute;
+	width: 16px;
+	left: 49%;
+	top: 480px;
+}
+#imgTwitter{
+	position: absolute;
+	width: 16px;
+	left: 56%;
+	top: 480px;
+	;
+}
+/*----------------Parte final del footer donde está la linea y el texto con los derechos de autor------------- */
+#lineaDivisoraFooter {
+	position: absolute;
+	width: 96%;
+	left: 2%;
+	top: 550px;
+	mix-blend-mode: normal;
+	opacity: 10%;
+	border: 1px solid #FFFFFF;
+}
+#txtContenedorFooterDerechos {
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	top: 595px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(200, 200, 200, 0.5);
+	text-align: center;
+}
+
+#imgPhone{
+	position: absolute;
+	width: 16px;
+	left: 30%;
+	top: 350px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+}
+
+@media (min-width: 1600px)  { 
+
+	/*---------------------------------------------------------------------------------------------------------------------- */
+	/*------------------------------------------------ Footer de la página web --------------------------------------------- */
+	/*---------------------------------------------------------------------------------------------------------------------- */
+	
+	#contenedorFooter {
+		position: relative;
+		width: 100%;
+		height: 650px;
+		left: 0%;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 64px;
+		line-height: 75px;
+		text-align: left;
+		padding:50px 0% 0px 0%;
+		background: #1C1F2A;
+		z-index: 0;
+
+		max-width:1700px ;
+
+	}
+	
+	/*-------------------------------------- Texto principal y logo en el contenedor ----------------------------------- */
+	#txtContenedorFooter {
+		position: absolute;
+		width: 70%;
+		height: 133px;
+		left: 24%;
+		top: 50px;
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 40px;
+		line-height: 45px;
+		color: #64AE45;
+	}
+	#logoFooter {
+		position: absolute;
+		width: 12%;
+		height: 21px;
+		left: 6%;
+		top: 48px;
+	}
+	
+	/*-------------------------------------- Ubicación y números de contacto por país ----------------------------------- */
+	
+	/*------- Venezuela ------- */
+	#imgUbicacion{
+		position: absolute;
+		width: 16px;
+		left: 30%;
+		top: 300px;
+	}
+	#imgBanderaVenezuela{
+		position: absolute;
+		width: 16px;
+		left: 35%;
+		top: 306px;
+	}
+	#txtVenezuela  {
+		position: absolute;
+		width: 32px;
+		left: 37%;
+		top: 306px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtTelefonoVenezuela  {
+		position: absolute;
+		width: 16px;
+		left: 35%;
+		top: 350px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: lowercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	
+	/*------- República Dominicana -------*/
+	
+	#imgBanderaDominicana {
+		position: absolute;
+		width: 16px;
+		left: 49%;
+		top: 306px;
+	}
+	#txtDominicana  {
+		position: absolute;
+		width: 20%;
+		left: 51%;
+		top: 306px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtTelefonoDominicana  {
+		position: absolute;
+		width: 16px;
+		left: 49%;
+		top: 350px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: lowercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	
+	/*---------- Estados Unidos ---------- */
+	
+	#imgBanderaEstadosUnidos {
+		position: absolute;
+		width: 16px;
+		left: 70%;
+		top: 306px;
+	}
+	#txtEstadosUnidos  {
+		position: absolute;
+		width: 15%;
+		left: 72%;
+		top: 306px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtTelefonoEstadosUnidos  {
+		position: absolute;
+		width: 16px;
+		left: 70%;
+		top: 350px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: lowercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	
+	/*-------------------------------------- Enlaces en el footer de la web -----------------------------------*/ 
+	#txtNosotros  {
+		position: absolute;
+		width: 10%;
+		height:30px;
+		left: 16%;
+		top: 300px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtNosotros:hover  {
+		font-weight: 500;
+		color: #64AE45;
+	}
+	#txtBlog  {
+		position: absolute;
+		width: 10%;
+		height:30px;
+		left: 16%;
+		top: 350px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtBlog:hover  {
+		font-weight: 500;
+		color: #64AE45;
+	}
+	#txtPodcast  {
+		position: absolute;
+		width: 10%;
+		height:30px;
+		left: 16%;
+		top: 400px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtPodcast:hover  {
+		font-weight: 500;
+		color: #64AE45;
+	}
+	#txtContactoFooter  {
+		position: absolute;
+		width: 10%;
+		height:30px;
+		left: 16%;
+		top: 450px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtContactoFooter:hover  {
+		font-weight: 500;
+		color: #64AE45;
+	}
+	/*------------------------------ Imagen y logo de correo en el footer ----------------------------------- */
+	#imgCorreo{
+		position: absolute;
+		width: 16px;
+		left: 30%;
+		top: 400px;
+	}
+	#txtCorreoContacto{
+		position: absolute;
+		width: 16px;
+		left: 35%;
+		top: 400px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 12px;
+		letter-spacing: 0.2em;
+		text-transform: lowercase;
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	#txtCorreoContacto:hover  {
+		font-weight: 500;
+		color: #64AE45;
+	}
+	/*------------------------------Iconos de las redes sociales en el footer----------------------------------- */
+	#imgWhatsaap{
+		position: absolute;
+		width: 16px;
+		left: 35%;
+		top: 480px;
+	}
+	#imgLinkedin{
+		position: absolute;
+		width: 16px;
+		left: 42%;
+		top: 480px;
+	}
+	#imgInstagram{
+		position: absolute;
+		width: 16px;
+		left: 49%;
+		top: 480px;
+	}
+	#imgTwitter{
+		position: absolute;
+		width: 16px;
+		left: 56%;
+		top: 480px;
+		;
+	}
+	/*----------------Parte final del footer donde está la linea y el texto con los derechos de autor------------- */
+	#lineaDivisoraFooter {
+		position: absolute;
+		width: 96%;
+		left: 2%;
+		top: 550px;
+		mix-blend-mode: normal;
+		opacity: 10%;
+		border: 1px solid #FFFFFF;
+	}
+	#txtContenedorFooterDerechos {
+		position: absolute;
+		width: 50%;
+		left: 25%;
+		top: 595px;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 14px;
+		color: rgba(200, 200, 200, 0.5);
+		text-align: center;
+	}
+	
+	#imgPhone{
+		position: absolute;
+		width: 16px;
+		left: 30%;
+		top: 350px;
+	}
+	/*---------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+	
+	
+	}
+	
+/*------------------------------------------- Comportamiento del Menú en modo Desktop -------------------------------------------- */
+#boxMenus {
+    cursor: pointer;
+}
+
+#lineaSupMenu {
+	width: 100%;
+	Height:1px;
+	Top:22px;
+	left: 36.88%;
+
+	background: #FFFFFF;
+	text-align: center;
+}
+#lineaInfMenu {
+	width: 100%;
+	Height: 1px;
+	Top: 51px;
+	left: 36.88%;
+
+	background: #FFFFFF;
+	text-align: center;
+}
+#txtMenu {
+	Width:79px;
+	Height: 10.59px;
+	Top: 45.98px;
+	left: 36.88%;
+	
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    text-align: center;
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	
+	color: #FFFFFF;
+}
+
+#trianguloMenu {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #64AE45;
+	border-top: 7px solid #ffffff; 
+    border-bottom:7px solid #64AE45 display none; 
+    border-right: 6px solid #64AE45 ; 
+	}
+
+/*------------------ Comportamiento del boton Menú en modo Desktop -----------------------------*/
+
+#boxMenus div div {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus span {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus:hover div {
+        visibility: visible;	
+    }
+
+#boxMenus:hover  {
+    font-size: 14px;
+}
+#boxMenus:hover #trianguloMenu {
+    border-top: 8px solid white;
+    visibility: visible;	
+}
+#boxMenus:hover #txtMenu {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;	
+    color: white;
+}
+#boxMenus:hover div div {
+	background: white;
+}
+
+/*------------------ Diseño de los SubMenú en modo Desktop -----------------------------*/
+
+#boxSubMenus {
+	font-size: 10px;
+	line-height: 20px;
+	letter-spacing: 0.15em;
+	word-spacing: 0.3em;
+	color: white;
+    display: none;
+    visibility: hidden;
+}
+#boxMenus:hover #boxSubMenus {
+    display: block;	
+    visibility: visible;
+}
+#boxSubMenus:hover  {
+    display: block;	
+    visibility: visible;
+}
+
+#txtSubMenu0 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: lightgrey;
+}
+
+#txtSubMenu1 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: lightgrey;
+}
+
+#txtSubMenu2 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: lightgrey;
+}
+
+#txtSubMenu3 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: lightgrey;
+
+}
+
+
+/*------------------ Comportamiento del SubMenú en modo Desktop -----------------------------*/
+
+#txtSubMenu0:hover {
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu1:hover {
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu2:hover {
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu3:hover {
+    color: white;
+    font-style: bold;
+    font-weight: 700;
+}
+
+
+/*------------------------------------------------------- Heador 2 ----------------------------------------------------------------- */
+
+#boxMenus2 {
+    cursor: pointer;
+}
+#lineaSupMenu2 {
+	width: 100%;
+	Height:1px;
+	Top:22px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#lineaInfMenu2 {
+	width: 100%;
+	Height: 1px;
+	Top: 51px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#txtMenu2 {
+	Width:79px;
+	Height: 10.59px;
+	Top: 45.98px;
+	left: 36.88%;
+	
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    text-align: center;
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	
+	color: #333333;
+}
+#trianguloMenu2 {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffff;
+	border-top: 7px solid #333333; 
+    border-bottom:7px solid #ffff display none; 
+    border-right: 6px solid #ffff; 
+}
+
+/*---- Comportamiento del boton Menú del header 2--------*/
+
+#boxMenus2 div div {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2 span {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2:hover div {
+        visibility: visible;	
+    }
+
+#boxMenus2:hover  {
+    font-size: 14px;
+}
+#boxMenus2:hover #trianguloMenu2 {
+    border-top: 8px solid #64AE45;
+    visibility: visible;	
+}
+#boxMenus2:hover #txtMenu2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;	
+    color: #64AE45;
+}
+#boxMenus2:hover div div {
+	background: #64AE45;
+}
+
+/*-------- Diseño de los SubMenú del header 2 ------*/
+
+#boxSubMenus2 {
+	font-size: 10px;
+	line-height: 20px;
+	letter-spacing: 0.15em;
+	word-spacing: 0.3em;
+	color: grey;
+    display: none;
+    visibility: hidden;
+}
+#boxMenus2:hover #boxSubMenus2 {
+    display: block;	
+    visibility: visible;
+}
+#boxSubMenus2:hover  {
+    display: block;	
+    visibility: visible;
+    
+}
+#txtSubMenu02 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu12 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu22 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu32 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+
+/*--- Comportamiento del SubMenú del header 2 -------*/
+
+#txtSubMenu02:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu12:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu22:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu32:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+
+#lineaInfHeader2 {
+	position: relative;
+    width: 100%;
+	Height: 100px;
+
+	background: #333333;
+	text-align: center;
+    opacity: 0%;
+}
+
+/*-------------------------------------------------------------------- Estilos mobile ----------------------------------------------------------------- */
+
+
+/*------------------ Modal ------------------------------*/
+
+#modal {
+	position: fixed;
+	background: #1C1F2A;
+	
+	top:-100vh;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+	transition: all 0.7s;
+	display: none;
+	padding: 53px;
+	overflow: hidden;
+	overscroll-behavior-y: none;
+}
+
+#abrir-modal {
+	display: none;
+}
+
+#abrir-modal +label {
+	position: absolute;
+	width: 6.3%;
+	height: 30px;
+	left: 88.44%;
+	top: 12px;
+	background-color:white;
+		}
+
+#cerrar-modal {
+	display: none;
+	}
+
+#cerrar-modal +label {
+
+	position: absolute;
+	width: 7%;
+	height:32px;
+	left: 88.44%;
+	top: 11px;
+	
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 25px;
+	line-height: 29px;
+	align-items: center;
+	cursor: pointer;
+	
+	background-color:#1C1F2A;
+	color: #64AE45;
+	z-index: 100;	
+
+	}
+	
+#abrir-modal:checked ~ #modal {
+		top:0px;
+		display: block;
+		visibility: visible;
+		
+	}
+#cerrar-modal:checked ~ #modal {
+		display: none;
+		visibility: hidden;
+		height: 0;
+
+	}
+
+
+/* --------------------------------------- */
+
+
+#abrir-modal:checked ~ #label-cerrar-modal {
+		display: block;
+				
+}
+
+#cerrar-modal:checked ~ #label-abrir-modal {
+		display: block;
+
+}
+
+#cerrar-modal:checked ~ #menuEnfoquesMobile {
+		display: none;
+
+}
+
+/* ----------------------------------------- Base para sección de enlaces Mobile ----------------------------------- */
+
+h2 {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+	}
+
+h2:hover {
+	color: #64AE45;
+}
+h2:active {
+	color: #64AE45;
+}
+a {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 22px;
+	
+	text-align: center;
+	letter-spacing: 0.05em;
+	text-decoration: none;
+	cursor: pointer;
+
+	color:#FDFDFB;
+}
+
+a:hover {
+	color: #64AE45;
+}
+a:active {
+	color: #64AE45;
+}
+
+#lineSubMenuMobile {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 10px;
+	text-align: center;
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Enfoques Mobile --------------------------------------------------- */
+
+
+#subMenuEnfoquesMobile {
+	background:#1C1F2A ;
+	border:none;
+	margin-top: 0;
+	margin: 0;
+
+}
+
+#txtEnfoqueMobile {
+
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+	}
+#txtEnfoqueMobile:hover {
+	color: #64AE45;
+}
+#txtEnfoqueMobile:active {
+	color: #64AE45;
+}
+
+
+/* ----------------------------------------------- Sección Servicios Mobile --------------------------------------------------- */
+
+#subMenuServiciosMobile {
+	background:#1C1F2A ;
+	border:none;
+	margin-top: 0;
+	margin: 0;
+}
+
+#txtServiciosMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+
+}
+#txtServiciosMobile:hover {
+	color: #64AE45;
+}
+#txtServiciosMobile:active {
+	color: #64AE45;
+}
+/* ----------------------------------------------- Sección Proyectos Mobile --------------------------------------------------- */
+
+#subMenuProyectosMobile {
+	background:#1C1F2A ;
+	border:none;
+	margin-top: 0;
+	margin: 0;
+}
+
+#txtProyectosMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtProyectosMobile:hover {
+	color: #64AE45;
+}
+#txtProyectosMobile:active {
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Formacion Mobile --------------------------------------------------- */
+
+#txtFormacionMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtFormacionMobile:hover {
+	color: #64AE45;
+}
+#txtFormacionMobile:active {
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Nosotros Mobile --------------------------------------------------- */
+
+#txtNosotrosMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtNosotrosMobile:hover {
+	color: #64AE45;
+}
+#txtNosotrosMobile:active {
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Blog Mobile --------------------------------------------------- */
+
+#txtBlogMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtBlogMobile:hover {
+	color: #64AE45;
+}
+#txtBlogMobile:active {
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Blog Mobile --------------------------------------------------- */
+
+#txtBlogMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtBlogMobile:hover {
+	color: #64AE45;
+}
+#txtBlogMobile:active {
+	color: #64AE45;
+}
+
+/* ----------------------------------------------- Sección Podcast Mobile --------------------------------------------------- */
+
+#txtPodcastMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtPodcastMobile:hover {
+	color: #64AE45;
+}
+#txtPodcastMobile:active {
+	color: #64AE45;
+}
+
+
+/* ----------------------------------------------- Sección Contacto Mobile --------------------------------------------------- */
+
+#txtContactoMobile {
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 50px;
+	/* or 200% */
+	
+	text-align: center;
+	letter-spacing: 0.2em;
+	
+	/* White */
+	
+	color: #FFFFFF;
+	
+	cursor: pointer;
+	border-color: #1C1F2A;
+	background: transparent;
+}
+
+#txtContactoMobile:hover {
+	color: #64AE45;
+}
+#txtContactoMobile:active {
+	color: #64AE45;
+}

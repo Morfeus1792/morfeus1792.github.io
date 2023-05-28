@@ -1,0 +1,1099 @@
+
+/* Se le proporcionan los margenes y color a la página;*/
+
+* {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background: transparent;
+}
+
+/*------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------- Header de la página --------------------------------------------- */
+/*------------------------------------------------------------------------------------------------------------------- */
+
+/* Se le proporciona el tamaño, posición y color al contenedor principal del header */
+
+.Intro{
+	position: relative;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 100%;
+	width: 100%;
+	height: 1076px;
+	max-width: 1980px;
+}
+
+/* Se da tamaño y posición al header de la página que pertenece a la caja padre 1*/
+
+/*------------------------------------------- Bloque superior del Header --------------------------------------------- */
+.header {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 98.54%;
+	Width: 100%;
+	Height:99px;
+	max-width: 1980px;
+}
+/* Se proporciona el tamaño y posición al logo de innotica en el header*/
+
+.logo img {
+	Width: 152px;
+	Height: 21px;
+	Top: 41px;
+	Left:9.51%;
+	position: relative;
+	width: 152px;
+	height: 21px;
+	left: 137px;
+	top: 43px;
+}
+
+/* Se crea el enlace a la sección Enfoques, donde se ubica una caja y dentro de ellas las lineas, texto y triangulo*/
+
+/*------------------------------------------- Boton Enfoque en el Header --------------------------------------------- */
+.boxEnfoque{
+	position: absolute;
+	width: 90px;
+	height: 21px;
+	left: 36.88%;
+	top: 41px;
+	margin: 0px;
+	padding: 4.5px;
+	background: #ffffff;
+}
+.txtEnfoque{
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	display: inline-block;
+	background: #ffffff;
+	color: #404040;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.trianguloEnfoque{
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffffff;
+    border-top: 7px solid #404040;
+    border-bottom:7px solid #ffffff display:none; 
+    border-right: 6px solid #ffffff; 
+	position: absolute;
+	left: 93px;
+	top: 13.5px;
+
+	}
+
+/*------------------------------------------- Boton Servicios en el Header --------------------------------------------- */
+
+.boxServicios {
+	position: absolute;
+	position: absolute;
+	width: 92px;
+	height: 11.56px;
+	left: 52.64%;
+	top: 41px;
+	margin: 0px;
+	padding: 4.5px;
+	background: #ffffff;
+	color: #1C1F2A;
+}
+	/* Comportamiento del boton*/
+	.boxServicios hr {
+		visibility: hidden;
+	}
+	.boxServicios:hover hr {
+		visibility: visible;	
+	}
+	.boxServicios:hover  {
+		font-size: 14px;
+	}
+	.boxServicios:hover .trianguloServicios {
+	     border-top: 7px solid #828282
+	}
+.txtServicios {
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	display: inline-block;
+	background: #ffffff;
+	color: #404040;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.trianguloServicios {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffffff;
+    border-top: 7px solid #404040 display:none;
+    border-bottom:7px solid #ffffff display:none; 
+    border-right: 6px solid #ffffff; 
+	position: absolute;
+	left: 97px;
+	top: 11px;
+	}
+
+/*------------------------------------------- Boton Proyectos en el Header --------------------------------------------- */
+
+.boxProyectos {
+	position: absolute;
+	position: absolute;
+	width: 92px;
+	height: 11.56px;
+	left: 68.40%;
+	top: 41px;
+	margin: 0px;
+	padding: 4.5px;
+	background: #ffffff;
+}
+	/* Comportamiento del boton*/
+	.boxProyectos hr {
+		visibility: hidden;
+	}
+	.boxProyectos:hover hr {
+		visibility: visible;
+	}
+	.boxProyectos:hover  {
+		font-size: 14px;
+	}
+	.boxProyectos:hover .trianguloProyectos {
+	     border-top: 7px solid #828282
+	}
+
+.txtProyectos {
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	display: inline-block;
+	background: #ffffff;
+	color: #404040;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.trianguloProyectos {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffffff;
+    border-top: 7px solid #404040 display:none;
+    border-bottom:7px solid #ffffff display:none; 
+    border-right: 6px solid #ffffff; 
+	position: absolute;
+	left: 97px;
+	top: 11px;
+	}
+
+/*------------------------------------------- Boton Contacto en el Header --------------------------------------------- */
+
+.boxContacto {
+	position: absolute;
+	width: 92px;
+	height: 11.56px;
+	left: 84.17%;
+	top: 41px;
+	margin: 0px;
+	padding: 4.5px;
+	background: #ffffff;
+}
+	.boxContacto hr {
+		visibility: hidden;
+	}
+	.boxContacto:hover hr {
+		visibility: visible;
+	}
+	.boxContacto:hover  {
+		font-size: 14px;
+			}
+	.boxContacto:hover .trianguloContacto {
+	     border-top: 7px solid #828282
+	}
+.txtContacto {
+	text-align: center;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+	display: inline-block;
+	background: #ffffff;
+	color: #404040;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+.trianguloContacto {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffffff;
+    border-top: 7px solid #404040 display:none;
+    border-bottom:7px solid #ffffff display:none; 
+    border-right: 6px solid #ffffff; 
+	position: absolute;
+	left: 93px;
+	top: 11px;
+}
+
+/*------------------------------------------- Texto e imagen en el header de la página --------------------------------------------- */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;	
+	font-style: normal;
+	font-weight:400;
+	font-size: 63px;
+	line-height: 78px;
+	text-align: right;
+	color: #1C1F2A;
+}
+.txtIntro {
+    font-family: 'Montserrat', sans-serif;	
+	position: relative;
+	width: 64.10%;
+	height: 570px;
+	left: 30.53%;
+	top: 110px;
+
+}
+.imgHome {
+	position: absolute;
+	left:0px;
+	top: -13%;
+	width: 100%;
+	z-index:-1;
+}
+.leerMasIntro {
+	position: absolute;
+	width: 15%;
+	height: 10%;
+	left: 90%;
+	top: 550px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #64AE45;
+}
+.leerMasIntro:hover  {
+	font-size: 22px;
+	color: #000000;
+	font-weight: 500;
+
+	}
+
+/*----------------------------------------------------------------------------------------------------------------------- */
+/*----------------------------------------- Inicio del Body de la página web -------------------------------------------- */
+/*----------------------------------------------------------------------------------------------------------------------- */
+
+/*------------ Contenedor principal del Body ------------ */
+
+.contenedorBody0 {
+	position: absolute;
+	left: 0%;
+	right: 0%;
+	top: 1000px;
+	bottom: 98.54%;
+
+	Width: 100%;
+	Height:5700px;
+	background: #FDFDFB;
+	z-index: -1;
+	max-width: 1980px;
+}
+
+/*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+
+.contenedorBody1 {
+	position: absolute;
+	width: 100%;
+	height: 1876px;
+	left: 0px;
+	top: 0px;
+	display: inline-block;
+	background: transparent;
+	z-index: 0;
+}
+h2 {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 900;
+	font-size: 64px;
+	line-height: 43px;
+	color: #1C1F2A;
+}
+.txtAutomatizacion {
+	position: absolute;
+	width: 41.88%;
+	height: 56px;
+	left: 35%;
+	top: 100px;
+	z-index: 1;
+}
+.txtSostenibilidad {
+	position: absolute;
+	width: 41.88%;
+	height: 56px;
+	left: 35%;
+	top: 550px;
+	z-index: 1;
+}
+.txtProductos {
+	position: absolute;
+	width: 41.88%;
+	height: 56px;
+	left: 35%;
+	top: 990px;
+	z-index: 1;
+}
+.txtConstruccion {
+	position: absolute;
+	width: 41.88%;
+	height: 56px;
+	left: 35%;
+	top: 1430px;
+	z-index: 1;!important
+}
+
+/*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+
+.listaProductosServicios {
+	position: absolute;
+	width: 100%;
+	height: 149px;
+	left: 0%;
+	top: 70px;
+	text-decoration: none;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 200;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration: none;
+	display: inline-block;
+	letter-spacing: 0.1em;
+	color: #1C1F2A;
+}
+.leerMasProductosServicios {
+	position: absolute;
+	width: 30%;
+	height: 10px;
+	left: -10px;
+	top: 140px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #64AE45;
+}
+.leerMasProductosServicios:hover  {
+	font-size: 22px;
+	color: #000000;
+	font-weight: 500;
+}
+
+/*----------------------------------------- Bloque donde se presenta Imagen que se presenta en el Body -------------------------------------------- */
+
+.contenedorBody2 {
+	position: absolute;
+	width: 100%;
+	height: 1245px;
+	left: 0px;
+	top: 1300px;
+	background: #transparent;
+	z-index: -1;
+	background: url(img/grant-lemons-jTCLppdwSEc-unsplash.svg);
+}
+.imgBody {
+	position: absolute;
+	transform: rotatey(180deg);
+	top: 0px;
+	z-index: 0;
+}
+
+/*--------------------------- Contenedor donde se ubica el acceso a las soluciones integrales ------------------------ */
+
+.contenedorBody3 {
+	position: absolute;
+	width: 100%;
+	height: 380px;
+	left: 0px;
+	top: 2400px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 50px 0%;
+	letter-spacing: -0.03em;
+	color: #64AE45;
+	background: #1C1F2A;
+	z-index: 0;
+}
+.txtContenedorBody3 {
+	position: absolute;
+	width: 85%;
+	height: 300px;
+	left: 13%;
+	top:37px;
+    font-family: 'Montserrat', sans-serif;	
+    font-style: normal;
+	font-weight: 400;
+	font-size: 68px;
+	line-height: 75px;
+	letter-spacing: -0.03em;
+	color: #64AE45;
+	z-index: 2;
+}
+.leerMasContenedor3 {
+	position: absolute;
+	width: 30%;
+	height: 10px;
+	left: 14%;
+	top: 420px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #FFFFFF;
+	letter-spacing: -0.001em;
+}
+.leerMasContenedor3:hover {
+	font-size: 22px;
+	color: #64AE45;
+	font-weight: 500;
+
+	}
+
+/*--------------------------------------- Contenedor con el acceso a los últimos proyectos -------------------------------- */
+
+.contenedorBody4 {
+	position: absolute;
+	width: 100%;
+	height: 711px;
+	left: 1px;
+	top: 2868px;
+	background: #F2F2F2;
+	z-index: 1;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+}
+.txtUltimosProyectos {
+	position: absolute;
+	width: 50%;
+	height: 47px;
+	left: 26%;
+	top: 78px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 43px;
+	text-align: center;
+	color: #1C1F2A;
+}
+.boxUltimoProyecto {
+	position: absolute;
+	width: 40%;
+	height: 450px;
+	left: 23%;
+	top: 80px;
+	border-color: #1C1F2A;
+	padding-top: 150px;
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-bottom: 0px;
+	display: inline-block;
+	align-content: center;
+}
+.boxUltimoProyectoRight {
+	position: absolute;
+	width: 40%;
+	height: 450px;
+	left: 70%;
+	top: 80px;
+	border-color: #1C1F2A;
+	padding-top: 150px;
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-bottom: 0px;
+	display: inline-block;
+	align-content: center;
+	opacity: 55%;
+}
+.boxUltimoProyectoLeft {
+	position: absolute;
+	width: 40%;
+	height: 450px;
+	left: -25%;
+	top: 80px;
+	border-color: #1C1F2A;
+	padding-top: 150px;
+	padding-right: 7%;
+	padding-left: 7%;
+	padding-bottom: 0px;
+	display: inline-block;
+	align-content: center;
+	opacity: 55%;
+}
+.imgUltimoProyecto {
+	position: absolute;
+	align-content: center;
+	width: 70%;
+	left: 15%;
+	top: 85px;
+}
+.txtNombreProyecto {
+	position: absolute;
+	height: 43px;
+	left: 30%;
+	top: 550px;
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 43px;
+	color: #1C1F2A;
+}
+.txtDescripcionProyecto {
+	position: absolute;
+	width: 70%;
+	height: 63px;
+	left: 30%;
+	top: 610px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 25px;
+	color: #1C1F2A;
+	display: inline-block;
+}
+.imgVectorFlechaDerecha {
+	position: absolute;
+	width: 26px;
+	height: 25.04px;
+	left: 72%;
+	top: 350px;
+	display: inline-block;
+}
+.imgVectorFlechaIzquierda {
+	position: absolute;
+	width: 26px;
+	height: 25.04px;
+	left: 26%;
+	top: 350px;
+	display: inline-block;
+}
+/*-------------------------------------- Contenedor con el acceso a campus innotica ------------------------------------- */
+
+.contenedorBody5 {
+	position: absolute;
+	width: 100%;
+	height: 366px;
+	left: 0px;
+	top: 3879px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 50px 0%;
+	letter-spacing: -0.03em;
+	color: #64AE45;
+	background: #FFFFFF;
+	z-index: 0;
+}
+.txtContenedorBody5 {
+	position: absolute;
+	width: 80%;
+	height: 300px;
+	left: 19%;
+	top:37px;
+    font-family: 'Montserrat', sans-serif;	
+    font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 75px;
+	letter-spacing: -0.01em;
+	color: #1C1F2A;
+	z-index: 2;
+}
+.leerMasContenedor5 {
+	position: absolute;
+	width: 30%;
+	height: 10px;
+	left: 20%;
+	top: 500px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #64AE45;
+	letter-spacing: -0.001em;
+}
+.leerMasContenedor5:hover {
+	font-size: 22px;
+	color: #1C1F2A;
+	font-weight: 500;
+
+	}
+
+/*--------------------------------------------------------------------------------------------------------------------- */
+
+.lineaDivisoraFinal {
+	position: absolute;
+	width: 55%;
+	height: 366px;
+	left: 22.5%;
+	top: 4490px;
+	color: #1C1F2A;
+	border: 1px solid #E5E5E5;
+	opacity: 30%;
+}
+
+/*-------------------------------------- Contenedor con acceso al equipo de expertos ------------------------------------- */
+
+.contenedorBody6 {
+	position: absolute;
+	width: 100%;
+	height: 366px;
+	left: 0px;
+	top: 4530px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 50px 0%;
+	letter-spacing: -0.03em;
+	color: #64AE45;
+	background: #FFFFFF;
+	z-index: 0;
+}
+.txtContenedorBody6 {
+	position: absolute;
+	width: 80%;
+	height: 300px;
+	left: 19%;
+	top:37px;
+    font-family: 'Montserrat', sans-serif;	
+    font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 75px;
+	letter-spacing: -0.01em;
+	color: #1C1F2A;
+	z-index: 2;
+}
+.leerMasContenedor6 {
+	position: absolute;
+	width: 30%;
+	height: 10px;
+	left: 20%;
+	top: 200px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 43px;
+	text-decoration: none;
+	color: #64AE45;
+	letter-spacing: -0.001em;
+	z-index: 2;
+}
+.leerMasContenedor6:hover{
+	font-size: 22px;
+	color: #000000;
+	font-weight: 500;
+	}
+
+/*-------------------------------- Contenedor con iconos de certificaciones del equipo ----------------------------- */
+
+.contenedorBody7 {
+	position: absolute;
+	width: 40%;
+	height: 366px;
+	left: 30%;
+	top: 4830px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 50px 0%;
+	letter-spacing: -0.03em;
+	color: #64AE45;
+	background: #FFFFFF;
+	z-index: 0;
+}
+
+.imgVectorFlechaDerechaBody7 {
+	position: absolute;
+	width: 26px;
+	height: 25.04px;
+	left: 120%;
+	top: 120px;
+	display: inline-block;
+	z-index: 2;
+}
+.imgVectorFlechaIzquierdaBody7 {
+	position: absolute;
+	width: 26px;
+	height: 25.04px;
+	left: -20%;
+	top: 120px;
+	display: inline-block;
+	z-index: 2;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------- */
+/*------------------------------------------------ Footer de la página web --------------------------------------------- */
+/*---------------------------------------------------------------------------------------------------------------------- */
+
+.contenedorFooter {
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	left: 0%;
+	top: 5100px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 64px;
+	line-height: 75px;
+	display: inline-block;
+	text-align: left;
+	padding:50px 0% 0px 0%;
+	background: #1C1F2A;
+	z-index: 0;
+}
+
+/*-------------------------------------- Texto principal y logo en el contenedor ----------------------------------- */
+.txtContenedorFooter {
+	position: absolute;
+	width: 70%;
+	height: 133px;
+	left: 24%;
+	top: 50px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 45px;
+	color: #FFFFFF;
+}
+.logoFooter {
+	position: absolute;
+	width: 12%;
+	height: 21px;
+	left: 6%;
+	top: 48px;
+}
+
+/*-------------------------------------- Ubicación y números de contacto por país ----------------------------------- */
+
+/*------- Venezuela ------- */
+.imgUbicacion{
+	position: absolute;
+	width: 16px;
+	left: 40%;
+	top: 300px;
+}
+.imgBanderaVenezuela{
+	position: absolute;
+	width: 16px;
+	left: 42%;
+	top: 306px;
+}
+.txtVenezuela  {
+	position: absolute;
+	width: 32px;
+	left: 44%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtTelefonoVenezuela  {
+	position: absolute;
+	width: 16px;
+	left: 42%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*------- República Dominicana ------- */
+
+.imgBanderaDominicana {
+	position: absolute;
+	width: 16px;
+	left: 51%;
+	top: 306px;
+}
+.txtDominicana  {
+	position: absolute;
+	width: 15%;
+	left: 53%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtTelefonoDominicana  {
+	position: absolute;
+	width: 16px;
+	left: 53%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*---------- Estados Unidos ---------- */
+
+.imgBanderaEstadosUnidos {
+	position: absolute;
+	width: 16px;
+	left: 65%;
+	top: 306px;
+}
+.txtEstadosUnidos  {
+	position: absolute;
+	width: 15%;
+	left: 67%;
+	top: 306px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtTelefonoEstadosUnidos  {
+	position: absolute;
+	width: 16px;
+	left: 66%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/*-------------------------------------- Enlaces en el footer de la web ----------------------------------- */
+.txtNosotros  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 300px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtNosotros:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+.txtBlog  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 350px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtBlog:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+.txtPodcast  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 400px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtPodcast:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+.txtContactoFooter  {
+	position: absolute;
+	width: 10%;
+	height:30px;
+	left: 24%;
+	top: 450px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtContactoFooter:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------ Imagen y logo de correo en el footer ----------------------------------- */
+.imgCorreo{
+	position: absolute;
+	width: 16px;
+	left: 40%;
+	top: 400px;
+}
+.txtCorreoContacto{
+	position: absolute;
+	width: 16px;
+	left: 42%;
+	top: 400px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 12px;
+	letter-spacing: 0.2em;
+	text-transform: lowercase;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.txtCorreoContacto:hover  {
+	font-weight: 500;
+	color: #64AE45;
+}
+/*------------------------------Iconos de las redes sociales en el footer----------------------------------- */
+.imgWhatsaap{
+	position: absolute;
+	width: 16px;
+	left: 40%;
+	top: 450px;
+}
+.imgLinkedin{
+	position: absolute;
+	width: 16px;
+	left: 45%;
+	top: 450px;
+}
+.imgInstagram{
+	position: absolute;
+	width: 16px;
+	left: 50%;
+	top: 450px;
+}
+.imgTwitter{
+	position: absolute;
+	width: 16px;
+	left: 55%;
+	top: 450px;
+}
+/*----------------Parte final del footer donde está la linea y el texto con los derechos de autor------------- */
+.lineaDivisoraFooter {
+	position: absolute;
+	width: 100%;
+	left: 0%;
+	top: 550px;
+	mix-blend-mode: normal;
+	opacity: 10%;
+	border: 0px solid #FFFFFF;
+}
+.txtContenedorFooterDerechos {
+	position: absolute;
+	width: 30%;
+	left: 35%;
+	top: 595px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(200, 200, 200, 0.5);
+}

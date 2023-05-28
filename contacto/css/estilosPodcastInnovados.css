@@ -1,0 +1,1600 @@
+
+
+body, html { 
+    ---variableprueba:90vw;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 768px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 420px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+    #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        top: 6vw;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;           
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 70%;
+        height: 116px;
+        left: 9%;
+        top: 25vw;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.8vw;
+        line-height: 3.5vw;           
+        color: #FFFFFF;
+        text-align: left;
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 325px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:32px;
+        Height:39px;
+        Top:355px;
+        left: 9.51%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 45.6%;
+        height: 20px;
+        left: 49%;
+        top: 375px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+
+        font-size: 2.8vw;
+        line-height: 3.5vw;     
+        
+        color: #FFFFFF;
+        }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtEnlacesMobileEnfoques {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+
+    font-size: 3.4vw;
+    line-height: 2.5vw;   
+}
+
+#imgContenedorBody1{
+    position: relative;
+    width: 130%;
+    height: auto;
+    left: -12%;
+    filter: hue-rotate(100deg);
+}
+#imgRowDosContenedorBody1{
+    position: relative;
+    height: 70px;
+    width: 16.60vw;
+    height: 4.11vw;
+}
+/*----------------------------------------------------- Contenedor 2 ------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtContenedorBody2Filtrar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.67vw;
+    line-height: 25px;
+    color: #1C1F2A;
+    text-align: right;
+    margin-right: 1px;
+    font-size: 2.3vw;
+}
+#txtFiltroEpisodios{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.67vw;
+    line-height: 25px;  
+    color: #64AE45;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 2.1vw;
+}
+
+#formControlPodcast {
+    position: relative;
+    top: -6px;
+    height: 18px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+    border-radius: 2px;
+}
+/*------------------------------------------------------- Contenedor Episodio Activo ------------------------------------------------------------ */
+
+
+#contenedorEpisodioActivo {
+    position: relative; 
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    background: #1C1F2A;
+    padding-bottom: 30px;
+
+}
+#txtFechaEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+}
+#txtResumenContenidoEpisodioActivo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4vw;
+    line-height: 4.9vw;  
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+#BoxVerdeMicoOn {
+    display: none;
+}
+
+#imgPlayEpisodioActivo {
+    height:4.35vw; 
+    width:4.35vw; 
+    margin:0.58vw;
+}
+#imgRevEpisodioActivo {
+    height:3.058vw; 
+    width:3.35vw;  
+    margin:1.58vw;
+}
+#imgOndasEpisodioActivo {
+    height:6.64vw; 
+    width:558.82vw;
+    max-width:9500px; 
+    margin:0.58vw;
+}
+#txtTimeEpisodioActivo{
+    position: relative;
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2vw;
+
+    text-align: center;
+    color: #1C1F2A;
+    width: 100%;
+    top: 10px;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 1 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo1 {
+    position: relative; 
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+}
+#txtFechaEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+}
+#txtNombreEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo1:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4vw;
+    line-height: 4.9vw; 
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+    color: #64AE45;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+#txtEscucharEpisodioInactivo1:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 2 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo2 {
+    position: relative; 
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+}
+#txtFechaEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+}
+#txtNombreEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+
+    opacity: 80%;
+    cursor: pointer;;
+}
+#txtNombreEpisodioInactivo2:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4vw;
+    line-height: 4.9vw; 
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+    color: #64AE45;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo2:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 3 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo3 {
+    position: relative; 
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+}
+#txtFechaEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+}
+#txtNombreEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo3:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4vw;
+    line-height: 4.9vw; 
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+    color: #64AE45;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo3:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 4 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo4 {
+    position: relative; 
+    height: auto;
+    width: 90%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 60px;
+}
+#txtFechaEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+}
+#txtNombreEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo4:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.4vw;
+    line-height: 4.9vw; 
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.4vw;
+    line-height: 2.5vw;  
+    color: #64AE45;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo4:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProyectosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 6.25vw;
+        line-height: 8.75vw;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    #parrafoHero{
+        position: absolute;
+        width: 35%;
+        height: 134px;
+        left: 60%;
+        top: 194px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.3vw;
+        line-height: 39px;
+        text-decoration: none;
+        color: #FFFFFF;
+        text-align: start;
+}
+#leerMasIntro {
+    position: absolute;
+    width: 35%;
+    height: 20px;
+    left: 60%;
+    top: 532px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3vw;
+    line-height: 31px;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+    opacity: 50%;
+}
+    #imgHome {
+        position: absolute;
+        width: 60px;
+        height: 79px;
+        left: 9.51%;
+        top: 500px;
+        opacity: 80%;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+
+#imgContenedorBody1{
+    position: relative;
+    width: 120%;
+    height: auto;
+    left: -5%;
+    filter: hue-rotate(100deg);
+}
+#imgRowDosContenedorBody1{
+    position: relative;
+    height: 70px;
+    width: 16.66vw;
+    height: 4.17vw;
+}
+/*----------------------------------------------------- Contenedor 2 ------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtContenedorBody2Filtrar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.67vw;
+    line-height: 25px;
+    color: #1C1F2A;
+    text-align: right;
+    margin-right: 15px;
+}
+#txtFiltroEpisodios{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.67vw;
+    line-height: 25px;  
+    color: #64AE45;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#formControlPodcast {
+    position: relative;
+    top: -6px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.67vw;
+
+}
+/*------------------------------------------------------- Contenedor Episodio Activo ------------------------------------------------------------ */
+
+
+#contenedorEpisodioActivo {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    background: #1C1F2A;
+
+}
+#txtFechaEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+#txtResumenContenidoEpisodioActivo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#BoxVerdeMicoOn {
+    background: #64AE45;
+    height:15vw; 
+
+    width:19.35vw;
+    max-width:329px;
+
+    border-radius: 20px;
+
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+#txtInnova2MicOn{
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.33vw;
+    line-height: 35px;
+    text-align: center;
+    color: #1C1F2A;
+    width: 100%;
+}
+
+#imgPlayEpisodioActivo {
+    height:2.35vw; 
+    width:2.35vw; 
+    margin:0.58vw;
+}
+#imgRevEpisodioActivo {
+    height:1.058vw; 
+    width:1.35vw;  
+    margin:0.58vw;
+}
+#imgOndasEpisodioActivo {
+    height:6.64vw; 
+    width:558.82vw;
+    max-width:9500px; 
+    margin:0.58vw;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 1 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo1 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo1:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo1:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 2 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo2 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo2:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo2:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 3 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo3 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo3:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo3:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 4 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo4 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo4:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo4:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProyectosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+		
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1200px)
+{ 
+   
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 90px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 35%;
+            height: 134px;
+            left: 60%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 31px;
+            text-decoration: none;
+            color: #FFFFFF;
+            text-align: start;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 35%;
+        height: 20px;
+        left: 60%;
+        top: 532px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
+    }
+    #imgHome {
+        position: absolute;
+        width: 60px;
+        height: 79px;
+        left: 9.51%;
+        top: 500px;
+        opacity: 80%;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+
+#imgContenedorBody1{
+    position: relative;
+    width: 120%;
+    height: auto;
+    left: -5%;
+
+    filter: hue-rotate(100deg);
+}
+#imgRowDosContenedorBody1{
+    position: relative;
+    height: 70px;
+    width: 200px;
+    height: 50px;
+
+}
+/*----------------------------------------------------- Contenedor 2 ------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#txtContenedorBody2Filtrar{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+    text-align: right;
+    margin-right: 15px;
+}
+#txtFiltroEpisodios{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;  
+    color: #64AE45;
+    text-align: left;
+    margin-left: 5px;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Activo ------------------------------------------------------------ */
+
+
+#contenedorEpisodioActivo {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    background: #1C1F2A;
+
+}
+#txtFechaEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioActivo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+}
+#txtResumenContenidoEpisodioActivo {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+#BoxVerdeMicoOn {
+    background: #64AE45;
+    height:14vw; 
+    max-height:238px; 
+
+    width:19.35vw;
+    max-width:329px;
+
+    border-radius: 20px;
+
+    padding-top:1%;
+    padding-bottom: 1%;
+}
+
+#txtInnova2MicOn{
+    font-family: 'Stolzl';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #1C1F2A;
+    width: 100%;
+}
+
+#imgPlayEpisodioActivo {
+    height:2.35vw; 
+    width:2.35vw; 
+    margin:0.58vw;
+}
+#imgRevEpisodioActivo {
+    height:1.058vw; 
+    width:1.35vw;  
+    margin:0.58vw;
+}
+#imgOndasEpisodioActivo {
+    height:6.64vw; 
+    width:558.82vw;
+    max-width:9500px; 
+    margin:0.58vw;
+}
+
+
+
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 1 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo1 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo1:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo1:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*------------------------------------------------------- Contenedor Episodio Inactivo 2 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo2 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo2:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo2:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 3 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo3 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo3:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo3:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+/*------------------------------------------------------- Contenedor Episodio Inactivo 4 ------------------------------------------------------- */
+
+#contenedorEpisodioInactivo4 {
+    position: relative; 
+    height: auto;
+    width: 95%;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    border: 1px solid #E5E5E5;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#txtFechaEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;  
+    color: #A6A8AB;
+}
+#txtNombreEpisodioInactivo4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 35px;
+    opacity: 80%;
+    cursor: pointer;
+}
+#txtNombreEpisodioInactivo4:hover {
+    font-weight: 800;
+    opacity: 100%;
+}
+#txtResumenContenidoEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+#txtEscucharEpisodioInactivo4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 43px;
+    color: #64AE45;
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+#txtEscucharEpisodioInactivo4:hover{
+    color: #1C1F2A;
+    font-weight: 400;
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProyectosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+
+}

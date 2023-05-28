@@ -1,0 +1,1960 @@
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 540px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+@media (min-width: 1px) and (max-width: 576px) 
+{ 
+    #headerDesktop {
+        display: none;
+    }
+
+
+    #hero {
+
+    position:relative; 
+    background:transparent; 
+    top: 0px; 
+    height: 493px; 
+    overflow: hidden;
+
+    }
+	#txtIntro {
+        position: absolute;		
+        font-family: 'Montserrat';
+		font-style: normal;
+		text-align: right;
+		color: #1C1F2A;
+		z-index: 10;
+
+		line-height: 35px;   
+		top: 15px;
+		width: 91%;
+		font-weight: 400;
+		font-size: 4.80vw;
+	}
+	
+	#imgHome {
+        position: absolute;		
+		width: 100%;
+		left: 0;
+		top: -50%;
+		height: 180%;
+	}
+	
+	#leerMasIntro {
+        position: relative;		
+
+		font-family: 'Roboto';
+		font-style: normal;
+		text-decoration: none;
+		color: #64AE45;
+		cursor: pointer;
+		font-weight: 400;
+		line-height: .04vh;
+	
+		font-size: 3vw;
+		top: 0;
+
+	}
+	
+	#leerMasIntro:hover  {
+		font-size: 3.1vw;
+		color: #000000;
+		font-weight: 400;
+        z-index: 10;
+
+		}
+
+
+	/*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+	#contenedorBodyUno {
+		position: relative;
+		width: 100%;
+	}
+	#txtServiciosInnotica {
+		position: relative;
+		font-family: 'Montserrat';
+		font-style: normal;
+		text-align: center;
+		color: #1C1F2A;
+	
+		font-weight: 400;
+		font-size: 9vw;
+		line-height: 4.65vh;
+	}
+	
+	/*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+	
+	#listaProductosServicios {
+		position: relative;
+		width: 100%;
+		text-decoration: none;
+		font-family: 'Roboto';
+		font-style: normal;
+		text-decoration: none;
+		display: inline-block;
+		letter-spacing: 0.10em;
+		color: #1C1F2A;
+		text-align: left;
+		z-index: 2;
+	
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 20px;
+	}
+	#leerMasProductosServicios {
+		position: relative;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 40px;
+		letter-spacing: 0.03em;
+
+		text-decoration: none;
+		color: #64AE45;
+		z-index: 2;
+
+        top: -25px;
+		width: 30%;
+		left: 7%;
+	}
+	#leerMasProductosServicios:hover  {
+		font-size: 15.5px;
+		color: #000000;
+		font-weight: 500;
+	}
+	
+	#imgBody {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: -10; 
+		clip-path:inset(0 35% 0 0); 
+		transform: matrix(-1, 0, 0, 1, 0, 0);
+
+	}
+	
+	/*---- Contenedor Tres -------- */
+
+	#contenedorBodyTres {
+		position: relative;
+		width: 100%;
+
+        text-align: left;
+		letter-spacing: -0.01em;
+
+		font-family: 'Montserrat';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 19px;
+		line-height: 28px;
+
+		color: #64AE45;
+		background: #1C1F2A;
+		z-index: 10;
+	}
+
+	#leerMasSolucionesIntegrales {
+		position: relative;
+		font-family: 'Roboto';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 43px;
+		letter-spacing: 0.02em;
+		opacity: 50%;
+
+
+		text-decoration: none;
+		color: #64AE45;
+		z-index: 20;
+		top: -10%;
+	
+		width: 30%;
+		height: 10%;
+		left: 7%;
+	}
+
+	#leerMasSolucionesIntegrales:hover  {
+		font-size: 14px;
+		font-weight: 500;
+		opacity: 100%;
+	}
+
+	
+#contenedorBodyCuatro {
+	position: relative;
+	width: 100%;
+	height: 80vh;
+	left: 1px;
+	background: #F2F2F2;	
+	z-index: 0;
+	padding: 10px 0px 0px 0px;
+}
+#txtUltimosProyectos {
+	position: relative;
+	width: 80%;
+	height: 60px;
+	left: 10%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+	color: #1C1F2A;
+	padding-top: 10px;
+}
+
+#itemCarouselProyecto {
+    position: relative;
+    width:50%;
+    left:25%; 
+    height: 100%;
+
+    position: relative;
+    width:100%;
+    left:0%; 
+    height: 100%;
+}
+
+#imgProyectoLeft {
+    position: absolute; 
+    display: none;
+    visibility: hidden;
+    top: 0;
+    left: -130%;
+}
+#imgProyectoRight {
+    position: absolute; 
+    visibility: hidden;
+    display: none;
+    top: 0;
+    left: 130%;
+}
+#imgVectorFlechaDerecha {
+	position:absolute;
+	width:5%; 
+	height: 42%; 
+	left: 80%; 
+	top: 0%;
+
+    height: 5%; 
+	left: 95%; 
+    top: 25%;
+    background: #F2F2F2;
+    opacity: 80%;
+
+}
+#imgVectorFlechaIzquierda {
+	position:absolute; 
+	width:5%; 
+	height: 42%; 
+	left: 15%; 
+	top: 0%;
+
+    height: 5%; 
+    left: 0%; 
+    top: 25%;
+    background: #F2F2F2;
+    opacity: 80%;
+}
+#txtNombreProyecto {
+    position: relative;
+	height: 43px;
+	width: 85%;
+    left: -10%;
+    top: 10px;
+	font-family: 'Stolzl';
+	font-style: normal;
+	font-weight: 400;
+	font-size:15px;
+	line-height: 20px;
+	color: #1C1F2A;
+    padding: 12px;
+    text-align: start;
+
+}
+#txtDescripcionProyecto {
+    position: relative;
+	width: 85%;
+    left: -10%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size:11px;
+	line-height: 18px;
+	padding-top: 5px;
+	color: #1C1F2A;
+	text-align:justify;
+    padding: 12px;
+    z-index: 100;
+    text-align: start;
+
+}
+#indicadoresCarousel {
+	position:absolute; 
+	left: -15%;
+	width: 50%;
+    bottom: 0;    
+    z-index: 10;
+}
+
+
+
+#contenedorBodyCinco {
+	position: relative;
+	height: 250px;
+	left: 0px;
+
+
+	padding:20px 1% 20px 5%;
+	letter-spacing: -0.03em;
+	color: #1C1F2A;
+	background: #FFFFFF;
+	z-index: 0;
+
+}
+#txtContenedorBody5 {
+	position: relative;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+
+	color: #1C1F2A;
+
+}
+#leerMasContenedor5 {
+	position: relative;
+
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 42px;
+	text-decoration: none;
+	color: #64AE45;
+	letter-spacing: -0.001em;
+}
+#leerMasContenedor5:hover {
+	font-size: 14px;
+	color: #1C1F2A;
+	font-weight: 500;
+
+	}
+#leerMasContenedor5:active {
+	font-size: 22px;
+	color: #1C1F2A;
+	font-weight: 500;
+
+	}
+
+
+#contenedorBodySeis {
+
+}
+
+#txtContenedorBody6 {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	left: 0%;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.2em;
+	line-height: 25px;
+	text-align: center;
+	color: #1C1F2A;
+	padding-top: 10px;
+}
+
+
+#contenedorBodySiete {
+	position: relative;
+	width: 100%;
+	height: 180px;
+	left: 1px;
+	background: transparent;	
+	z-index: 0;
+	padding: 10px 0px 0px 0px;
+}
+#itemCarouselAcreditaciones {
+    position: relative;
+    width:70%;
+    left:15%; 
+    height: 100%;
+}
+
+		
+}
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile entre 540 px y 922 px --------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display: none;
+    }
+
+    #hero {
+
+        position:relative; 
+        background:transparent; 
+        top: 0px; 
+        height: 493px; 
+        overflow: hidden;
+    
+        }
+        #txtIntro {
+            position: absolute;		
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: right;
+            color: #1C1F2A;
+            z-index: 10;
+    
+            line-height: 42px;   
+            top: 15px;
+            width: 91%;
+            font-weight: 400;
+            font-size: 4.80vw;
+        }
+        
+        #imgHome {
+            position: absolute;		
+            width: 100%;
+            left: 0;
+            top: -50%;
+            height: 180%;
+        }
+        
+        #leerMasIntro {
+            position: relative;		
+    
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            color: #64AE45;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: .04vh;
+        
+            font-size: 3vw;
+            top: 0;
+            z-index: 0;
+    
+        }
+        
+        #leerMasIntro:hover  {
+            font-size: 3.1vw;
+            color: #000000;
+            font-weight: 400;
+            z-index: 10;
+    
+            }
+    
+    
+        /*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+        #contenedorBodyUno {
+            position: relative;
+            width: 100%;
+        }
+        #txtServiciosInnotica {
+            position: relative;
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: center;
+            color: #1C1F2A;
+        
+            font-weight: 400;
+            font-size: 7vw;
+            line-height: 4.65vh;
+        }
+        
+        /*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+        
+        #listaProductosServicios {
+            position: relative;
+            width: 100%;
+            left: 15%;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            letter-spacing: 0.10em;
+            color: #1C1F2A;
+            text-align: left;
+            z-index: 2;
+        
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        #leerMasProductosServicios {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 40px;
+            letter-spacing: 0.03em;
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 2;
+    
+            top: -25px;
+            width: 30%;
+            left: 18%;
+        }
+        #leerMasProductosServicios:hover  {
+            font-size: 15.5px;
+            color: #000000;
+            font-weight: 500;
+        }
+        
+        #imgBody {
+            position: absolute;
+            top: -200px;
+            left: 15%;
+            z-index: -10; 
+            clip-path:inset(0 35% 0 0); 
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+        }
+        
+        /*---- Contenedor Tres -------- */
+    
+        #contenedorBodyTres {
+            position: relative;
+            width: 100%;
+    
+            text-align: left;
+            letter-spacing: -0.01em;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 38px;
+    
+            color: #64AE45;
+            background: #1C1F2A;
+            z-index: 10;
+        }
+    
+        #leerMasSolucionesIntegrales {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 43px;
+            letter-spacing: 0.02em;
+            opacity: 50%;
+    
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 20;
+            top: -10%;
+        
+            width: 30%;
+            height: 10%;
+            left: 7%;
+        }
+    
+        #leerMasSolucionesIntegrales:hover  {
+            font-weight: 500;
+            opacity: 100%;
+        }
+    
+        
+    #contenedorBodyCuatro {
+        position: relative;
+        width: 100%;
+        height: 95vh;
+        left: 1px;
+        background: #F2F2F2;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+    }
+    #txtUltimosProyectos {
+        position: relative;
+        width: 80%;
+        height: 60px;
+        left: 10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 30px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 25px;
+        padding-bottom: 50px;
+
+    }
+    
+    #itemCarouselProyecto {
+        position: relative;
+        width:50%;
+        left:25%; 
+        height: 100%;
+    
+        position: relative;
+        width:100%;
+        left:0%; 
+        height: 100%;
+    }
+    
+    #imgProyectoLeft {
+        position: absolute; 
+        display: none;
+        visibility: hidden;
+        top: 0;
+        left: -130%;
+    }
+    #imgProyectoRight {
+        position: absolute; 
+        visibility: hidden;
+        display: none;
+        top: 0;
+        left: 130%;
+    }
+    #imgVectorFlechaDerecha {
+        position:absolute;
+        width:5%; 
+        height: 42%; 
+        left: 80%; 
+        top: 0%;
+    
+        height: 5%; 
+        left: 95%; 
+        top: 30%;
+        background: #F2F2F2;
+        opacity: 80%;
+    
+    }
+    #imgVectorFlechaIzquierda {
+        position:absolute; 
+        width:5%; 
+        height: 42%; 
+        left: 15%; 
+        top: 0%;
+    
+        height: 5%; 
+        left: 0%; 
+        top: 30%;
+        background: #F2F2F2;
+        opacity: 80%;
+    }
+    #txtNombreProyecto {
+        position: relative;
+        height: 43px;
+        width: 85%;
+        left: -10%;
+        top: 10px;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size:25px;
+        line-height: 20px;
+        color: #1C1F2A;
+        padding: 12px;
+        text-align: start;
+
+    }
+    #txtDescripcionProyecto {
+        position: relative;
+        width: 85%;
+        left: -10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size:15px;
+        line-height: 21px;
+        padding-top: 5px;
+        color: #1C1F2A;
+        text-align:justify;
+        padding: 12px;
+        z-index: 100;
+    
+    }
+    #indicadoresCarousel {
+        position:absolute; 
+        left: -15%;
+        width: 50%;
+        bottom: 0;    
+        z-index: 10;
+    }
+      
+    #contenedorBodyCinco {
+        position: relative;
+        height: 250px;
+        left: 0px;
+    
+        padding:20px 1% 20px 5%;
+        letter-spacing: -0.03em;
+        color: #1C1F2A;
+        background: #FFFFFF;
+        z-index: 0;
+    
+    }
+    #txtContenedorBody5 {
+        position: relative;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 34px;
+    
+        color: #1C1F2A;
+    
+    }
+    #leerMasContenedor5 {
+        position: relative;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 42px;
+        text-decoration: none;
+        color: #64AE45;
+        letter-spacing: -0.001em;
+    }
+    #leerMasContenedor5:hover {
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #leerMasContenedor5:active {
+        font-size: 22px;
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    
+    
+    #contenedorBodySeis {
+    
+    }
+    
+    #txtContenedorBody6 {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: 0%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5em;
+        line-height: 35px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 10px;
+    }
+     
+    #contenedorBodySiete {
+        position: relative;
+        width: 100%;
+        height: 180px;
+        left: 1px;
+        background: transparent;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+    }
+    #itemCarouselAcreditaciones {
+        position: relative;
+        width:70%;
+        left:15%; 
+        height: 100%;
+    }
+    
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+
+    #hero {
+        position:relative; 
+        background:transparent; 
+        top: 0px; 
+        height: 800px; 
+        overflow: hidden;
+    
+        }
+        #txtIntro {
+            position: absolute;		
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: right;
+            color: #1C1F2A;
+            z-index: 10;
+    
+            line-height: 55px;   
+            top: 170px;
+            width: 89%;
+            font-weight: 400;
+            font-size: 3.80vw;
+        }
+        
+        #imgHome {
+            position: absolute;		
+            width: 100%;
+            left: 0;
+            top: -50%;
+            height: 180%;
+        }
+        
+        #leerMasIntro {
+            position: relative;		
+    
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            color: #64AE45;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: .04vh;
+        
+            font-size: 3vw;
+            top: 0;
+    
+        }
+        
+        #leerMasIntro:hover  {
+            font-size: 3.1vw;
+            color: #000000;
+            font-weight: 400;
+            z-index: 10;
+    
+            }
+    
+    
+        /*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+        #contenedorBodyUno {
+            position: relative;
+            width: 100%;
+            left: 0;
+            overflow: hidden;
+        }
+        #txtServiciosInnotica {
+            position: relative;
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: center;
+            color: #1C1F2A;
+        
+            font-weight: 400;
+            font-size: 6vw;
+            line-height: 4.65vh;
+            left: -10%;
+
+        }
+        
+        /*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+        
+        #listaProductosServicios {
+            position: relative;
+            width: 100%;
+            left: -10%;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            color: #1C1F2A;
+            text-align: left;
+            z-index: 2;
+        
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;         
+            letter-spacing: 0.1em;
+        }
+        #leerMasProductosServicios {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: 0.03em;
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 2;
+    
+            top: -50px;
+            width: 30%;
+        }
+        #leerMasProductosServicios:hover  {
+            font-size: 15.5px;
+            color: #000000;
+            font-weight: 500;
+        }
+        
+        #imgBody {
+            position: absolute;
+            top: -400px;
+            height: 200%;
+            left: 35%;
+            z-index: -10; 
+            clip-path:inset(0 35% 0 0); 
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+        }
+        
+        /*---- Contenedor Tres -------- */
+    
+        #contenedorBodyTres {
+            position: relative;
+            width: 100%;
+    
+            text-align: left;
+            letter-spacing: -0.01em;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 75px;
+            
+    
+            color: #64AE45;
+            background: #1C1F2A;
+            z-index: 10;
+            overflow: hidden;
+        }
+    
+        #leerMasSolucionesIntegrales {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 43px;
+            letter-spacing: 0.02em;
+            opacity: 50%;
+    
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 20;
+            top: -10%;
+        
+            width: 30%;
+            height: 10%;
+            left: 7%;
+        }
+    
+        #leerMasSolucionesIntegrales:hover  {
+            font-weight: 500;
+            opacity: 100%;
+        }
+    
+        
+    #contenedorBodyCuatro {
+        position: relative;
+        width: 100%;
+        height: 95vh;
+        left: 1px;
+        background: #F2F2F2;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+        overflow: hidden;
+
+    }
+    #txtUltimosProyectos {
+        position: relative;
+        width: 80%;
+        height: 60px;
+        left: 10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 30px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 25px;
+        padding-bottom: 50px;
+
+    }
+    
+    #itemCarouselProyecto {
+        position: relative;
+        width:50%;
+        left:25%; 
+        height: 100%;
+    }
+    
+    #imgProyectoLeft {
+        position: absolute; 
+        top: 0;
+        left: -130%;
+    }
+    #imgProyectoRight {
+        position: absolute; 
+        top: 0;
+        left: 130%;
+    }
+    #imgVectorFlechaDerecha {
+        position:absolute;
+        width:5%; 
+        height: 42%; 
+        left: 80%; 
+        top: 0%;
+    
+    }
+    #imgVectorFlechaIzquierda {
+        position:absolute; 
+        width:5%; 
+        height: 42%; 
+        left: 15%; 
+        top: 0%;
+    }
+    #txtNombreProyecto {
+        position: relative;
+        height: 43px;
+        width: 85%;
+        left: -10%;
+        top: 10px;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size:25px;
+        line-height: 20px;
+        color: #1C1F2A;
+        padding: 12px;
+        text-align: start;
+
+    }
+    #txtDescripcionProyecto {
+        position: relative;
+        width: 85%;
+        left: -10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size:15px;
+        line-height: 21px;
+        padding-top: 5px;
+        color: #1C1F2A;
+        text-align:justify;
+        padding: 12px;
+        z-index: 100;
+    
+    }
+    #indicadoresCarousel {
+        position:absolute; 
+        left: -15%;
+        width: 50%;
+        bottom: 0;    
+        z-index: 10;
+    }
+       
+    #contenedorBodyCinco {
+        position: relative;
+        left: 0px;
+    
+        padding:20px 1% 20px 5%;
+        letter-spacing: -0.03em;
+        color: #1C1F2A;
+        background: #FFFFFF;
+        z-index: 0;
+        overflow: hidden;
+
+    
+    }
+    #txtContenedorBody5 {
+        position: relative;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-size: 48px;
+        line-height: 30px;
+        line-height: 50px;
+    
+        color: #1C1F2A;
+
+        
+    
+    }
+    #leerMasContenedor5 {
+        position: relative;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 42px;
+        text-decoration: none;
+        color: #64AE45;
+        letter-spacing: -0.001em;
+    }
+    #leerMasContenedor5:hover {
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #leerMasContenedor5:active {
+        font-size: 22px;
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #contenedorBodySeis {
+        overflow: hidden;
+
+    }
+    #txtContenedorBody6 {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: 0%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5em;
+        line-height: 35px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 10px;
+    }
+    #contenedorBodySiete {
+        position: relative;
+        width: 100%;
+        height: 180px;
+        left: 1px;
+        background: transparent;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+        overflow: hidden;
+
+    }
+    #itemCarouselAcreditaciones {
+        position: relative;
+        width:70%;
+        left:15%; 
+        height: 100%;
+    }
+		
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1290 px y 2560 px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1600px) 
+{ 
+    #headerMobile {
+        display: none;
+    }
+    #hero {
+        position:relative; 
+        background:transparent; 
+        top: 0px; 
+        height: 800px; 
+        overflow: hidden;
+    
+    }
+    #txtIntro {
+            position: absolute;		
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: right;
+            color: #1C1F2A;
+            z-index: 10;
+    
+            line-height: 65px;   
+            top: 170px;
+            width: 89%;
+            font-weight: 400;
+            font-size: 3.60vw;
+    }
+    #imgHome {
+            position: absolute;		
+            width: 100%;
+            left: 0;
+            top: -40%;
+            height: 180%;
+    }
+    #leerMasIntro {
+            position: relative;		
+    
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            color: #64AE45;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: .04vh;
+        
+            font-size: 2.3vw;
+            top: 0;    
+    }
+    #leerMasIntro:hover  {
+            color: #000000;
+            font-weight: 400;
+            z-index: 10;
+    
+    }
+        /*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+    #contenedorBodyUno {
+            position: relative;
+            width: 100%;
+            left: 0;
+            overflow: hidden;
+    }
+    #txtServiciosInnotica {
+            position: relative;
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: center;
+            color: #1C1F2A;
+        
+            font-weight: 400;
+            font-size: 6vw;
+            line-height: 4.65vh;
+            left: -1%;
+
+    }
+        /*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+        
+    #listaProductosServicios {
+            position: relative;
+            width: 100%;
+            left: -1%;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            color: #1C1F2A;
+            text-align: left;
+            z-index: 2;
+        
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;         
+            letter-spacing: 0.1em;
+    }
+    #leerMasProductosServicios {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: 0.03em;
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 2;
+    
+            top: -50px;
+            width: 30%;
+            left: 5%;
+    }
+    #leerMasProductosServicios:hover  {
+            color: #000000;
+            font-weight: 500;
+    }
+    #imgBody {
+            position: absolute;
+            top: -380px;
+            height: 200%;
+            left: 35%;
+            z-index: -10; 
+            clip-path:inset(0 35% 0 0); 
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+    
+    }
+    /*---- Contenedor Tres -------- */
+    #contenedorBodyTres {
+            position: relative;
+            width: 100%;
+    
+            text-align: left;
+            letter-spacing: -0.01em;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 75px;
+            
+    
+            color: #64AE45;
+            background: #1C1F2A;
+            z-index: 10;
+            overflow: hidden;
+    }
+    #leerMasSolucionesIntegrales {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 43px;
+            letter-spacing: 0.02em;
+            opacity: 50%;
+    
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 20;
+            top: -10%;
+        
+            width: 30%;
+            height: 10%;
+            left: 7%;
+    }
+    #leerMasSolucionesIntegrales:hover  {
+            font-weight: 500;
+            opacity: 100%;
+    }
+    #contenedorBodyCuatro {
+        position: relative;
+        width: 100%;
+        height: 120vh;
+        left: 1px;
+        background: #F2F2F2;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+        overflow: hidden;
+
+    }
+    #txtUltimosProyectos {
+        position: relative;
+        width: 80%;
+        height: 60px;
+        left: 10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 30px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+    #itemCarouselProyecto {
+        position: relative;
+        width:50%;
+        left:25%; 
+        height: 100%;
+    }
+    #imgProyectoLeft {
+        position: absolute; 
+        top: 0;
+        left: -130%;
+    }
+    #imgProyectoRight {
+        position: absolute; 
+        top: 0;
+        left: 130%;
+    }
+    #imgVectorFlechaDerecha {
+        position:absolute;
+        width:5%; 
+        height: 42%; 
+        left: 80%; 
+        top: 15%;
+    
+    }
+    #imgVectorFlechaIzquierda {
+        position:absolute; 
+        width:5%; 
+        height: 42%; 
+        left: 15%; 
+        top: 15%;
+    }
+    #txtNombreProyecto {
+        position: relative;
+        height: 43px;
+        width: 85%;
+        left: -10%;
+        top: 10px;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size:26px;
+        line-height: 20px;
+        color: #1C1F2A;
+        padding: 12px;
+        text-align: start;
+    }
+    #txtDescripcionProyecto {
+        position: relative;
+        width: 85%;
+        left: -10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size:20px;
+        line-height: 30px;
+        padding-top: 5px;
+        color: #1C1F2A;
+        text-align:justify;
+        padding: 12px;
+        z-index: 100;
+    
+    }
+    #indicadoresCarousel {
+        position:absolute; 
+        left: -15%;
+        width: 50%;
+        bottom: -5px;    
+        z-index: 10;
+    }
+    #contenedorBodyCinco {
+        position: relative;
+        left: 0px;
+    
+        padding:20px 1% 20px 5%;
+        letter-spacing: -0.03em;
+        color: #1C1F2A;
+        background: #FFFFFF;
+        z-index: 0;
+        overflow: hidden;
+
+    
+    }
+    #txtContenedorBody5 {
+        position: relative;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 75px;
+    
+        color: #1C1F2A;
+
+        
+    
+    }
+    #leerMasContenedor5 {
+        position: relative;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        text-decoration: none;
+        color: #64AE45;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 0.02em;
+    }
+    #leerMasContenedor5:hover {
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #leerMasContenedor5:active {
+        font-size: 22px;
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #contenedorBodySeis {
+        overflow: visible;
+
+    }
+    #txtContenedorBody6 {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: 0%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.8em;
+        line-height: 60px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 10px;
+        z-index: 10;
+    }
+    #contenedorBodySiete {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        left: 1px;
+        background: transparent;	
+        z-index: 0;
+        padding: 20px 0px 0px 0px;
+        overflow: hidden;
+
+    }
+    #itemCarouselAcreditaciones {
+        position: relative;
+        width:70%;
+        left:15%; 
+        height: 100%;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop mayor a 2560 px -------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+
+
+
+@media (min-width: 1600px) 
+{ 
+   
+  #headerMobile {
+        display: none;
+    }
+
+    #hero {
+        position:relative; 
+        background:transparent; 
+        top: 0px; 
+        height: 800px; 
+        overflow: hidden;
+
+        max-width: 1700px;
+    
+        }
+        #txtIntro {
+            position: absolute;		
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: right;
+            color: #1C1F2A;
+            z-index: 10;
+    
+            line-height: 75px;   
+            top: 170px;
+            width: 89%;
+            font-weight: 400;
+            font-size: 57.8px;
+        }
+        
+        #imgHome {
+            position: absolute;		
+            width: 100%;
+            left: 0;
+            top: -40%;
+            height: 180%;
+        }
+        
+        #leerMasIntro {
+            position: relative;		
+    
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            color: #64AE45;
+            cursor: pointer;
+            font-weight: 400;
+            line-height: .04vh;
+        
+            font-size: 39.1px;
+            top: 0;
+    
+        }
+        
+        #leerMasIntro:hover  {
+            color: #000000;
+            font-weight: 400;
+            z-index: 10;
+    
+            }
+    
+    
+        /*--------------------------------- Contenedor y textos de los servicios en el Body ------------------------------------ */
+        #contenedorBodyUno {
+            position: relative;
+            width: 100%;
+            left: 0;
+            overflow: hidden;
+            max-width: 1700px;
+
+        }
+        #txtServiciosInnotica {
+            position: relative;
+            font-family: 'Montserrat';
+            font-style: normal;
+            text-align: center;
+            color: #1C1F2A;
+        
+            font-weight: 400;
+            font-size: 68px;
+            line-height: 4.65vh;
+            left: -1%;
+
+        }
+        
+        /*----------------------------------------- Listas desordenadas de los servicios ------------------------------------ */
+        
+        #listaProductosServicios {
+            position: relative;
+            width: 100%;
+            left: 15%;
+            text-decoration: none;
+            font-family: 'Roboto';
+            font-style: normal;
+            text-decoration: none;
+            display: inline-block;
+            color: #1C1F2A;
+            text-align: left;
+            z-index: 2;
+        
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 40px;         
+            letter-spacing: 0.2em;
+
+            max-width: 1700px;
+        }
+        #leerMasProductosServicios {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 40px;
+            letter-spacing: 0.01em;
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 2;
+    
+            top: -50px;
+            width: 30%;
+            left: 20%;
+        }
+        #leerMasProductosServicios:hover  {
+            color: #000000;
+            font-weight: 500;
+        }
+        
+        #imgBody {
+            position: absolute;
+            top: -380px;
+            height: 200%;
+            left: -90px;
+            width: 1400px;
+            z-index: -10; 
+            clip-path:inset(0 35% 0 0); 
+            transform: matrix(-1, 0, 0, 1, 0, 0);
+            max-width: 1700px;
+            overflow-y: hidden;
+        }
+        
+        /*---- Contenedor Tres -------- */
+    
+        #contenedorBodyTres {
+            position: relative;
+            width: 100%;
+    
+            text-align: left;
+            letter-spacing: -0.01em;
+    
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 75px;
+            
+    
+            color: #64AE45;
+            background: #1C1F2A;
+            z-index: 10;
+            overflow: hidden;
+
+            max-width: 1700px;
+
+        }
+    
+        #leerMasSolucionesIntegrales {
+            position: relative;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 43px;
+            letter-spacing: 0.02em;
+            opacity: 50%;
+    
+    
+            text-decoration: none;
+            color: #64AE45;
+            z-index: 20;
+            top: -10%;
+        
+            width: 30%;
+            height: 10%;
+            left: 7%;
+            
+        }
+    
+        #leerMasSolucionesIntegrales:hover  {
+            font-weight: 500;
+            opacity: 100%;
+        }
+    
+        
+    #contenedorBodyCuatro {
+        position: relative;
+        width: 100%;
+        height: 85vh;
+        left: 1px;
+        background: #F2F2F2;	
+        z-index: 0;
+        padding: 10px 0px 0px 0px;
+        overflow: hidden;
+
+        max-width: 1700px;
+
+
+    }
+    #txtUltimosProyectos {
+        position: relative;
+        width: 80%;
+        height: 60px;
+        left: 10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 30px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 0px;
+        padding-bottom: 0px;
+
+    }
+    
+    #itemCarouselProyecto {
+        position: relative;
+        width:50%;
+        left:25%; 
+        height: 70%;
+    }
+    
+    #imgProyectoLeft {
+        position: absolute; 
+        top: 0;
+        left: -130%;
+    }
+    #imgProyectoRight {
+        position: absolute; 
+        top: 0;
+        left: 130%;
+    }
+    #imgVectorFlechaDerecha {
+        position:absolute;
+        width:5%; 
+        height: 42%; 
+        left: 80%; 
+        top: 15%;
+    
+    }
+    #imgVectorFlechaIzquierda {
+        position:absolute; 
+        width:5%; 
+        height: 42%; 
+        left: 15%; 
+        top: 15%;
+    }
+    #txtNombreProyecto {
+        position: relative;
+        height: 43px;
+        width: 85%;
+        left: -10%;
+        top: 10px;
+        font-family: 'Stolzl';
+        font-style: normal;
+        font-weight: 400;
+        font-size:26px;
+        line-height: 20px;
+        color: #1C1F2A;
+        padding: 12px;
+        text-align: start;
+
+    }
+    #txtDescripcionProyecto {
+        position: relative;
+        width: 85%;
+        left: -10%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size:20px;
+        line-height: 30px;
+        padding-top: 5px;
+        color: #1C1F2A;
+        text-align:justify;
+        padding: 12px;
+        z-index: 100;
+    
+    }
+    #indicadoresCarousel {
+        position:absolute; 
+        left: -15%;
+        width: 50%;
+        bottom: -5px;    
+        z-index: 10;
+    }
+    
+    
+    
+    #contenedorBodyCinco {
+        position: relative;
+        left: 0px;
+    
+        padding:20px 1% 20px 5%;
+        letter-spacing: -0.03em;
+        color: #1C1F2A;
+        background: #FFFFFF;
+        z-index: 0;
+        overflow: hidden;
+
+        max-width: 1700px;
+
+
+    
+    }
+    #txtContenedorBody5 {
+        position: relative;
+    
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 75px;
+    
+        color: #1C1F2A;
+        
+
+        
+    
+    }
+    #leerMasContenedor5 {
+        position: relative;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        text-decoration: none;
+        color: #64AE45;
+
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 43px;
+        letter-spacing: 0.02em;
+    }
+    #leerMasContenedor5:hover {
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    #leerMasContenedor5:active {
+        font-size: 22px;
+        color: #1C1F2A;
+        font-weight: 500;
+    
+        }
+    
+    
+    #contenedorBodySeis {
+        overflow: visible;
+        max-width: 1700px;
+
+
+    }
+    
+    #txtContenedorBody6 {
+        position: relative;
+        width: 100%;
+        height: 60px;
+        left: 0%;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 2.8em;
+        line-height: 60px;
+        text-align: center;
+        color: #1C1F2A;
+        padding-top: 10px;
+        z-index: 10;
+    }
+    
+    
+    #contenedorBodySiete {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        left: 1px;
+        background: transparent;	
+        z-index: 0;
+        padding: 20px 0px 0px 0px;
+        overflow: hidden;
+
+        max-width: 1700px;
+
+
+    }
+    #itemCarouselAcreditaciones {
+        position: relative;
+        width:70%;
+        left:15%; 
+        height: 100%;
+    }
+    	
+	
+
+}
+
+

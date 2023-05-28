@@ -1,0 +1,1291 @@
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 540px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 420px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+       #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        top: 6vw;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;           
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 70%;
+        height: 116px;
+        left: 9%;
+        top: 25vw;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 3.6vw;
+        line-height: 4.5vw;           
+        color: #FFFFFF;
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 325px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:51px;
+        Height:38px;
+        Top:355px;
+        left: 9.51%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 45.6%;
+        height: 20px;
+        left: 49%;
+        top: 375px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+
+        font-size: 3.4vw;
+        line-height: 2.5vw;     
+        
+        color: #FFFFFF;
+        }
+    
+/*-------------------------------------------- Contenedor 1 triangulo con enfoques ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: 850px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 10;
+
+}
+#txtEnlacesMobileEnfoques {
+    position: absolute;
+    top: 0vh;
+    left: 5%;
+
+    visibility: visible;
+    font-family: 'Roboto';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 14px; 
+    line-height: 14px; 
+    text-decoration: none;
+    color: #818181;
+}
+#txtContenedorBody1 {
+    position: absolute;
+    width: 80%;
+    height: 25.05vh;
+    left: 10%;
+    top: 7vh;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.6vw;
+    line-height: 3.8vh;
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #1C1F2A;
+    text-align: start;
+    letter-spacing:0.01em;
+}
+#imgContenedorBody1 {
+    position: absolute;
+    width: 80%;
+    height: 588px;
+    left: 10%;
+    top: 7vh;
+}
+#txtOpcionesContenedorBody1{
+    position: absolute;
+    width: 92%;
+    height: 252px;
+    left: 4%;
+    top: 67vh;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.1vw;
+
+    line-height: 2.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+#txtUnoOpcionesContenedorBody1{
+    position: absolute;
+    width: 80%;
+    top: 600px;
+    bottom: 30px;
+    left: 8%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.1vw;
+    line-height: 4.5vw;  
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+#txtDosOpcionesContenedorBody1{
+    position: absolute;
+    width: 80%;
+    top: 670px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.1vw;
+    line-height: 4.5vw;  
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+#txtTresOpcionesContenedorBody1{
+    position: absolute;
+    width: 80%;
+    top: 740px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.1vw;
+    line-height: 4.5vw;  
+    color: #404040;
+    text-decoration: none;
+}
+
+#txtTresOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtDosOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtUnoOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+
+
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: 600px;
+    max-width: 1700px;
+}
+#imgContenedorBody2 {
+    position: absolute;
+    left: -200px;
+    width: 1200px;
+    background: transparent;
+}
+
+
+/*-------------------------------------------- Contenedor 3. Cards de efoques ----------------------------------------------------- */
+
+#contenedorBody3{
+    display:none !important;
+}
+#contenedorBody3Mobile{
+    position: relative; 
+    height: 700px;
+    background: #F8F9FA;
+    overflow: hidden;
+}
+
+#Card {
+    position: relative;    
+    cursor: pointer;
+    width: 60%;
+    left:20%;
+    top: 10%;
+    height: 80%;
+}
+#Card:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 5px 5px grey;
+}
+#imgVectorFlechaDerecha {
+    position:absolute;
+    width:5%; 
+    height: 5%; 
+    left: 92%; 
+    top: 47%;
+}
+#imgVectorFlechaIzquierda {
+    position:absolute; 
+    width:5%; 
+    height: 5%; 
+    left: 2%; 
+    top: 47%;
+}
+#IconEnfoquesConstruccion {
+    width: 14.98vw;
+    height: 80px;
+}
+#txtTituloCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.8vw;
+    line-height: 8.5vw;
+    color: #1C1F2A;
+    text-align: center;
+}
+#txtParrafoCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+
+    font-weight: 300;
+    font-size: 3.6vw;
+    line-height: 4.5vw;  
+
+    color: #1C1F2A;
+    text-align: left;
+}
+#txtLeerMasCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.1vw;
+    line-height: 4.5vw;  
+    color: #64AE45;
+    text-decoration: none;
+}
+#txtLeerMasCard:hover {
+    font-weight: 300;
+    color: #1C1F2A;
+}
+		
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+
+    }
+   #lineaSupHero {
+    position: absolute;
+    width: 81%;
+    height: 0px;
+    left: 9.44%;
+    top: 147px;
+    border: 0.5px solid #FFFFFF;
+   }  
+   #lineaInfHero {
+    position: absolute;
+    width: 81%;
+    height: 0px;
+    left: 9.44%;
+    top: 466px;
+    border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        font-size: 4.8vw;
+
+        line-height: 43px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    #imgHome {
+        position: absolute;
+        width: 5.99%;
+        height: 63px;
+        left: 9.51%;
+        top: 512px;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 16%;
+        height: 20px;
+        left: 77.8%;
+        top: 532px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.11vw;
+        line-height: 18px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+    }
+    #parrafoHero{
+        position: absolute;
+        width: 18.75%;
+        height: 134px;
+        left: 71.8%;
+        top: 194px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.11vw;
+        line-height: 20px;
+        text-align: justify;
+        text-decoration: none;
+        color: #FFFFFF;
+}
+
+/*------------------------------------------------------- Heador 2 ----------------------------------------------------------------- */
+
+#boxMenus2 {
+    cursor: pointer;
+}
+#lineaSupMenu2 {
+	width: 100%;
+	Height:1px;
+	Top:22px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#lineaInfMenu2 {
+	width: 100%;
+	Height: 1px;
+	Top: 51px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#txtMenu2 {
+	Width:79px;
+	Height: 10.59px;
+	Top: 45.98px;
+	left: 36.88%;
+	
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    text-align: center;
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	
+	color: #333333;
+}
+#trianguloMenu2 {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffff;
+	border-top: 7px solid #333333; 
+    border-bottom:7px solid #ffff display none; 
+    border-right: 6px solid #ffff; 
+}
+
+/*---- Comportamiento del boton Menú del header 2--------*/
+
+#boxMenus2 div div {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2 span {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2:hover div {
+        visibility: visible;	
+    }
+
+#boxMenus2:hover  {
+    font-size: 14px;
+}
+#boxMenus2:hover #trianguloMenu2 {
+    border-top: 8px solid #64AE45;
+    visibility: visible;	
+}
+#boxMenus2:hover #txtMenu2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;	
+    color: #64AE45;
+}
+#boxMenus2:hover div div {
+	background: #64AE45;
+}
+
+/*-------- Diseño de los SubMenú del header 2 ------*/
+
+#boxSubMenus2 {
+	font-size: 10px;
+	line-height: 20px;
+	letter-spacing: 0.15em;
+	word-spacing: 0.3em;
+	color: grey;
+    display: none;
+    visibility: hidden;
+}
+#boxMenus2:hover #boxSubMenus2 {
+    display: block;	
+    visibility: visible;
+}
+#boxSubMenus2:hover  {
+    display: block;	
+    visibility: visible;
+    
+}
+#txtSubMenu02 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu12 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu22 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu32 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+
+/*--- Comportamiento del SubMenú del header 2 -------*/
+
+#txtSubMenu02:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu12:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu22:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu32:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+
+#lineaInfHeader2 {
+	position: relative;
+    width: 100%;
+	Height: 100px;
+
+	background: #333333;
+	text-align: center;
+    opacity: 0%;
+}
+/*-------------------------------------------- Contenedor 1 triangulo con enfoques ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: 900px;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#imgContenedorBody1 {
+    position: absolute;
+    width: 44.5%;
+    height: 588px;
+    left: 51%;
+    top: 13.94vh;  
+}
+#txtContenedorBody1 {
+    position: absolute;
+    width: 45%;
+    height: 23.05vh;
+    left: 8%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9vw;
+    line-height: 4.92vh;
+    
+    color: #1C1F2A;
+    top: 210px;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+
+}
+#txtUnoOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 450px;
+    bottom: 30px;
+    left: 8%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+}
+#txtDosOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 550px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+#txtTresOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 650px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+
+#txtTresOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtDosOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtUnoOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: 650px;
+}
+#imgContenedorBody2 {
+    position: absolute;
+    width: 100%;
+    height: 650px;
+    left: 0;
+    background: transparent;
+}
+
+/*-------------------------------------------- Contenedor 3. Cards de efoques ----------------------------------------------------- */
+
+#contenedorBody3{
+    position:relative;
+    background: transparent;
+    width: 100%;
+    max-width: 1700px;
+    overflow: hidden;
+}
+#contenedorBody33{
+    position:relative;
+    background: transparent;
+    height:40px ;
+}
+#contenedorBody3Mobile{
+    display: none; 
+}
+#IconEnfoquesConstruccion {
+    width: 35px;
+    height: 39px;
+}
+
+#txtTituloCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    color: #1C1F2A;
+    text-align: center;
+}
+#txtParrafoCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #1C1F2A;
+    text-align: left;
+}
+
+#txtLeerMasCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #64AE45;
+    text-decoration: none;
+}
+#txtLeerMasCard:hover {
+    font-weight: 500;
+    color: #1C1F2A;
+}
+#Card {
+    cursor: pointer;
+    width: 100%;
+    left: -20%;
+}
+#Card:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 5px 5px grey;
+}
+
+		
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1290 px y 2560 px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+
+
+
+
+
+
+@media (min-width: 1200px)
+{ 
+    #headerMobile {
+        display: none;
+    } 
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+   }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 70px;
+        font-size: 4.8vw;
+
+        line-height: 65px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    #imgHome {
+        position: absolute;
+        width: 5.99%;
+        height: 63px;
+        left: 9.51%;
+        top: 512px;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 16%;
+        height: 20px;
+        left: 77.8%;
+        top: 532px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.11vw;
+        line-height: 18px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+    }
+    #parrafoHero{
+        position: absolute;
+        width: 18.75%;
+        height: 134px;
+        left: 71.8%;
+        top: 194px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.11vw;
+        line-height: 23px;
+        text-align: justify;
+        text-decoration: none;
+        color: #FFFFFF;
+}
+
+/*------------------------------------------------------- Heador 2 ----------------------------------------------------------------- */
+
+#boxMenus2 {
+    cursor: pointer;
+}
+#lineaSupMenu2 {
+	width: 100%;
+	Height:1px;
+	Top:22px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#lineaInfMenu2 {
+	width: 100%;
+	Height: 1px;
+	Top: 51px;
+	left: 36.88%;
+
+	background: #333333;
+	text-align: center;
+}
+#txtMenu2 {
+	Width:79px;
+	Height: 10.59px;
+	Top: 45.98px;
+	left: 36.88%;
+	
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    text-align: center;
+
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	
+	color: #333333;
+}
+#trianguloMenu2 {
+    width: 0; 
+    height: 0; 
+    border-left: 6px solid #ffff;
+	border-top: 7px solid #333333; 
+    border-bottom:7px solid #ffff display none; 
+    border-right: 6px solid #ffff; 
+}
+
+/*---- Comportamiento del boton Menú del header 2--------*/
+
+#boxMenus2 div div {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2 span {
+    visibility: hidden;
+    Height:1px;
+}
+#boxMenus2:hover div {
+        visibility: visible;	
+    }
+
+#boxMenus2:hover  {
+    font-size: 14px;
+}
+#boxMenus2:hover #trianguloMenu2 {
+    border-top: 8px solid #64AE45;
+    visibility: visible;	
+}
+#boxMenus2:hover #txtMenu2 {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;	
+    color: #64AE45;
+}
+#boxMenus2:hover div div {
+	background: #64AE45;
+}
+
+/*-------- Diseño de los SubMenú del header 2 ------*/
+
+#boxSubMenus2 {
+	font-size: 10px;
+	line-height: 20px;
+	letter-spacing: 0.15em;
+	word-spacing: 0.3em;
+	color: grey;
+    display: none;
+    visibility: hidden;
+}
+#boxMenus2:hover #boxSubMenus2 {
+    display: block;	
+    visibility: visible;
+}
+#boxSubMenus2:hover  {
+    display: block;	
+    visibility: visible;
+    
+}
+#txtSubMenu02 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu12 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu22 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+#txtSubMenu32 {
+	Width:200px;
+	Height: 10.59px;
+	Top: 45.98px;
+	Left: 531px;
+	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 12px;
+	text-decoration: none;
+
+	text-transform: uppercase;	
+	color: grey;
+}
+
+/*--- Comportamiento del SubMenú del header 2 -------*/
+
+#txtSubMenu02:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu12:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu22:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+#txtSubMenu32:hover {
+    color: #64AE45;
+    font-style: bold;
+    font-weight: 700;
+}
+
+#lineaInfHeader2 {
+	position: relative;
+    width: 100%;
+	Height: 100px;
+
+	background: #333333;
+	text-align: center;
+    opacity: 0%;
+}
+/*-------------------------------------------- Contenedor 1 triangulo con enfoques ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: 850px;
+    max-width: 1700px;
+}
+
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#imgContenedorBody1 {
+    position: absolute;
+    width: 44.5%;
+    height: 650px;
+    left: 51%;
+    top: 70px;
+}
+#txtContenedorBody1 {
+    position: absolute;
+    width: 45%;
+    height: 23.05vh;
+    left: 8%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.9vw;
+    line-height: 7.92vh;
+    
+    color: #1C1F2A;
+    top: 90px;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+
+}
+#txtUnoOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 450px;
+    bottom: 30px;
+    left: 8%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+}
+#txtDosOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 550px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+#txtTresOpcionesContenedorBody1{
+    position: absolute;
+    width: 39%;
+    top: 650px;
+    bottom: 30px;
+    left: 8%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+
+    line-height: 3.9vh;
+    color: #404040;
+    text-decoration: none;
+    text-align: start;
+
+}
+
+#txtTresOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtDosOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+#txtUnoOpcionesContenedorBody1:hover {   
+    color: #64AE45;
+    font-weight: 300;
+}
+
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: 650px;
+    max-width: 1700px;
+    display: center;
+
+}
+#imgContenedorBody2 {
+    position: absolute;
+    left: 0;
+    background: #F8F9FA;
+}
+
+/*-------------------------------------------- Contenedor 3. Cards de efoques ----------------------------------------------------- */
+
+#contenedorBody3{
+    position:relative;
+    background: #F8F9FA;
+    width: 100%;
+    max-width: 1700px;
+    overflow: hidden;
+}
+#contenedorBody33{
+    position:relative;
+    background: transparent;
+    height:40px ;
+}
+#contenedorBody3Mobile{
+    display: none; 
+}
+#IconEnfoquesConstruccion {
+    width: 35px;
+    height: 39px;
+}
+
+#txtTituloCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 20px;
+    color: #1C1F2A;
+    text-align: center;
+}
+#txtParrafoCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #1C1F2A;
+    text-align: left;
+}
+
+#txtLeerMasCard {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 17px;
+    color: #64AE45;
+    text-decoration: none;
+}
+#txtLeerMasCard:hover {
+    font-weight: 500;
+    color: #1C1F2A;
+}
+#Card {
+    cursor: pointer;
+    width: auto;
+}
+#Card:hover {
+    transform: scale(1.01);
+    box-shadow: 10px 5px 5px grey;
+}
+
+}
