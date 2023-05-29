@@ -10,11 +10,7 @@
     box-sizing: border-box;
 	width: 100%;
 	background: transparent;
-	overflow: hidden;
-
-
-	
-    }
+}
 
 @media (min-width: 1px) and (max-width: 300px) { 
 

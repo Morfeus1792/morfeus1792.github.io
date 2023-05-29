@@ -856,8 +856,11 @@ body, html {
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
 
 #carouselProyectosControl{
-    position: relative;
-    left: 4%; 
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
 }
 #imgVectorFlechaDerecha {
     position:relative;

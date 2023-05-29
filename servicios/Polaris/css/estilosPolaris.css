@@ -349,6 +349,54 @@
 
 }
 
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
 
 }
 
@@ -641,7 +689,56 @@
     font-size: 12px;
 
 }
-		
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
@@ -971,6 +1068,57 @@
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
+}
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
 }
 
 }
