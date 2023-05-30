@@ -66,7 +66,7 @@
     }
     #lineaInfHero {
         position: absolute;
-        width: 81%;
+        width: 80%;
         height: 0px;
         left: 9.44%;
         top: 325px;
@@ -81,9 +81,9 @@
         }
     #leerMasIntro {
         position: absolute;
-        width: 45.6%;
+        width: 70%;
         height: 20px;
-        left: 49%;
+        left: 25%;
         top: 345px;
             
         font-family: 'Roboto';
@@ -129,8 +129,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
-    line-height: 35px;
+    font-size: 8vw;
+    line-height: 7vw;
     
     color: #1C1F2A;
     text-align: start;
@@ -160,39 +160,7 @@
 #imgContenedor1{
     display: none;
 }
-#txtDosContenedorBody1 {
-    position: relative;
-    width: 90%;
-    left: 6%;
-    margin-top: 25px;
 
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 34px;
-    line-height: 35px;
-    
-    color: #1C1F2A;
-    text-align: start;
-
-    letter-spacing: 0.05em;
-    text-decoration: none;
-}
-#txtDosOpcionesContenedorBody1{
-    position: relative;
-    width: 85%;
-    left: 6%;
-
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 25px;
-    color: #404040;
-    text-decoration: none;
-}
 
 /*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
 
@@ -219,10 +187,11 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
+    font-weight: 700;
     font-size: 8vw;
-    line-height: 35px;
+    line-height: 7vw;
     color: #64AE45;
-    text-align: center;
+    text-align: left;
 }
 #txtOpcionesContenedorBody2 {
     font-family: 'Montserrat';
@@ -332,22 +301,9 @@
 }
 
 #btnContacto {
-    background: #1C1F2A; 
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    display: none;
 }
-#btnContacto:hover {
-    background:#A6A8AB; 
-    color: #1C1F2A;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
 
-}
 
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
 
@@ -565,7 +521,9 @@
     font-style: normal;
     font-weight: 700;
     font-size: 3.1vw;
+    line-height: 3vw;
     color: #64AE45;
+    text-align: left;
 }
 #txtOpcionesContenedorBody2 {
     font-family: 'Montserrat';
@@ -591,7 +549,6 @@
 
 #txtContenedorEnergiaRenovable {
     position: relative;
-    width: 40%;
 
     font-family: 'Montserrat';
     font-style: normal;
@@ -647,7 +604,6 @@
 
 #txtContenedorSolucionesIntegrales {
     position: relative;
-    width: 10%;
 
     font-family: 'Montserrat';
     font-style: normal;
