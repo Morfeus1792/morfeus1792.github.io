@@ -94,9 +94,9 @@
         }
     #leerMasIntro {
         position: absolute;
-        width: 45.6%;
+        width: 71%;
         height: 20px;
-        left: 49%;
+        left: 22%;
         top: 345px;
             
         font-family: 'Roboto';
@@ -127,6 +127,7 @@
     left: 20px;
     font-size: 3.4vw;
     line-height: 2.5vw;   
+    opacity: 80%;
 }
 
 #imgContenedorBody1{
@@ -157,12 +158,19 @@
 }
 #txtContenedorNecesidad {
     position: relative;
+    left: 0%;
+    margin-top: 25px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-    color: #FFFFFF;
-    text-align: left;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    color: #F2F2F2;
+    text-align: start;
+
+    letter-spacing: 0.05em;
 
 }
 #txtParrafoContenedorNecesidad {
@@ -175,27 +183,25 @@
     color: #F2F2F2;
 
 }
+
 #imgContenedorNecesidad {
+    display: none;
+}
+
+#imgMobileContenedorNecesidad{
     position: relative;
-    left: -15px;
-    width: 791px;
+    width: 90vw;
+    z-index:10;
+    left: -1vw;
+    margin: 0;
+    margin-top: 30px;
+    border: 3px solid #1C1F2A;
 }
 #btnContacto {
-    background: #1C1F2A; 
-    color: #FFFFFF;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
+    display: none;
 }
 #btnContacto:hover {
-    background:#A6A8AB; 
-    color: #1C1F2A;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-
+    display: none;
 }
 /*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
 
@@ -210,12 +216,19 @@
 }
 #txtContenedoCaracteristicas {
     position: relative;
+    left: 0%;
+    margin-top: 25px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-    color: #FFFFFF;
-    text-align: left;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    color: #F2F2F2;
+    text-align: start;
+
+    letter-spacing: 0.05em;
 }
 #txtParrafoContenedoCaracteristicas{
     position: relative;
@@ -245,11 +258,18 @@
 }
 #txtcontenedorBeneficios {
     position: relative;
+    left: 0%;
+    margin-top: 25px;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
-    text-align: left;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    text-align: start;
+
+    letter-spacing: 0.05em;
     color: #1C1F2A;
 }
 #txtParrafocontenedorBeneficios{
@@ -426,23 +446,10 @@
 #txtContenedorNecesidad {
     position: relative;
     font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 45px;
-    color: #FFFFFF;
-    text-align: left;
-    top: -40px;
-
+    font-style: normal; ;
 }
-#txtParrafoContenedorNecesidad {
-    position: relative;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
-    color: #F2F2F2;
-    top: -40px;
+#imgMobileContenedorNecesidad{
+    display: none;
 }
 #imgContenedorNecesidad {
     position: relative;
@@ -718,7 +725,10 @@
     font-size: 16px;
     line-height: 25px;  
     color: #F2F2F2;
-
+    padding-right: 5vw;
+}
+#imgMobileContenedorNecesidad{
+    display: none;
 }
 #imgContenedorNecesidad {
     position: relative;

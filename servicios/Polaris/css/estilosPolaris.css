@@ -150,12 +150,14 @@
     color: #404040;
     text-decoration: none;
 }
+
 #imgMobileContenedor1{
     position: relative;
     width: 90vw;
     left: 5vw;  
     z-index:10;
     margin: 0;
+    border: 3px solid #1C1F2A;
 }
 #imgContenedor1{
     display: none;

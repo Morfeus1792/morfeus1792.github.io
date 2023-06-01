@@ -1801,6 +1801,7 @@
 	padding: 53px;
 	overflow: hidden;
 	overscroll-behavior-y: none;
+	
 }
 
 #abrir-modal {
@@ -1814,7 +1815,7 @@
 	left: 88.44%;
 	top: 12px;
 	background-color:white;
-		}
+}
 
 #cerrar-modal {
 	display: none;
