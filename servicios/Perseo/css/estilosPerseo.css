@@ -82,7 +82,7 @@
         width: 81%;
         height: 0px;
         left: 9.44%;
-        top: 325px;
+        top: 360px;
         border: 0.5px solid #FFFFFF;
        }  
     #imgHome {
@@ -97,7 +97,7 @@
         width: 71%;
         height: 20px;
         left: 22%;
-        top: 345px;
+        top: 380px;
             
         font-family: 'Roboto';
         font-style: normal;
@@ -106,6 +106,7 @@
         line-height: 20px;     
         
         color: #FFFFFF;
+        opacity: 50%;
         }
 
 /*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
@@ -167,7 +168,7 @@
     font-size: 8vw;
     line-height: 9vw;
     
-    color: #F2F2F2;
+    color: #1C1F2A;
     text-align: start;
 
     letter-spacing: 0.05em;
@@ -177,10 +178,10 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
-    color: #F2F2F2;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #1C1F2A;
 
 }
 
@@ -234,9 +235,9 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
     color: #F2F2F2;
 }
 #imgContenedoCaracteristicas {
@@ -245,7 +246,22 @@
     width: 734px;
     height: 420px;
 }
-
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
 /*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
 
 #contenedorBeneficios{
@@ -276,9 +292,9 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
     color: #1C1F2A;
 }
 #imgContenedorBeneficios {
@@ -286,6 +302,56 @@
     left: -15px;
     width: 734px;
     height: 420px;
+}
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    width: 80%;
+    left: 19%;
+}
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 7vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #404040;
+}
+
+#btnContacto {
+    display: none;
 }
 
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
@@ -411,8 +477,22 @@
         display: none;
     }
     #leerMasIntro {
-        display: none;
-    }
+        position: absolute;
+        width: 55%;
+        height: 20px;
+        left: 43%;
+        top: 510px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
+        }
 
 /*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
 
@@ -430,23 +510,39 @@
     max-width: 1700px;
     align-content: center;
     overflow: hidden;
-    height: 500px;
+    height: 716px;
     left: 0px;
     top: 393px;
     background: #1C1F2A;
 }
 #colImgContenedorNecesidad {
     position: relative;
-    left: 50%;
+    left: 45%;
 }
 #colTxtContenedorNecesidad {
     position: relative;
-    left: -50%;
+    left: -58%;
 }
 #txtContenedorNecesidad {
     position: relative;
     font-family: 'Montserrat';
-    font-style: normal; ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+    color: #1C1F2A;
+    text-align: left;
+
+}
+#txtParrafoContenedorNecesidad {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    color: #1C1F2A;
+    padding-right: 5vw;
 }
 #imgMobileContenedorNecesidad{
     display: none;
@@ -454,7 +550,10 @@
 #imgContenedorNecesidad {
     position: relative;
     left: 0;
-    width: 791px;
+    width: 90%;
+    border: 3px solid #1C1F2A;
+    top: 10%;
+
 }
 #btnContacto {
     background: #1C1F2A; 
@@ -471,7 +570,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-
 }
 /*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
 
@@ -490,7 +588,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
     color: #FFFFFF;
     text-align: left;
 }
@@ -498,16 +597,32 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
     color: #F2F2F2;
 }
 #imgContenedoCaracteristicas {
     position: relative;
-    left: -80px;
-    width: 534px;
-    height: 420px;
+    left: -50%;
+    width: 150%;
+    top: 3%;
+}
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 /*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
@@ -533,7 +648,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
     text-align: left;
     color: #1C1F2A;
 }
@@ -541,16 +657,88 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
     color: #1C1F2A;
 }
 #imgContenedorBeneficios {
     position: relative;
     left: 80px;
-    width: 734px;
-    height: 420px;
+    width: 200%;
+}
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    left: 50px;2
+}
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    left: 50px;
+    width: 90%;
+    left: 5%;
+    top: 10%;
+}
+#imgMobileContenedorSolucionesIntegrales{
+    display:none;
+}
+
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+        
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    position: relative;
+    width: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    
+    color: #404040;
+}
+
+#btnContacto {
+    background: #1C1F2A; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+
 }
 
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
@@ -675,7 +863,21 @@
         display: none;
     }
     #leerMasIntro {
-        display: none;
+        position: absolute;
+        width: 35%;
+        height: 20px;
+        left: 60%;
+        top: 510px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
     }
 
 /*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
@@ -705,7 +907,7 @@
 }
 #colTxtContenedorNecesidad {
     position: relative;
-    left: -50%;
+    left: -55%;
 }
 #txtContenedorNecesidad {
     position: relative;
@@ -713,7 +915,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
-    color: #FFFFFF;
+    color: #1C1F2A;
     text-align: left;
 
 }
@@ -721,10 +923,10 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
-    color: #F2F2F2;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    color: #1C1F2A;
     padding-right: 5vw;
 }
 #imgMobileContenedorNecesidad{
@@ -783,9 +985,9 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
     color: #F2F2F2;
 }
 #imgContenedoCaracteristicas {
@@ -793,7 +995,22 @@
     left: -80px;
     width: 734px;
     height: 420px;
-    
+}
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 /*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
@@ -826,9 +1043,9 @@
     position: relative;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 25px;  
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
     color: #1C1F2A;
 }
 #imgContenedorBeneficios {
@@ -836,6 +1053,56 @@
     left: 80px;
     width: 734px;
     height: 420px;
+}
+
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    left: 50px;
+    width: 70%;
+    left: 15%;
+    top: 10%;
+
+}
+#imgMobileContenedorSolucionesIntegrales{
+    display:none;
+}
+
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #404040;
 }
 
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
