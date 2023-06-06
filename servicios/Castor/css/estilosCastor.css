@@ -322,8 +322,10 @@
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    width: 80%;
-    left: 19%;
+    width: 98%;
+    left: 1%;
+    border: 5px solid #1C1F2A;
+
 }
 #txtContenedorSolucionesIntegrales {
     position: relative;
@@ -683,14 +685,11 @@
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;2
-}
-#imgContenedorSolucionesIntegrales{
-    position: relative;
-    left: 50px;
-    width: 90%;
-    left: 5%;
+    width: 100%;
+    left: 0%;
     top: 10%;
+    border: 5px solid #1C1F2A;
+
 }
 #imgMobileContenedorSolucionesIntegrales{
     display:none;
@@ -1072,10 +1071,10 @@
 #imgContenedorSolucionesIntegrales{
     position: relative;
     left: 50px;
-    width: 70%;
-    left: 15%;
+    width: 100%;
+    left: 0%;
     top: 10%;
-
+    border: 5px solid #1C1F2A;
 }
 #imgMobileContenedorSolucionesIntegrales{
     display:none;
