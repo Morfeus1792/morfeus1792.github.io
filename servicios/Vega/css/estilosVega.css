@@ -1,0 +1,1161 @@
+
+/* Se le proporcionan los margenes y color a la página;*/
+* {
+    padding: 0;
+	margin: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+	width: 100%;
+	background: transparent;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 768px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+    #hero {
+        position:relative; 
+        background:#64AE45; 
+        top: 0px; 
+        height: 420px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+    #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        top: 6vw;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;      
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 70%;
+        height: 116px;
+        left: 9%;
+        top: 25vw;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        color: #FFFFFF;
+        text-align: left;
+
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;  
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 360px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:12%;
+        min-width: 66px;
+        Top:334px;
+        left: 9.51%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 71%;
+        height: 20px;
+        left: 22%;
+        top: 380px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;     
+        
+        color: #FFFFFF;
+        opacity: 50%;
+        }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    background: #64AE45;
+}
+
+#txtEnlacesMobileEnfoques {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    left: 20px;
+    font-size: 3.4vw;
+    line-height: 2.5vw;   
+    opacity: 80%;
+}
+
+#imgContenedorBody1{
+    position: relative;
+    width: 130%;
+    height: auto;
+    left: -12%;
+    filter: hue-rotate(100deg);
+}
+#imgRowDosContenedorBody1{
+    position: relative;
+    height: 70px;
+    width: 16.60vw;
+    height: 4.11vw;
+}
+/*----------------------------------------------------- Contenedor La Necesidad   ------------------------------------------------- */
+
+#contenedorNecesidad{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    height: 716px;
+    left: 0px;
+    top: 393px;
+    background: #1C1F2A;
+}
+#txtContenedorNecesidad {
+    position: relative;
+    left: 0%;
+    margin-top: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+
+}
+#txtParrafoContenedorNecesidad {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #1C1F2A;
+
+}
+
+#imgContenedorNecesidad {
+    display: none;
+}
+
+#imgMobileContenedorNecesidad{
+    position: relative;
+    width: 90vw;
+    z-index:10;
+    left: -1vw;
+    margin: 0;
+    margin-top: 30px;
+    border: 3px solid #1C1F2A;
+}
+#btnContacto {
+    display: none;
+}
+#btnContacto:hover {
+    display: none;
+}
+/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
+
+#contenedoCaracteristicas{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    left: 0px;
+    background: #64AE45;
+}
+#txtContenedoCaracteristicas {
+    position: relative;
+    left: 0%;
+    margin-top: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    color: #F2F2F2;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedoCaracteristicas{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #F2F2F2;
+}
+#imgContenedoCaracteristicas {
+    position: relative;
+    left: -80px;
+    width: 734px;
+    height: 420px;
+}
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
+
+#contenedorBeneficios{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    left: 0px;
+}
+#txtcontenedorBeneficios {
+    position: relative;
+    left: 0%;
+    margin-top: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 9vw;
+    
+    text-align: start;
+
+    letter-spacing: 0.05em;
+    color: #1C1F2A;
+}
+#txtParrafocontenedorBeneficios{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #1C1F2A;
+}
+#imgContenedorBeneficios {
+    position: relative;
+    left: -15px;
+    width: 734px;
+    height: 420px;
+}
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    width: 150%;
+    left: -12%;
+}
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 7vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #404040;
+}
+
+#btnContacto {
+    display: none;
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+    #hero {
+        position:relative; 
+        background:#64AE45; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 90px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 35%;
+            height: 134px;
+            left: 60%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 22px;
+            line-height: 31px;
+            text-decoration: none;
+            color: #FFFFFF;
+            text-align: start;
+    }
+
+    #imgHome {
+        display: none;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 55%;
+        height: 20px;
+        left: 43%;
+        top: 510px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
+        }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    display: none;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+/*----------------------------------------------------- Contenedor La Necesidad   ------------------------------------------------- */
+
+#contenedorNecesidad{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    height: 716px;
+    left: 0px;
+    top: 393px;
+    background: #1C1F2A;
+}
+#colImgContenedorNecesidad {
+    position: relative;
+    left: 45%;
+}
+#colTxtContenedorNecesidad {
+    position: relative;
+    left: -58%;
+}
+#txtContenedorNecesidad {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+    color: #1C1F2A;
+    text-align: left;
+
+}
+#txtParrafoContenedorNecesidad {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    color: #1C1F2A;
+    padding-right: 5vw;
+}
+#imgMobileContenedorNecesidad{
+    display: none;
+}
+#imgContenedorNecesidad {
+    position: relative;
+    left: 0;
+    width: 90%;
+    border: 3px solid #1C1F2A;
+    top: 10%;
+
+}
+#btnContacto {
+    background: #1C1F2A; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
+
+#contenedoCaracteristicas{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    left: 0px;
+    background: #64AE45;
+}
+
+#txtContenedoCaracteristicas {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+    color: #FFFFFF;
+    text-align: left;
+}
+#txtParrafoContenedoCaracteristicas{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    color: #F2F2F2;
+}
+#imgContenedoCaracteristicas {
+    position: relative;
+    left: -50%;
+    width: 150%;
+    top: 3%;
+}
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
+
+#contenedorBeneficios{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    left: 0px;
+}
+#colImgContenedorBeneficios {
+    position: relative;
+    left: 50%;
+}
+#colTxtContenedorBeneficios {
+    position: relative;
+    left: -50%;
+}
+#txtcontenedorBeneficios {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+    text-align: left;
+    color: #1C1F2A;
+}
+#txtParrafocontenedorBeneficios{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    color: #1C1F2A;
+}
+#imgContenedorBeneficios {
+    position: relative;
+    left: 80px;
+    width: 200%;
+}
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    left: 50px;2
+}
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+}
+#imgMobileContenedorSolucionesIntegrales{
+    display:none;
+}
+
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8vw;
+    line-height: 4.5vw;
+        
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    position: relative;
+    width: 25%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.6vw;
+    line-height: 1.6vw; 
+    
+    color: #404040;
+}
+
+#btnContacto {
+    background: #1C1F2A; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative;
+    left: 4%; 
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1200px)
+{ 
+    #headerMobile {
+        display: none;
+    } 
+    #hero {
+        position:relative; 
+        background:#64AE45; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 80px;
+        line-height: 90px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 35%;
+            height: 134px;
+            left: 60%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 25px;
+            line-height: 31px;
+            text-decoration: none;
+            color: #FFFFFF;
+            text-align: start;
+    }
+    #imgHome {
+        display: none;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 35%;
+        height: 20px;
+        left: 60%;
+        top: 510px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    display: none;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+/*----------------------------------------------------- Contenedor La Necesidad   ------------------------------------------------- */
+
+#contenedorNecesidad{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    height: 716px;
+    left: 0px;
+    top: 393px;
+    background: #1C1F2A;
+}
+#colImgContenedorNecesidad {
+    position: relative;
+    left: 45%;
+}
+#colTxtContenedorNecesidad {
+    position: relative;
+    left: -55%;
+}
+#txtContenedorNecesidad {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #1C1F2A;
+    text-align: left;
+
+}
+#txtParrafoContenedorNecesidad {
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    color: #1C1F2A;
+    padding-right: 5vw;
+}
+#imgMobileContenedorNecesidad{
+    display: none;
+}
+#imgContenedorNecesidad {
+    position: relative;
+    left: 0;
+    width: 90%;
+    border: 3px solid #1C1F2A;
+
+}
+#btnContacto {
+    background: #1C1F2A; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: start;
+}
+#btnContacto:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+/*----------------------------------------------------- Contenedor Las Caracteristicas ------------------------------------------------- */
+
+#contenedoCaracteristicas{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+    left: 0px;
+    background: #64AE45;
+}
+#colImgContenedorCaracteristicas {
+    position: relative;
+}
+#colTxtContenedorCaracteristicas {
+    position: relative;
+}
+#txtContenedoCaracteristicas {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    text-align: left;
+}
+#txtParrafoContenedoCaracteristicas{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    color: #F2F2F2;
+}
+#imgContenedoCaracteristicas {
+    position: relative;
+    left: -80px;
+    width: 734px;
+    height: 420px;
+}
+#btnContacto2 {
+    background: #64AE45; 
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+#btnContacto2:hover {
+    background:#A6A8AB; 
+    color: #1C1F2A;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+/*----------------------------------------------------- Contenedor Los Beneficios ------------------------------------------------- */
+
+#contenedorBeneficios{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+#colImgContenedorBeneficios {
+    position: relative;
+    left: 50%;
+}
+#colTxtContenedorBeneficios {
+    position: relative;
+    left: -50%;
+}
+#txtcontenedorBeneficios {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: left;
+    color: #1C1F2A;
+}
+#txtParrafocontenedorBeneficios{
+    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#imgContenedorBeneficios {
+    position: relative;
+    left: 80px;
+    width: 734px;
+    height: 420px;
+}
+
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedoSolucionesIntegrales{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorSolucionesIntegrales{
+    position: relative;
+    left: 0px;
+    width: 100%;
+    left: 0%;
+    top: 10%;
+
+}
+#imgMobileContenedorSolucionesIntegrales{
+    display:none;
+}
+
+#txtContenedorSolucionesIntegrales {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorSolucionesIntegrales {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+
+/*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
+
+#carouselProductosControl{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    overflow: hidden;
+}
+#imgVectorFlechaDerecha {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: left;
+}
+#imgVectorFlechaIzquierda {
+    position:relative;
+    align-items: center;
+    width: 50%;
+    max-width:850px;
+    text-align: right;
+}
+#vectorSiguiente {
+    height: 26px;
+    width: 26px;
+    margin-left: 10px;
+}
+#vectorAnterior {
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+}
+#txtSiguiente {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-left: 26px;
+}
+#txtAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    margin-right: 26px;
+}
+
+
+}
