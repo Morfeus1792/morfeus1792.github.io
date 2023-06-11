@@ -181,8 +181,10 @@
 }
 #imgMobileContenedorBody2 {
     position: relative;
-    margin: 0;
     padding: 0;
+    width: 110%;
+    left: -5%;
+    margin-bottom: 50px;
 }
 
 #txtContenedorBody2 {
@@ -289,9 +291,14 @@
 #imgContenedorSolucionesIntegrales{
     display: none;
 }
-#imgMobileContenedorSolucionesIntegrales{
+#imgMobileSolucionesIntegrales{
     position: relative;
+    width: 150%;
+    left: -23%;
+    clip-path: inset(0 14%);
+    top: -100px;    
 }
+
 #txtContenedorSolucionesIntegrales {
     position: relative;
 
@@ -628,10 +635,12 @@
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;
+    width: 130%;
+    z-index: -1;
+    left: -15%;
 }
 #imgMobileContenedorSolucionesIntegrales{
-    display:none;
+display: none;
 }
 
 #txtContenedorSolucionesIntegrales {
@@ -1020,15 +1029,12 @@
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;
-    width: 70%;
-    left: 15%;
-    top: 10%;
-    top: 0%;
-
+    width: 130%;
+    z-index: -1;
+    left: -15%;
 }
 #imgMobileContenedorSolucionesIntegrales{
-    display:none;
+display: none;
 }
 
 #txtContenedorSolucionesIntegrales {
