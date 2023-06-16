@@ -56,6 +56,8 @@ body, html {
         line-height: 8vw;           
         text-transform: uppercase;
         color: #FFFFFF;
+        text-align: left;
+        ;
         }
     #parrafoHero{
         position: absolute;
@@ -70,6 +72,7 @@ body, html {
         font-size: 3.6vw;
         line-height: 4.5vw;           
         color: #FFFFFF;
+        text-align: left;
     }
     #lineaInfHero {
         position: absolute;
@@ -109,64 +112,31 @@ body, html {
 
 #contenedorBody1{
     position: relative; 
-    height: 396vw;
+    height: auto;
     max-height: 1500px;
     align-content: center;
     margin-top: 0px;
     background: transparent;
     overflow: hidden;
     z-index: 5;
+    background:#e7e7e2e1
 }
 #txtEnlacesMobileEnfoques {
     position: relative;
     top: 0;
-    left: 5%;
+    left: 0%;
 
     visibility: visible;
     font-family: 'Roboto';
     font-style: normal; 
     
-    font-size: 16px;
+    font-size: 15px;
     line-height: 25px;
 
     text-decoration: none;
     color: #818181;
 }
-/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
 
-#contenedorBody1{
-    position: relative; 
-    height: auto;
-    max-width: 1700px;
-    align-content: center;
-    overflow: hidden;
-    background: #64AE45;
-}
-
-#txtEnlacesMobileEnfoques {
-    position: relative;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 300;
-    left: 20px;
-    font-size: 3.4vw;
-    line-height: 2.5vw;   
-    opacity: 80%;
-}
-
-#imgContenedorBody1{
-    position: relative;
-    width: 130%;
-    height: auto;
-    left: -12%;
-    filter: hue-rotate(100deg);
-}
-#imgRowDosContenedorBody1{
-    position: relative;
-    height: 70px;
-    width: 16.60vw;
-    height: 4.11vw;
-}
 /*----------------------------------------------------- Contenedor La Necesidad   ------------------------------------------------- */
 
 #contenedorNecesidad{
@@ -214,9 +184,9 @@ body, html {
 
 #imgMobileContenedorNecesidad{
     position: relative;
-    width: 90vw;
+    width: 110vw;
     z-index:10;
-    left: -1vw;
+    left: -7vw;
     margin: 0;
     margin-top: 30px;
     border: 3px solid #1C1F2A;
@@ -265,9 +235,9 @@ body, html {
 }
 #imgContenedoCaracteristicas {
     position: relative;
-    left: -80px;
-    width: 734px;
-    height: 420px;
+    width: 120%;
+    left: -10%;
+}
 }
 #btnContacto2 {
     background: #64AE45; 
@@ -322,9 +292,8 @@ body, html {
 }
 #imgContenedorBeneficios {
     position: relative;
-    left: -15px;
-    width: 734px;
-    height: 420px;
+    width: 110%;
+    left: -5%;
 }
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
@@ -345,8 +314,7 @@ body, html {
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    width: 80%;
-    left: 19%;
+    width: 100%;
 }
 #txtContenedorSolucionesIntegrales {
     position: relative;
@@ -576,7 +544,7 @@ body, html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     line-height: 4.5vw;
     color: #1C1F2A;
     text-align: left;
@@ -598,7 +566,7 @@ body, html {
 #imgContenedorNecesidad {
     position: relative;
     left: 0;
-    width: 90%;
+    width: 100%;
     border: 3px solid #1C1F2A;
     top: 10%;
 
@@ -636,7 +604,7 @@ body, html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.8vw;
+    font-size: 3.4vw;
     line-height: 4.5vw;
     color: #FFFFFF;
     text-align: left;
@@ -652,9 +620,8 @@ body, html {
 }
 #imgContenedoCaracteristicas {
     position: relative;
-    left: -50%;
-    width: 150%;
-    top: 3%;
+    width: 100%;
+    top: 9%;
 }
 #btnContacto2 {
     background: #64AE45; 
@@ -696,7 +663,7 @@ body, html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     line-height: 4.5vw;
     text-align: left;
     color: #1C1F2A;
@@ -712,8 +679,8 @@ body, html {
 }
 #imgContenedorBeneficios {
     position: relative;
-    left: 80px;
-    width: 200%;
+    width: 100%;
+    top: 10%;
 }
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
@@ -731,14 +698,13 @@ body, html {
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;2
+    left: 50px;
 }
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;
-    width: 90%;
-    left: 5%;
+    width: 150%;
     top: 10%;
+    left: -50%;
 }
 #imgMobileContenedorSolucionesIntegrales{
     display:none;
@@ -750,7 +716,7 @@ body, html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.8vw;
+    font-size: 3.5vw;
     line-height: 4.5vw;
         
     color: #1C1F2A;
@@ -993,7 +959,7 @@ body, html {
 #imgContenedorNecesidad {
     position: relative;
     left: 0;
-    width: 90%;
+    width: 100%;
     border: 3px solid #1C1F2A;
 
 }
@@ -1050,9 +1016,8 @@ body, html {
 }
 #imgContenedoCaracteristicas {
     position: relative;
-    left: -80px;
-    width: 734px;
-    height: 420px;
+    left: -0px;
+    width: 100%;
 }
 #btnContacto2 {
     background: #64AE45; 
@@ -1108,9 +1073,8 @@ body, html {
 }
 #imgContenedorBeneficios {
     position: relative;
-    left: 80px;
-    width: 734px;
-    height: 420px;
+    left: 0;
+    width: 100%;
 }
 
 
@@ -1129,9 +1093,8 @@ body, html {
 
 #imgContenedorSolucionesIntegrales{
     position: relative;
-    left: 50px;
-    width: 70%;
-    left: 15%;
+    width: 100%;
+    left: 0%;
     top: 10%;
 
 }
