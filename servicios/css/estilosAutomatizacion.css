@@ -119,7 +119,7 @@ body, html {
     background: transparent;
     overflow: hidden;
     z-index: 5;
-    background:#e7e7e2e1
+    background:transparent
 }
 #txtEnlacesMobileEnfoques {
     position: relative;
@@ -426,7 +426,7 @@ body, html {
 }
 
 
-}
+
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
 /*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
@@ -544,7 +544,7 @@ body, html {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 3.4vw;
     line-height: 4.5vw;
     color: #1C1F2A;
     text-align: left;
@@ -818,7 +818,6 @@ body, html {
 }
 
 
-		
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
@@ -1059,6 +1058,7 @@ body, html {
     font-style: normal;
     font-weight: 700;
     font-size: 45px;
+    line-height: 45px;
     text-align: left;
     color: #1C1F2A;
 }

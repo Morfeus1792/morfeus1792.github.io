@@ -300,7 +300,7 @@ body, html {
     z-index: 100;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 #imgContenedorSolucionesIntegrales{
@@ -923,37 +923,7 @@ body, html {
 }
 #imgContenedor1{
     position: relative;
-    left: 50px;
 }
-#txtDosContenedorBody1 {
-    position: relative;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 47px;
-    
-    color: #1C1F2A;
-    text-align: start;
-
-    letter-spacing: 0.05em;
-}
-#txtDosOpcionesContenedorBody1{
-    position: relative;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 21px;
-    line-height: 25px;
-
-    color: #404040;
-    text-decoration: none;
-    letter-spacing: 0.02em;
-
-}
-
 
 /*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
 
@@ -1034,7 +1004,7 @@ body, html {
 }
 #imgContenedorEnergiaRenovable{
     position: relative;
-    left: 50px;
+    top: 15%;
 }
 #imgMobileContenedorEnergiaRenovable{
     display:none;
