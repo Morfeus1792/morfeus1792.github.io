@@ -244,7 +244,7 @@ body, html {
 
 /*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
 
-#contenedorEnergiaRenovable{
+#contenedorBody3{
     position: relative; 
     height: auto;
     align-content: center;
@@ -256,7 +256,7 @@ body, html {
     padding: 0;
 }
 
-#txtContenedorEnergiaRenovable {
+#txtContenedorBody3 {
     position: relative;
 
     font-family: 'Montserrat';
@@ -270,7 +270,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorEnergiaRenovable{
+#txtParrafoContenedorBody3{
     position: relative;
 
     font-family: 'Montserrat';
@@ -280,16 +280,16 @@ body, html {
     line-height: 25px; 
     color: #404040;
 }
-#imgContenedorEnergiaRenovable{
+#imgContenedorBody3{
     display:none;
 }
-#imgMobileContenedorEnergiaRenovable{
+#imgMobileContenedorBody3{
     position: relative;
 }
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
 
-#contenedoSolucionesIntegrales{
+#contenedorBody4{
     position: relative; 
     height: auto;
     max-width: 1700px;
@@ -303,13 +303,13 @@ body, html {
     margin-bottom: 50px;
 }
 
-#imgContenedorSolucionesIntegrales{
+#imgContenedorrBody4{
     display: none;
 }
-#imgContenedorSolucionesIntegrales{
+#imgContenedorrBody4{
     position: relative;
 }
-#txtContenedorSolucionesIntegrales {
+#txtContenedorrBody4 {
     position: relative;
 
     font-family: 'Montserrat';
@@ -323,7 +323,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorSolucionesIntegrales {
+#txtParrafoContenedorrBody4 {
     position: relative;
 
     font-family: 'Montserrat';
@@ -620,7 +620,7 @@ body, html {
 
 /*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
 
-#contenedorEnergiaRenovable{
+#contenedorBody3{
     position: relative; 
     height: auto;
     max-width: 1700px;
@@ -631,7 +631,7 @@ body, html {
     z-index: 100;
 }
 
-#txtContenedorEnergiaRenovable {
+#txtContenedorBody3 {
     position: relative;
     width: 40%;
 
@@ -647,7 +647,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorEnergiaRenovable{
+#txtParrafoContenedorBody3{
     position: relative;
     width: 25%;
 
@@ -658,17 +658,17 @@ body, html {
     line-height: 1.9vw;  
     color: #404040;
 }
-#imgContenedorEnergiaRenovable{
+#imgContenedorBody3{
     position: relative;
     left: 50px;
 }
-#imgMobileContenedorEnergiaRenovable{
+#imgMobileContenedorBody3{
     display:none;
 }
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
 
-#contenedoSolucionesIntegrales{
+#contenedorBody4{
     position: relative; 
     height: auto;
     max-width: 1700px;
@@ -679,15 +679,15 @@ body, html {
     z-index: 100;
 }
 
-#imgContenedorSolucionesIntegrales{
+#imgContenedorrBody4{
     position: relative;
     left: 50px;
 }
-#imgMobileContenedorSolucionesIntegrales{
+#imgMobileContenedorrBody4{
     display:none;
 }
 
-#txtContenedorSolucionesIntegrales {
+#txtContenedorrBody4 {
     position: relative;
     width: 10%;
 
@@ -702,7 +702,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorSolucionesIntegrales {
+#txtParrafoContenedorrBody4 {
     position: relative;
     width: 25%;
 
@@ -968,7 +968,7 @@ body, html {
 
 /*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
 
-#contenedorEnergiaRenovable{
+#contenedorBody3{
     position: relative; 
     height: auto;
     max-width: 1700px;
@@ -979,7 +979,7 @@ body, html {
     z-index: 100;
 }
 
-#txtContenedorEnergiaRenovable {
+#txtContenedorBody3 {
     position: relative;
 
     font-family: 'Montserrat';
@@ -993,7 +993,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorEnergiaRenovable{
+#txtParrafoContenedorBody3{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
@@ -1002,18 +1002,18 @@ body, html {
     letter-spacing: 0.02em;
     color: #404040;
 }
-#imgContenedorEnergiaRenovable{
+#imgContenedorBody3{
     position: relative;
     top: 15%;
 }
-#imgMobileContenedorEnergiaRenovable{
+#imgMobileContenedorBody3{
     display:none;
 }
 
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
 
-#contenedoSolucionesIntegrales{
+#contenedorBody4{
     position: relative; 
     height: auto;
     max-width: 1700px;
@@ -1024,15 +1024,15 @@ body, html {
     z-index: 100;
 }
 
-#imgContenedorSolucionesIntegrales{
+#imgContenedorrBody4{
     position: relative;
     left: 50px;
 }
-#imgMobileContenedorSolucionesIntegrales{
+#imgMobileContenedorrBody4{
     display:none;
 }
 
-#txtContenedorSolucionesIntegrales {
+#txtContenedorrBody4 {
     position: relative;
 
     font-family: 'Montserrat';
@@ -1046,7 +1046,7 @@ body, html {
 
     letter-spacing: 0.05em;
 }
-#txtParrafoContenedorSolucionesIntegrales {
+#txtParrafoContenedorrBody4 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
