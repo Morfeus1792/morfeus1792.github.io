@@ -186,7 +186,13 @@ body, html {
     width: 150%;
     height: 40vw;
     left: -8%;
+    display: none;
+    }
 
+#imgDosMobileContenedor1{
+    position: relative;
+    width: 150%;
+    left: -8%;
     }
     
 #txtDosContenedorBody1 {
@@ -230,6 +236,7 @@ body, html {
     padding: 0px 0px 0px 0px;
     overflow: hidden;
     margin-top: 50px;
+    display: none;
 
 }
 #contenedorCarouselArticulosMobile {
@@ -263,12 +270,12 @@ body, html {
     align-items: flex-end;
     color: #64AE45;
 }
-#tituloCategoríaArtDestacado {
+#tituloCategoríaArtDestacadoMobile {
     position: relative;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.70vw; 
+    font-size: 5vw; 
     color: #1C1F2A;
     letter-spacing: 0.05em;
 }
@@ -294,9 +301,11 @@ body, html {
 }
 
 /*------------------------------------------------ Contenedor 2 - Control del carousel ------------------------------------------------- */
-#controlCarouselArtDestacadoDesktop {
+#controlCarouselArtDestacadoMobile {
     position: relative;
     height: auto;
+    width: 40%;
+    left: 30%;
 }
 #imgVectorFlechaDerecha {
     position:relative;
@@ -304,6 +313,9 @@ body, html {
     width: 50%;
     max-width:850px;
     text-align: left;
+    height: 36px;
+    width: 50px;
+    margin-right: 10px;
 }
 #imgVectorFlechaIzquierda {
     position:relative;
@@ -311,36 +323,22 @@ body, html {
     width: 50%;
     max-width:850px;
     text-align: right;
-}
-#vectorSiguiente {
-    height: 26px;
-    width: 26px;
+    height: 36px;
+    width: 50px;
     margin-left: 10px;
 }
-#vectorAnterior {
-    height: 26px;
-    width: 26px;
-    margin-right: 10px;
+
+
+#txtSiguienteAnterior {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1C1F2A;
+    text-align: center;
 }
 
-#txtSiguiente {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 25px;
-    color: #1C1F2A;
-    margin-left: 26px;
-}
-#txtAnterior {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 25px;
-    color: #1C1F2A;
-    margin-right: 26px;
-}
 
 /*----------------------------------------------------- Contenedor 3  ------------------------------------------------- */
 
@@ -586,7 +584,10 @@ body, html {
 #imgDosContenedor1{
     width: 130%;
     height: 31.8vw;
-    
+    }
+
+#imgDosMobileContenedor1{
+    display: none;
     }
     
 #txtDosContenedorBody1 {
@@ -690,6 +691,10 @@ body, html {
 }
 
 /*------------------------------------------------ Contenedor 2 - Control del carousel ------------------------------------------------- */
+
+#contenedorCarouselArtDestacadosMobile{
+    display: none;
+    }
 #controlCarouselArtDestacadoDesktop {
     position: relative;
     height: auto;
@@ -985,6 +990,10 @@ body, html {
     height: 380px;
     }
     
+#imgDosMobileContenedor1{
+    display: none;
+    }
+    
 #txtDosContenedorBody1 {
     position: relative;
     font-family: 'Montserrat';
@@ -1011,6 +1020,10 @@ body, html {
 
 
 /*------------------------------------------------ Contenedor 2 - Historia de Innotica ------------------------------------------------- */
+
+#contenedorCarouselArtDestacadosMobile{
+    display: none;
+    }
 
 #contenedorCarouselArtDestacados {
     position: relative;
