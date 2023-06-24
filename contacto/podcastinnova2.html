@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
     minimum-scale=1.0">
 
-    <title>Podcast Innova2</title>
+    <meta name="language" content="spanish">
+    <meta name="copyright" content="Innotica innotica.net">
+    <meta name="author" content="Innotica Sistemas C.A." >
+    <meta name="audience" content="all">
+    <meta name="description" content="El podcast de la empresa Innotica, un espacio abierto para compartir experiencias en materia de automatización Y
+                                      sostenibilidad aplicada a la arquitectura, ingeniería, construcción y operación de infraestructuras del sector privado y público.">
+    <meta name="keywords" content="Podcast, Ingeniería, Arquitectura, Construcción">
+    <meta name="robots" content="index, all, follow">
+    <meta name="category" content="Podcast, Construcción, Ingeniería, Arquitectura">
+
+    <title>Podcast Innova2. El podcast de la automatización y sostenibilidad en infraestructuras y organizaciones</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -23,7 +33,9 @@
 
 <body>
    
-    <!-- Contenedor del header  -->
+<!------------------------------------- Header de la página tanto para desktop como mobile ------------------------------>
+<header>  
+    <!-- Contenedor del headxer para desktop -->
     <div class="container-fluid" id="headerDesktop" style="position: absolute; height: 98.22px; background: #1C1F2A; z-index: 1; max-width: 1700px;">
 
         <!-- Fila del header  -->
@@ -104,11 +116,8 @@
 
             </div>
         </div>
-      </div>
-                
-    <!-------------------------------------------- Header para Mobile----------------------------------------------------->
-
-
+    </div>        
+        <!-- Contenedor del header para mobile -->
         <div class="container-fluid" id="headerMobile">
             <div class="row">
                 <div class="col" id="navbarMobile">
@@ -207,13 +216,15 @@
                     </div>
                 </div>
             </div>
-        </div>
+    </div>
+</header> 
 
     <!-------------------------------------------- Hero ----------------------------------------------------->
  
-    <div class="container-fluid" id="hero">
-        <div class="row" style="height: 100%; top: 0%; width: 100%; background: #1C1F2A;">
-            <div class="col">
+
+    <section class="container-fluid" id="hero">
+        <section class="row" style="height: 100%; top: 0%; width: 100%; background: #1C1F2A;">
+            <article class="col">
                     <div id="lineaSupHero"> </div>
                     <h1 id="txtIntro">PODCAST<br>
                                       INNOVA2 </h1>
@@ -223,13 +234,14 @@
                     <img id="imgHome" src="img/IconMicrofono.png" alt="Icono de enfoques">
                     <a id="leerMasIntro">Nuestra forma de pensar...</a> 
                     <div id="lineaInfHero"> </div>                         
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </section>
 
-    <!-------------------------------------------- Header 2 ----------------------------------------------------->
 
-    <div class="container-fluid" id="headerDesktop" style="position: relative; height: 98.22px; background: #ffff; z-index: 1; max-width: 1700px; align-items: center;">
+<!------------------------------------- Header 2 de la página en modo desktop ------------------------------------------->
+
+    <nav class="container-fluid" id="headerDesktop" style="position: relative; height: 98.22px; background: #ffff; z-index: 1; max-width: 1700px; align-items: center;">
         <!-- Fila del header  -->
         <div class="row m-0 p-0" style=" position: relative; height: 100%; top: 0%; width: 100%;">
            
@@ -308,12 +320,12 @@
                 <br> <br>
             </div>
         </div>
-      </div>
+    </nav>
 
     <!-------------------------------------------- contenedorBody1 ----------------------------------------------------->
 
-    <div class="container-fluid" id="contenedorBody1">
-        <div class="row container-fluid pt-md-4 p-2 m-0" >
+    <section class="container-fluid" id="contenedorBody1">
+        <nav class="row container-fluid pt-md-4 p-2 m-0" >
             <div class="col" style="position: relative; height: 100%;">   
                 <div id="txtEnlacesMobileEnfoques">
                     <br>
@@ -324,10 +336,10 @@
                 </div>
                 <img class="pt-4" id="imgContenedorBody1" src="img/ImagenPodcastInnova2.png" alt="Icono de enfoques">
             </div>
-        </div>
-    </div>
+        </nav>
+    </section>
 
-    <div class="container-fluid p-md-5 p-2" id="contenedorBody1">
+    <section class="container-fluid p-md-5 p-2" id="contenedorBody1">
         <div class="row" style="position: relative;" >
             <div class="col d-flex mx-md-5"> 
                 <div class="mx-md-2">
@@ -344,10 +356,10 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-------------------------------------------- contenedorBody2 ----------------------------------------------------->
+    </section>
+<!-------------------------------------------- contenedorBody2 ----------------------------------------------------->
 
-    <div class="container-fluid pb-md-5 pt-md-0 pt-2" id="contenedorBody2">
+    <section class="container-fluid pb-md-5 pt-md-0 pt-2" id="contenedorBody2">
         <div class="row d-flex align-items-center" >
             <div class="col-md-5 col-7 d-flex"> 
                 <p id="txtContenedorBody2Filtrar"> <strong>Filtrar por: </strong> </p>
@@ -357,11 +369,11 @@
                 <input type="text" id="formControlPodcast" class="form-control" placeholder="Campo de texto">
             </div>
         </div>
-    </div>
+    </section>
 
-    <!-------------------------------------------- Contenedor Episodio Activo ----------------------------------------------------->
+<!-------------------------------------------- Contenedor Episodio Activo ----------------------------------------------------->
 
-    <div class="container-fluid rounded " id="contenedorEpisodioActivo" >
+    <section class="container-fluid rounded " id="contenedorEpisodioActivo" >
         <div class="row d-flex px-md-5 px-3 pt-3">
             <div class="col">
                 <p style="color: #A6A8AB;" id="txtFechaEpisodioActivo">10 de julio de 2021</p>
@@ -409,12 +421,12 @@
             </div>
         </div>
 
-    </div>
+    </section>
     <br><br>
 
-    <!-------------------------------------------- Contenedor Episodio Inactivo 1 ----------------------------------------------------->
+<!-------------------------------------------- Contenedor Episodio Inactivo 1 ----------------------------------------------------->
 
-    <div class="container-fluid rounded " id="contenedorEpisodioInactivo1" >
+    <section class="container-fluid rounded " id="contenedorEpisodioInactivo1" >
         <div class="row d-flex px-5 pt-5">
             <div class="col">
                 <p style="color: #A6A8AB;" id="txtFechaEpisodioInactivo1">10 de julio de 2021</p>
@@ -438,13 +450,13 @@
              </div>
         </div>
 
-    </div>
+    </section>
     <br><br>
 
 
-    <!-------------------------------------------- Contenedor Episodio Inactivo 2 ----------------------------------------------------->
+<!-------------------------------------------- Contenedor Episodio Inactivo 2 ----------------------------------------------------->
 
-    <div class="container-fluid rounded " id="contenedorEpisodioInactivo2" >
+    <section class="container-fluid rounded " id="contenedorEpisodioInactivo2" >
         <div class="row d-flex px-5 pt-5">
             <div class="col">
                 <p style="color: #A6A8AB;" id="txtFechaEpisodioInactivo2">10 de julio de 2021</p>
@@ -468,12 +480,12 @@
              </div>
         </div>
 
-    </div>
+    </section>
     <br><br>
 
-        <!-------------------------------------------- Contenedor Episodio Inactivo 3 ----------------------------------------------------->
+<!-------------------------------------------- Contenedor Episodio Inactivo 3 ----------------------------------------------------->
 
-        <div class="container-fluid rounded " id="contenedorEpisodioInactivo3" >
+        <section class="container-fluid rounded " id="contenedorEpisodioInactivo3" >
             <div class="row d-flex px-5 pt-5">
                 <div class="col">
                     <p style="color: #A6A8AB;" id="txtFechaEpisodioInactivo3">10 de julio de 2021</p>
@@ -497,11 +509,11 @@
                  </div>
             </div>
     
-        </div>
+        </section>
         <br><br>
-            <!-------------------------------------------- Contenedor Episodio Inactivo 4 ----------------------------------------------------->
+<!-------------------------------------------- Contenedor Episodio Inactivo 4 ----------------------------------------------------->
 
-            <div class="container-fluid rounded" id="contenedorEpisodioInactivo4" >
+            <section class="container-fluid rounded" id="contenedorEpisodioInactivo4" >
                 <div class="row d-flex px-5 pt-5">
                     <div class="col">
                         <p style="color: #A6A8AB;" id="txtFechaEpisodioInactivo4">10 de julio de 2021</p>
@@ -525,7 +537,7 @@
                      </div>
                 </div>
         
-            </div>
+            </section>
             <br><br>
 
 
@@ -546,42 +558,46 @@
                     </div>
                 </div>
             </div>
-  
-            <!-------------------------------------------- Contenedor Footer ----------------------------------------------------->
 
-            <div class="container-fluid" id="contenedorFooter">
+<!-------------------------------------------- Contenedor Footer ----------------------------------------------------->
 
-				<a id="txtContenedorFooter" href="#"><b>Transformando el sector del diseño, construcción y operación de infraestructuras</b></a>
-				<a id="logoFooter" href="#"><img src="img/Logo Innotica Blanco y Verde.png"></a>
+<footer class="container-fluid" id="contenedorFooter">
 
-				<a id="txtNosotros" href="../contacto/nosotros.html">Nosotros</a></li>
-				<a id="txtBlog" href="../contacto/blog.html">Blog</a></li>
-				<a id="txtPodcast" href="../contacto/podcastinnova2.html">Podcast</a></li>
-				<a id="txtContactoFooter" href="../contacto/contacto.html">Contacto</a></li>
+    <a id="txtContenedorFooter" href="#"><b>Transformando el sector del diseño, construcción y operación de
+            infraestructuras</b></a>
+    <a id="logoFooter" href="#"><img src="img/Logo Innotica Blanco y Verde.png"></a>
 
-				<img id="imgUbicacion" src="img/VectorUbicacion.png" alt="">
-				<img id="imgBanderaVenezuela" src="img/VectoBanderaVenezuela.png" alt="">
-				<h5 id="txtVenezuela">VENEZUELA</h5>
-				<h5 id="txtTelefonoVenezuela">+582122410510</h5>
-				<img id="imgBanderaDominicana" src="img/VectoBanderaDominicana.png" alt="">
-				<h5 id="txtDominicana">REPÚBLICA DOMINICANA</h5>
-				<h5 id="txtTelefonoDominicana">+18299463986</h5>
-				<img id="imgBanderaEstadosUnidos" src="img/VectorBanderaUSA.png" alt="">
-				<h5 id="txtEstadosUnidos">ESTADOS UNIDOS</h5>
-				<h5 id="txtTelefonoEstadosUnidos">+18299463986</h5>
-                
+    <a id="txtNosotros" href="../contacto/nosotros.html">Nosotros</a></li>
+    <a id="txtBlog" href="../contacto/blog.html">Blog</a></li>
+    <a id="txtPodcast" href="../contacto/podcastinnova2.html">Podcast</a></li>
+    <a id="txtContactoFooter" href="../contacto/contacto.html">Contacto</a></li>
 
-                <img id="imgPhone" src="img/VectorPhone.png" alt="">
+    <img id="imgUbicacion" src="img/VectorUbicacion.png" alt="">
+    <img id="imgBanderaVenezuela" src="img/VectoBanderaVenezuela.png" alt="">
+    <h5 id="txtVenezuela">VENEZUELA</h5>
+    <h5 id="txtTelefonoVenezuela">+582122410510</h5>
+    <img id="imgBanderaDominicana" src="img/VectoBanderaDominicana.png" alt="">
+    <h5 id="txtDominicana">REPÚBLICA DOMINICANA</h5>
+    <h5 id="txtTelefonoDominicana">+18299463986</h5>
+    <img id="imgBanderaEstadosUnidos" src="img/VectorBanderaUSA.png" alt="">
+    <h5 id="txtEstadosUnidos">ESTADOS UNIDOS</h5>
+    <h5 id="txtTelefonoEstadosUnidos">+18299463986</h5>
 
-				<a id="txtCorreoContacto" href="mailto:info@innotica.net">info@innotica.net</a></li>
-				<a href="mailto:info@innotica.net"><img id="imgCorreo" src="img/VectorCorreo.png" alt=""></a></li>
-				<a href="https://api.whatsapp.com/message/KGHKERPKWZASH1?autoload=1&app_absent=0"><img id="imgWhatsaap" src="img/VectorWhatsapp.png" alt=""></a></li>
-				<a href="https://www.linkedin.com/company/innotica/"><img id="imgLinkedin" src="img/VectorLinkedin.png" alt=""></a></li>
-				<a href="https://www.instagram.com/innotica_net/"><img id="imgInstagram" src="img/VectorInstagram.png" alt=""></a></li>
-				<a href="https://twitter.com/innotica_netlin"><img id="imgTwitter" src="img/VectorTwitter.png" alt=""></a></li>
-				<div id="lineaDivisoraFooter">  </div>
-				<div id="txtContenedorFooterDerechos">© 2013-2023. Innotica System - All Rights Reserved. Made by Innotica Dev</div>
-			</div>
+
+    <img id="imgPhone" src="img/VectorPhone.png" alt="">
+
+    <a id="txtCorreoContacto" href="mailto:info@innotica.net">info@innotica.net</a></li>
+    <a href="mailto:info@innotica.net"><img id="imgCorreo" src="img/VectorCorreo.png" alt=""></a></li>
+    <a href="https://api.whatsapp.com/message/KGHKERPKWZASH1?autoload=1&app_absent=0"><img id="imgWhatsaap"
+            src="img/VectorWhatsapp.png" alt=""></a></li>
+    <a href="https://www.linkedin.com/company/innotica/"><img id="imgLinkedin" src="img/VectorLinkedin.png" alt=""></a>
+    </li>
+    <a href="https://www.instagram.com/innotica_net/"><img id="imgInstagram" src="img/VectorInstagram.png" alt=""></a>
+    </li>
+    <a href="https://twitter.com/innotica_netlin"><img id="imgTwitter" src="img/VectorTwitter.png" alt=""></a></li>
+    <div id="lineaDivisoraFooter"> </div>
+    <div id="txtContenedorFooterDerechos">© 2013-2023. Innotica System - All Rights Reserved. Made by Innotica Dev</div>
+</footer>
 
     <script src="js/bootstrap.bundle.min.js">  </script>
 

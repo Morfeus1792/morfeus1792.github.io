@@ -1,12 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,
     minimum-scale=1.0">
 
-    <title>Productos</title>
+    <meta name="language" content="spanish">
+    <meta name="copyright" content="Innotica innotica.net">
+    <meta name="author" content="Innotica Sistemas C.A.">
+    <meta name="audience" content="all">
+
+    <meta name="description" content="Conoce los productos de monitoreo, control y sostenibilidad para edificios, oficinas, industrias y ciudades.
+                 Soluciones que permiten aprovechar la digitalización de procesos para ser más eficiente la operación y mantenimiento en general">
+
+    <meta name="keywords" content="Automatización de edificios, digitalización, sistema HVAC, edificios inteligentes">
+    <meta name="robots" content="index, all, follow">
+    <meta name="category" content="eficiencia energética, edificios inteligentes, control sistemas HVAC">
+
+    <title>Productos para el monitoreo, control y sostenibilidad de infraestructura</title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -22,200 +34,218 @@
 </head>
 
 <body>
-   
-    <!-- Contenedor del header  -->
-    <div class="container-fluid" id="headerDesktop" style="position: absolute; height: 98.22px; background: #64AE45; z-index: 1; max-width: 1700px;">
 
-        <!-- Fila del header  -->
-        <div class="row m-0 p-0" style=" position: relative; height: 100%; top: 0%; width: 100%;">
-           
-            <!-- Columna donde se ubica el logo de la página  -->
-            <div class="col-4 m-0 p-0" style="position: relative; height: 50%; top: 25%;">
-                <!-- Logo de la página -->
-                <a id="navbar-brand-desktop"  href="../index.html"><img src="img/Logo Innotica Blanco y Verde.png" 
-                    style="position: relative; width: 152px; left: 32.5%; height:42.33%;top: 20%;"></a>
+<!------------------------------------- Header de la página tanto para desktop como mobile ------------------------------>
+    <header>
+        <!-- Contenedor del header para desktop -->
+        <nav class="container-fluid" id="headerDesktop"
+            style="position: absolute; height: 98.22px; background: #64AE45; z-index: 1; max-width: 1700px;">
+    
+            <!-- Fila del header  -->
+            <div class="row m-0 p-0" style=" position: relative; height: 100%; top: 0%; width: 100%;">
+    
+                <!-- Columna donde se ubica el logo de la página  -->
+                <div class="col-4 m-0 p-0" style="position: relative; height: 50%; top: 25%;">
+                    <!-- Logo de la página -->
+                    <a id="navbar-brand-desktop" href="../index.html"><img src="img/Logo Innotica Blanco y Verde.png"
+                            style="position: relative; width: 152px; left: 32.5%; height:42.33%;top: 20%;"></a>
+                </div>
+    
+                <!-- Columna donde se ubica el menú de la página  -->
+                <div class="col-8 m-0 p-0 d-flex justify-content-around d-flex align-items-center"
+                    style="position: relative; height: 10px; height: 50%; top: 25%;">
+    
+                    <!-- Menú Enfoques  -->
+                    <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
+                        <div style="width: 90px; color:#FFFFFF;">
+                            <div id="lineaSupMenuEnfoque"> </div>
+                            <a id="txtMenu" href="">Enfoques</a></li>
+                            <div id="lineaInfMenuEnfoque"> </div>
+                        </div>
+                        <span id="trianguloMenu" style="position: relative;top: 50%;; left:5%"></span>
+                        <nav id="boxSubMenus"
+                            style="position: relative; width: 100%; left: -45%; top: 70%; padding-top:10px; height:100px;">
+                            <a id="txtSubMenu1" href="../enfoques/enfoques.html">Enfoques</a><br>
+                            <a id="txtSubMenu1" href="../enfoques/construcciontradicional.html">Tradicional</a><br>
+                            <a id="txtSubMenu2" href="../enfoques/construccionsostenible.html">Sostenible</a> <br>
+                            <a id="txtSubMenu3" href="../enfoques/construccionbim.html">Digital BIM </a> <br>
+                        </nav>
+                    </div>
+    
+                    <!-- Menú Servicios  -->
+                    <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
+                        <div style="width: 90px; ">
+                            <div id="lineaSupMenu" style="visibility: visible; background:white;"> </div>
+                            <a id="txtMenu" href="#" style="color: white;font-weight: bold;">Servicios</a></li>
+                            <div id="lineaInfMenu" style="visibility: visible; background: white;"> </div>
+                        </div>
+                        <span id="trianguloMenu"
+                            style="position: relative;top: 50%; left:5%;visibility: visible; border-top: 7px solid white; "></span>
+                        <nav id="boxSubMenus"
+                            style="position: relative; width: 100%; left: -46%; top: 70%; padding-top:10px; height:100px;">
+                            <a id="txtSubMenu0" href="../servicios/servicioautomatizacion.html">Automatización</a> <br>
+                            <a id="txtSubMenu1" href="../servicios/serviciosostenibilidad.html">Sostenibilidad</a> <br>
+                            <a id="txtSubMenu2" href="../servicios/servicioformacion.html">Formación</a> <br>
+                            <a id="txtSubMenu3" style="color:white;font-weight: bold;"
+                                href="../servicios/productos.html">Productos</a> <br>
+                        </nav>
+                    </div>
+                    <!-- SubMenú de los Servicios  -->
+    
+    
+                    <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
+                        <div style="width: 95px;">
+                            <div id="lineaSupMenu"> </div>
+                            <a id="txtMenu" href="#">Proyectos</a></li>
+                            <div id="lineaInfMenu"> </div>
+                        </div>
+                        <span id="trianguloMenu" style="position: relative;top: 50%;; left:5%"></span>
+                        <nav id="boxSubMenus"
+                            style="position: relative; width: 100%; left: -50%; top: 70%; padding-top:10px; height:100px;">
+                            <a id="txtSubMenu0" href="../proyectos/proyectos.html">Proyectos</a><br>
+                            <a id="txtSubMenu1"
+                                href="../proyectos/proyectos de automatización de infraestructuras , edificios, oficinas, industrias y ciudades.html">Automatización</a><br>
+                            <a id="txtSubMenu2"
+                                href="../proyectos/proyectos de sostenibilidad en infraestructuras y organizaciones.html">Sostenibilidad</a>
+                            <br>
+                        </nav>
+                    </div>
+    
+                    <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
+                        <div style="width: 90px">
+                            <div id="lineaSupMenu"> </div>
+                            <a id="txtMenu" href="#">Contacto</a></li>
+                            <div id="lineaInfMenu"> </div>
+                        </div>
+                        <span id="trianguloMenu" style="position: relative;top: 50%; left:5%"></span>
+                        <nav id="boxSubMenus"
+                            style="position: relative; width: 100%; left: -46%; top: 60%; padding-top:10px; height:100px;">
+                            <a id="txtSubMenu0" href="../contacto/podcastinnova2.html">Innova2</a> <br>
+                            <a id="txtSubMenu1" href="../contacto/blog.html">Blog</a> <br>
+                            <a id="txtSubMenu2" href="../contacto/nosotros.html">Nosotros</a> <br>
+                            <a id="txtSubMenu3" href="../contacto/contacto.html">Contacto</a> <br>
+                        </nav>
+                    </div>
+    
+                </div>
             </div>
-
-            <!-- Columna donde se ubica el menú de la página  -->
-            <div class="col-8 m-0 p-0 d-flex justify-content-around d-flex align-items-center" style="position: relative; height: 10px; height: 50%; top: 25%;">
-
-            <!-- Menú Enfoques  -->
-                <div  class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
-                    <div style="width: 90px; color:#FFFFFF;">
-                        <div id="lineaSupMenuEnfoque">  </div>
-                        <a id="txtMenu"  href="" >Enfoques</a></li>
-                        <div id="lineaInfMenuEnfoque" > </div>
-                    </div>
-                        <span  id="trianguloMenu" style="position: relative;top: 50%;; left:5%"></span>
-                        <nav id="boxSubMenus" style="position: relative; width: 100%; left: -45%; top: 70%; padding-top:10px; height:100px;">
-                            <a id="txtSubMenu1"  href="../enfoques/enfoques.html" >Enfoques</a><br>
-                            <a id="txtSubMenu1"  href="../enfoques/construcciontradicional.html" >Tradicional</a><br>
-                            <a id="txtSubMenu2"  href="../enfoques/construccionsostenible.html"  >Sostenible</a> <br>
-                            <a id="txtSubMenu3"  href="../enfoques/construccionbim.html" >Digital BIM </a> <br>
-                        </nav>                   
-                </div>
-
-             <!-- Menú Servicios  -->
-                <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
-                    <div style="width: 90px; ">
-                        <div id="lineaSupMenu" style="visibility: visible; background:white;">  </div>
-                        <a id="txtMenu" href="#" style="color: white;font-weight: bold;">Servicios</a></li>
-                        <div id="lineaInfMenu" style="visibility: visible; background: white;"> </div>
-                    </div>
-                    <span id="trianguloMenu" style="position: relative;top: 50%; left:5%;visibility: visible; border-top: 7px solid white; "></span>
-                    <nav id="boxSubMenus" style="position: relative; width: 100%; left: -46%; top: 70%; padding-top:10px; height:100px;">
-                        <a id="txtSubMenu0"  href="../servicios/servicioautomatizacion.html">Automatización</a> <br>
-                        <a id="txtSubMenu1"  href="../servicios/serviciosostenibilidad.html">Sostenibilidad</a> <br>
-                        <a id="txtSubMenu2"  href="../servicios/servicioformacion.html">Formación</a> <br>
-                        <a id="txtSubMenu3" style="color:white;font-weight: bold;" href="../servicios/productos.html">Productos</a> <br>
-                    </nav>
-                </div>
-            <!-- SubMenú de los Servicios  -->
-
-
-            <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
-                <div style="width: 95px;">
-                        <div id="lineaSupMenu">  </div>
-                        <a id="txtMenu" href="#">Proyectos</a></li>
-                        <div id="lineaInfMenu"> </div>
-                    </div>
-                    <span id="trianguloMenu" style="position: relative;top: 50%;; left:5%"></span>
-                    <nav id="boxSubMenus" style="position: relative; width: 100%; left: -50%; top: 70%; padding-top:10px; height:100px;">
-                        <a id="txtSubMenu0"  href="../proyectos/proyectos.html">Proyectos</a><br>
-                        <a id="txtSubMenu1"  href="../proyectos/proyectos de automatización de infraestructuras , edificios, oficinas, industrias y ciudades.html">Automatización</a><br>
-                        <a id="txtSubMenu2"  href="../proyectos/proyectos de sostenibilidad en infraestructuras y organizaciones.html">Sostenibilidad</a> <br>
-                    </nav>
-                </div>
-
-                <div class="d-flex flex-row" id="boxMenus" style="width: 200px; height:42.33%;top: 25%;">
-                    <div style="width: 90px">
-                        <div id="lineaSupMenu">  </div>
-                        <a id="txtMenu" href="#">Contacto</a></li>
-                        <div id="lineaInfMenu"> </div>
-                    </div>
-                    <span id="trianguloMenu" style="position: relative;top: 50%; left:5%"></span>
-                    <nav id="boxSubMenus" style="position: relative; width: 100%; left: -46%; top: 60%; padding-top:10px; height:100px;">
-                        <a id="txtSubMenu0"  href="../contacto/podcastinnova2.html" >Innova2</a> <br>
-                        <a id="txtSubMenu1"  href="../contacto/blog.html">Blog</a> <br>
-                        <a id="txtSubMenu2"  href="../contacto/nosotros.html">Nosotros</a> <br>
-                        <a id="txtSubMenu3"  href="../contacto/contacto.html">Contacto</a> <br>
-                    </nav>
-                </div>
-
-            </div>
-        </div>
-      </div>
-                
-    <!-------------------------------------------- Header para Mobile----------------------------------------------------->
-
-
-        <div class="container-fluid" id="headerMobile">
+        </nav>
+        <!-- Contenedor del header para desktop -->
+        <nav class="container-fluid" id="headerMobile">
             <div class="row">
                 <div class="col" id="navbarMobile">
-                    <a id="navbar-brand-mobile" href="../index.html"><img src="img/Logo Innotica Blanco y Verde.png" 
-                        style="width: 152px; height: 21px; position: absolute; left: 5.94%; top: 16px;">
+                    <a id="navbar-brand-mobile" href="../index.html"><img src="img/Logo Innotica Blanco y Verde.png"
+                            style="width: 152px; height: 21px; position: absolute; left: 5.94%; top: 16px;">
                     </a>
-                    <a id="navbar-brand-mobile2" href="../index.html"><img src="img/Logo Innotica Negro y Verde.png" 
-                        style="width: 152px; height: 21px; position: absolute; left: 5.94%; top: 16px;">
+                    <a id="navbar-brand-mobile2" href="../index.html"><img src="img/Logo Innotica Negro y Verde.png"
+                            style="width: 152px; height: 21px; position: absolute; left: 5.94%; top: 16px;">
                     </a>
                     <input type="radio" name="modal" id="abrir-modal">
                     <label for="abrir-modal" id="label-abrir-modal" style="cursor:pointer;">
-                        <div style="background-color: white; height:5px; width: 20px">  </div>
-                        <div style="background-color: #64AE45; height:2px; width: 20px">  </div>
-                        <div style="background-color: white; height:5px; width: 20px">  </div>
-                        <div style="background-color: #64AE45; height:2px; width: 20px">  </div>
-                        <div style="background-color: white; height:5px; width: 20px">  </div>
-                        <div style="background-color: #64AE45; height:2px; width: 20px">  </div>
+                        <div style="background-color: white; height:5px; width: 20px"> </div>
+                        <div style="background-color: #64AE45; height:2px; width: 20px"> </div>
+                        <div style="background-color: white; height:5px; width: 20px"> </div>
+                        <div style="background-color: #64AE45; height:2px; width: 20px"> </div>
+                        <div style="background-color: white; height:5px; width: 20px"> </div>
+                        <div style="background-color: #64AE45; height:2px; width: 20px"> </div>
                     </label>
-
-
-        <!-------------------------------------------- Modal del Mobile ----------------------------------------------------->
-
-        <div class="d-flex align-content flex-column" id="modal">
-
-            <input type="radio"  name="modal" id="cerrar-modal">
-            <label for="cerrar-modal" id="label-cerrar-modal"><a 
-                style=" color:#64AE45; 
-                        text-decoration: none;
-                        font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 800;
-                        font-size: 30px;">
-                X
-            </a></label>
-
-            <h2>
-                <a  class="btn" data-bs-toggle="collapse" href="#collapsesubMenuEnfoquesMobile" role="button" 
-                    aria-expanded="false" aria-controls="collapseExample" id="txtEnfoqueMobile">
-                    Enfoques
-                </a>
-            </h2>
-            <div class="collapse" id="collapsesubMenuEnfoquesMobile">
-                <div class="card card-body accordion-body align-content" id="subMenuEnfoquesMobile">
-                    <a id="txtEnfoqueMobile0"  href="../enfoques/enfoques.html">Enfoques</a> <br>
-                    <a id="txtEnfoqueMobile1"  href="../enfoques/construcciontradicional.html">Construcción tradicional </a> <br>
-                    <a  id="txtEnfoqueMobile2"  href="../enfoques/construccionsostenible.html">Construcción sostenible</a> <br>
-                    <a  id="txtEnfoqueMobile3"href="construccionbim.html">Construcción digital (BIM) </a> 
-                    <div style="background:transparent; width: 100px; height: 20px"> </div>
-                    <p id="lineSubMenuMobile">- - - -</p>
-                </div>
-            </div>
-            <h2>
-                <a class="btn" data-bs-toggle="collapse" href="#collapsesubMenuServiciosMobile" role="button" 
-                    aria-expanded="false" aria-controls="collapseExample" id="txtServiciosMobile">
-                    Servicios
-                </a>
-            </h2>
-            <div class="collapse" id="collapsesubMenuServiciosMobile">
-                <div class="card card-body accordion-body" id="subMenuServiciosMobile">
-                    <a id="txtEnfoqueMobile0"  href="servicioautomatizacion.html">Servicios de automatización</a> <br>
-                    <a id="txtEnfoqueMobile1"  href="serviciosostenibilidad.html">Servicios de sostenibilidad</a> <br>
-                    <a id="txtEnfoqueMobile2"  href="servicioformacion.html">Servicios de Formación</a> <br>  
-                        
-                        <div style="background:transparent; width: 100px; height: 20px"> </div>
-                        <p id="lineSubMenuMobile">- - - -</p>
+    
+    
+                    <!-------------------------------------------- Modal del Mobile ----------------------------------------------------->
+    
+                    <div class="d-flex align-content flex-column" id="modal">
+    
+                        <input type="radio" name="modal" id="cerrar-modal">
+                        <label for="cerrar-modal" id="label-cerrar-modal"><a style=" color:#64AE45; 
+                            text-decoration: none;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 30px;">
+                                X
+                            </a></label>
+    
+                        <h2>
+                            <a class="btn" data-bs-toggle="collapse" href="#collapsesubMenuEnfoquesMobile" role="button"
+                                aria-expanded="false" aria-controls="collapseExample" id="txtEnfoqueMobile">
+                                Enfoques
+                            </a>
+                        </h2>
+                        <div class="collapse" id="collapsesubMenuEnfoquesMobile">
+                            <div class="card card-body accordion-body align-content" id="subMenuEnfoquesMobile">
+                                <a id="txtEnfoqueMobile0" href="../enfoques/enfoques.html">Enfoques</a> <br>
+                                <a id="txtEnfoqueMobile1" href="../enfoques/construcciontradicional.html">Construcción
+                                    tradicional </a> <br>
+                                <a id="txtEnfoqueMobile2" href="../enfoques/construccionsostenible.html">Construcción
+                                    sostenible</a> <br>
+                                <a id="txtEnfoqueMobile3" href="construccionbim.html">Construcción digital (BIM) </a>
+                                <div style="background:transparent; width: 100px; height: 20px"> </div>
+                                <p id="lineSubMenuMobile">- - - -</p>
+                            </div>
+                        </div>
+                        <h2>
+                            <a class="btn" data-bs-toggle="collapse" href="#collapsesubMenuServiciosMobile" role="button"
+                                aria-expanded="false" aria-controls="collapseExample" id="txtServiciosMobile">
+                                Servicios
+                            </a>
+                        </h2>
+                        <div class="collapse" id="collapsesubMenuServiciosMobile">
+                            <div class="card card-body accordion-body" id="subMenuServiciosMobile">
+                                <a id="txtEnfoqueMobile0" href="servicioautomatizacion.html">Servicios de automatización</a>
+                                <br>
+                                <a id="txtEnfoqueMobile1" href="serviciosostenibilidad.html">Servicios de sostenibilidad</a>
+                                <br>
+                                <a id="txtEnfoqueMobile2" href="servicioformacion.html">Servicios de Formación</a> <br>
+    
+                                <div style="background:transparent; width: 100px; height: 20px"> </div>
+                                <p id="lineSubMenuMobile">- - - -</p>
+                            </div>
+                        </div>
+                        <h2>
+                            <a class="btn" data-bs-toggle="collapse" href="#collapsesubMenuProyectosMobile" role="button"
+                                aria-expanded="false" aria-controls="collapseExample" id="txtProyectosMobile">
+                                Proyectos
+                            </a>
+                        </h2>
+                        <div class="collapse" id="collapsesubMenuProyectosMobile">
+                            <div class="card card-body accordion-body" id="subMenuProyectosMobile">
+                                <a id="txtEnfoqueMobile0" href="../proyectos/proyectos.html">Proyectos</a><br>
+                                <a id="txtEnfoqueMobile1"
+                                    href="../proyectos/proyectos de automatización de infraestructuras , edificios, oficinas, industrias y ciudades.html">Proyectos
+                                    de automatización</a><br>
+                                <a id="txtEnfoqueMobile2"
+                                    href="../proyectos/proyectos de sostenibilidad en infraestructuras y organizaciones.html">Proyectos
+                                    de sostenibilidad</a> <br>
+                                <div style="background:transparent; width: 100px; height: 20px"> </div>
+                                <p id="lineSubMenuMobile">- - - -</p>
+                            </div>
+                        </div>
+                        <h2>
+                            <a href="../servicios/productos.html" id="txtNosotrosMobile"> Productos </a>
+                        </h2>
+                        <h2>
+                            <a href="../contacto/nosotros.html" id="txtNosotrosMobile"> Nosotros </a>
+                        </h2>
+                        <h2>
+                            <a href="../contacto/blog.html" id="txtBlogMobile"> Blog </a>
+                        </h2>
+                        <h2>
+                            <a href="../contacto/podcastinnova2.html" id="txtPodcastMobile"> Podcast </a>
+                        </h2>
+                        <h2>
+                            <a href="../contacto/contacto.html" id="txtContactoMobile"> Contacto </a>
+                        </h2>
                     </div>
                 </div>
-                <h2>
-                    <a class="btn" data-bs-toggle="collapse" href="#collapsesubMenuProyectosMobile" role="button" 
-                        aria-expanded="false" aria-controls="collapseExample" id="txtProyectosMobile">
-                        Proyectos
-                    </a>
-                </h2>
-            <div class="collapse" id="collapsesubMenuProyectosMobile">
-                <div class="card card-body accordion-body" id="subMenuProyectosMobile">
-                    <a id="txtEnfoqueMobile0"  href="../proyectos/proyectos.html">Proyectos</a><br>
-                    <a id="txtEnfoqueMobile1"  href="../proyectos/proyectos de automatización de infraestructuras , edificios, oficinas, industrias y ciudades.html">Proyectos de automatización</a><br>
-                    <a id="txtEnfoqueMobile2"  href="../proyectos/proyectos de sostenibilidad en infraestructuras y organizaciones.html">Proyectos de sostenibilidad</a> <br>
-                        <div style="background:transparent; width: 100px; height: 20px"> </div>
-                        <p  id="lineSubMenuMobile">- - - -</p>
-                </div>
             </div>
-            <h2>
-                <a href="../servicios/productos.html" id="txtNosotrosMobile"> Productos </a>
-            </h2>
-            <h2>
-                <a href="../contacto/nosotros.html" id="txtNosotrosMobile"> Nosotros </a>
-            </h2>
-            <h2>
-                <a  href="../contacto/blog.html" id="txtBlogMobile"> Blog </a>
-            </h2>
-            <h2>
-                <a href="../contacto/podcastinnova2.html" id="txtPodcastMobile"> Podcast </a>
-            </h2>
-            <h2>
-                <a href="../contacto/contacto.html" id="txtContactoMobile"> Contacto </a>
-            </h2>
-        </div>
-    </div>
-</div>
-</div>
+        </nav>
+    </header>
 
     <!-------------------------------------------- Hero ----------------------------------------------------->
  
-    <div class="container-fluid" id="hero">
-        <div class="row m-0 p-0" style="height: 100%; width: 100%; background: #64AE45;">
-            <div class="col m-0 p-0">
+    <section class="container-fluid" id="hero">
+        <section class="row m-0 p-0" style="height: 100%; width: 100%; background: #64AE45;">
+            <article class="col m-0 p-0">
                     <div id="lineaSupHero"> </div>
                     <h1 id="txtIntro">PRODUCTOS </h1>
                     <a id="parrafoHero"> El verdadero desarrollo de las empresas, ciudades y paises se logra gracias a la creación de tecnología
@@ -223,13 +253,13 @@
                     <img id="imgHome" src="img/Logo_Innotica_Desarrollo.png" alt="Icono de enfoques">
                     <a id="leerMasIntro">Creando soluciones locales con alcance global</a> 
                     <div id="lineaInfHero"> </div>                         
-            </div>
-        </div>
-    </div>
+            </article>
+        </section>
+    </section>
 
-    <!-------------------------------------------- Header 2 ----------------------------------------------------->
+<!------------------------------------- Header 2 de la página en modo desktop ------------------------------------------->
 
-    <div class="container-fluid" id="headerDesktop" style="position: relative; height: 98.22px; background: #ffff; z-index: 1; max-width: 1700px; align-items: center;">
+    <nav class="container-fluid" id="headerDesktop" style="position: relative; height: 98.22px; background: #ffff; z-index: 1; max-width: 1700px; align-items: center;">
 
         <!-- Fila del header  -->
         <div class="row m-0 p-0" style=" position: relative; height: 100%; top: 0%; width: 100%;">
@@ -310,316 +340,335 @@
 
             </div>
         </div>
-      </div>
+    </nav>
+<!------------------------------------- Contenedor 1. Nav para mobile, servicios parte 1 ------------------------------------------->
 
+<section class="container-fluid align-items-center" id="contenedorBody1">
+    <section class="row container-fluid d-flex justify-content-around m-0 p-0">
 
-      <div class="container-fluid align-items-center" id="contenedorBody1">
-        <div class="row container-fluid d-flex justify-content-around m-0 p-0" >
+        <div class="col-xl-4 col-md-5  col-12 px-xl-3 px-md-2 mb-5 mb-md-0">
+            <nav id="txtEnlacesMobileEnfoques">
+                <br>
+                <a style="color: #818181;text-decoration: none;" href="../index.html"> Home</a>
+                <a>/</a>
+                <a style="color: #64AE45;text-decoration: none; font-weight: 700;" href="productos.html">Productos</a>
+                <br>
+            </nav>
 
-            <div class="col-xl-4 col-md-5  col-12 px-xl-3 px-md-2 mb-5 mb-md-0">
-                <div id="txtEnlacesMobileEnfoques">
-                    <br>
-                    <a style="color: #818181;text-decoration: none;" href="../index.html"> Home</a>
-                    <a >/</a> 
-                    <a style="color: #64AE45;text-decoration: none; font-weight: 700;" href="productos.html">Productos</a>
-                    <br>
-                </div>
+            <h2 id="txtContenedorBody1">Productos creados para cubrir las necesidades de las infraestucturas</h2>
+            <a id="txtOpcionesContenedorBody1"> <br> Los productos y/o soluciones creadas por Innotica han sido
+                concebidas con base a las necesidades de las
+                infraestructuras nuevas y existentes que desean ser eficientes en sus etapas de diseño, construcción y
+                operación. <br><br>
+                Gran parte de los productos de hoy satisfacen necesidades propias y desde nuestro propio consumo hemos
+                entendido la necesidad de cada uno de ellos. Te invitamos a recorrer cada uno de nuestros productos y
+                a encontrar la solución a tu principal necesidad o problema.
 
-                <h2 id="txtContenedorBody1">Productos creados para cubrir las necesidades de las infraestucturas</h2> 
-                <a  id="txtOpcionesContenedorBody1" > <br> Los productos y/o soluciones creadas por Innotica han sido concebidas con base a las necesidades de las 
-                                                            infraestructuras nuevas y existentes que desean ser eficientes en sus etapas de diseño, construcción y 
-                                                            operación. <br><br>
-                                                            Gran parte de los productos de hoy satisfacen necesidades propias y desde nuestro propio consumo hemos
-                                                            entendido la necesidad de cada uno de ellos. Te invitamos a recorrer cada uno de nuestros productos y 
-                                                            a encontrar la solución a tu principal necesidad o problema.
-                     
-                </a> <br>
-            </div>
-
-            <div class="col-xl-7 col-md-6 col-12 mt-xl-1 mt-md-2 p-xl-0  mx-md-2">
-                <img id="imgContenedor1" src="img/Codes_Makers.png" alt="Icono Construcción Tradicional">
-            </div>
+            </a> <br>
         </div>
-    </div>
 
-    <div class="container-fluid" id="espacioContenedor1Productos"> </div>
+        <div class="col-xl-7 col-md-6 col-12 mt-xl-1 mt-md-2 p-xl-0  mx-md-2">
+            <img id="imgContenedor1" src="img/Codes_Makers.png" alt="Icono Construcción Tradicional">
+        </div>
+    </section>
+</section>
 
-    <div class="container-fluid"  id="contenedorCardsProductos" >
-        <div class="row container-fluid d-flex justify-content-around">
+<div class="container-fluid" id="espacioContenedor1Productos"> </div>
 
+<!------------------------------------- Contenedor cards de con productos ---------- ----------------------------------------------->
 
-            <div class="col-md-3 col-12  m-0 p-0">
-                <div class="card pt-0 px-0" id="CardProductos">
-    
-                    <div class="card-body">
-                      <h5 class="card-title" id="txtTituloCardProductos">POLARIS</h5><br>
-                      <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo y control de sistemas de climatización en edificios, oficinas y plantas
-                                                                        industriales, con Polaris usted podrá Monitorear y controlar chillers, bombas, UMAs, VRF y otros equipos
-                                                                        de climatización.  
-                                                                    </p>   
-                                                                    <div id="espacioCardProductos"> </div>                                
-                                                                    <a href="Polaris/Polaris.html" id="txtLeerMasCardProductos">Leer más →</a>  
-                  </div>
-                </div>
-            </div>
-
-
-
+<!-- Primer bloque de 3 productos -->
+<section class="container-fluid" id="contenedorCardsProductos">
+    <div class="row container-fluid d-flex justify-content-around">
 
         <div class="col-md-3 col-12  m-0 p-0">
             <div class="card pt-0 px-0" id="CardProductos">
-
-                <div class="card-body">
-                  <h5 class="card-title" id="txtTituloCardProductos">PERSEO</h5><br>
-                  <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo y control de sistemas de bombeo para edificios, industrias y comunidades,
-                                                                    con Perseo usted podrá Monitorear y controlar bombas, tanques, válvulas, VFD y otros equipos de los sistemas
-                                                                    de bombeo.
-                                                                </p>   
-                                                                <div id="espacioCardProductos"> </div>                                
-                                                                <a href="Perseo/Perseo.html" id="txtLeerMasCardProductos">Leer más →</a>  
-              </div>
+                <article class="card-body">
+                    <h5 class="card-title" id="txtTituloCardProductos">POLARIS</h5><br>
+                    <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo y control de sistemas
+                        de climatización en edificios, oficinas y plantas
+                        industriales, con Polaris usted podrá Monitorear y controlar chillers, bombas, UMAs, VRF y otros
+                        equipos
+                        de climatización.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Polaris/Polaris.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
             </div>
         </div>
 
         <div class="col-md-3 col-12  m-0 p-0">
             <div class="card pt-0 px-0" id="CardProductos">
+                <article class="card-body">
+                    <h5 class="card-title" id="txtTituloCardProductos">PERSEO</h5><br>
+                    <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo y control de sistemas
+                        de bombeo para edificios, industrias y comunidades,
+                        con Perseo usted podrá Monitorear y controlar bombas, tanques, válvulas, VFD y otros equipos de
+                        los sistemas
+                        de bombeo.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Perseo/Perseo.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
+            </div>
+        </div>
 
-                <div class="card-body">
+        <div class="col-md-3 col-12  m-0 p-0">
+            <div class="card pt-0 px-0" id="CardProductos">
+                <article class="card-body">
                     <h5 class="card-title" id="txtTituloCardProductos">ORIÓN</h5><br>
-                    <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo de infraestructuras y sistemas existentes de empresas y/o corporaciones 
-                                                                      dedicadas al sector energético, agua, telecomunicaciones e insumos para la producción en general.
-                                                                    </p>    
-                                                                    <div id="espacioCardProductos"> </div>                                
-                                                                    <a href="Orion/Orion.html" id="txtLeerMasCardProductos">Leer más →</a>
-                </div>
+                    <p class="card-text" id="txtParrafoCardProductos">Plataforma para el monitoreo de infraestructuras y
+                        sistemas existentes de empresas y/o corporaciones
+                        dedicadas al sector energético, agua, telecomunicaciones e insumos para la producción en
+                        general.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Orion/Orion.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
             </div>
         </div>
-
-
+        
     </div>
-    </div>
+</section>
 
-
-
-    <div class="container-fluid"  id="contenedorCardsProductos" >
-        <div class="row container-fluid d-flex justify-content-around">
-
-            <div class="col-md-3 col-12  m-0 p-0">
-                <div class="card pt-0 px-0" id="CardProductos">
-                <div class="card-body">
-                  <h5 class="card-title" id="txtTituloCardProductos">PEGASUS</h5><br>
-                  <p class="card-text" id="txtParrafoCardProductos">Plataforma integral para el monitoreo y control de oficinas y edificios, una excelente herramienta para la 
-                                                                    operación eficiente de las infraestructuras y sistemas, siendo ideal para realizar reportes de mantenimiento.
-                                                                </p>   
-                                                                <div id="espacioCardProductos"> </div>                                
-                                                                <a href="Pegasus/Pegasus.html" id="txtLeerMasCardProductos">Leer más →</a>   
-                 </div>
-                </div>
-            </div>
-
-            <div class="col-md-3 col-12  m-0 p-0">
-                <div class="card pt-0 px-0" id="CardProductos">
-                    <div class="card-body">
-                        <h5 class="card-title" id="txtTituloCardProductos">CASTOR</h5><br>
-                      <p class="card-text" id="txtParrafoCardProductos">Software para la medición y reporte de consumo de energía en infraestructuras nuevas y existentes, Castor es 
-                                                                        una solución de lectura de protocolos abiertos que permite registrar la data para su reporte y análisis. 
-                                                                     </p>    
-                                                                     <div id="espacioCardProductos"> </div>                                
-                                                                     <a href="Castor/Castor.html" id="txtLeerMasCardProductos">Leer más →</a>  
-                  </div>
-                </div>
-            </div>
-
-
-
+<!-- Segundo bloque de 3 productos -->
+<section class="container-fluid" id="contenedorCardsProductos">
+    <div class="row container-fluid d-flex justify-content-around">
 
         <div class="col-md-3 col-12  m-0 p-0">
             <div class="card pt-0 px-0" id="CardProductos">
-                <div class="card-body">
+                <article class="card-body">
+                    <h5 class="card-title" id="txtTituloCardProductos">PEGASUS</h5><br>
+                    <p class="card-text" id="txtParrafoCardProductos">Plataforma integral para el monitoreo y control de
+                        oficinas y edificios, una excelente herramienta para la
+                        operación eficiente de las infraestructuras y sistemas, siendo ideal para realizar reportes de
+                        mantenimiento.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Pegasus/Pegasus.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
+            </div>
+        </div>
+        <div class="col-md-3 col-12  m-0 p-0">
+            <div class="card pt-0 px-0" id="CardProductos">
+                <article class="card-body">
+                    <h5 class="card-title" id="txtTituloCardProductos">CASTOR</h5><br>
+                    <p class="card-text" id="txtParrafoCardProductos">Software para la medición y reporte de consumo de
+                        energía en infraestructuras nuevas y existentes, Castor es
+                        una solución de lectura de protocolos abiertos que permite registrar la data para su reporte y
+                        análisis.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Castor/Castor.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
+            </div>
+        </div>
+        <div class="col-md-3 col-12  m-0 p-0">
+            <div class="card pt-0 px-0" id="CardProductos">
+                <article class="card-body">
                     <h5 class="card-title" id="txtTituloCardProductos">VEGA</h5><br>
-                  <p class="card-text" id="txtParrafoCardProductos">Producto relacionado a la sostenibilidad aplicada a edificios y espacios interiores existentes, herramienta que
-                                                                    le permite a un propietario comparar y entender el funcionamiento de su edificio en materia de sostenibilidad.
-                                                                 </p>    
-                                                                 <div id="espacioCardProductos"> </div>                                
-                                                                 <a href="Vega/Vega.html" id="txtLeerMasCardProductos">Leer más →</a>  
-              </div>
+                    <p class="card-text" id="txtParrafoCardProductos">Producto relacionado a la sostenibilidad aplicada
+                        a edificios y espacios interiores existentes, herramienta que
+                        le permite a un propietario comparar y entender el funcionamiento de su edificio en materia de
+                        sostenibilidad.
+                    </p>
+                    <div id="espacioCardProductos"> </div>
+                    <a href="Vega/Vega.html" id="txtLeerMasCardProductos">Leer más →</a>
+                </article>
             </div>
         </div>
     </div>
-    </div>
+</section>
 
-    <div class="container-fluid"  id="contenedorBody2">
-        <div class="row">
-            <div class="col">
-                <img id="imgContenedorBody2" src="img/Control en sistemas hvac.jpg" alt="Panoramica de ciudad">
+<!------------------------------------- Contenedor para imagen de planta de agua helada ---------- ---------------------------------------------->
+
+<section class="container-fluid" id="contenedorBody2">
+    <div class="row">
+        <div class="col">
+            <img id="imgContenedorBody2" src="img/Control en sistemas hvac.jpg" alt="Panoramica de ciudad">
+        </div>
+    </div>
+</section>
+<!------------------------------------- Contenedor cards para mode desktop  --------------------------------------------------------->
+
+<section class="container-fluid" id="contenedorBody3">
+    <div class="container-fluid" id="contenedorBody33"> </div>
+    <article class="row d-flex justify-content-around m-0 p-0">
+        <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
+            <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
+                <img id="IconEnfoquesConstruccion" src="img/Icon_Producto_Verde.png" class="card-img-start"
+                    alt="Icono Construcción Tradicional">
+                <div class="card-body">
+                    <h5 class="card-title" id="txtTituloCard">Nosotros</h5>
+                    <p class="card-text" id="txtParrafoCard">Nuestro mayor orgullo es nuestra historia y equipo de
+                        trabajo, conformado por una serie
+                        de profesionales enamorados del mundo de la instrumentación, control y sostenibilidad
+                        aplicada al sector del diseño, construcción y operación de infraestructuras.
+                    </p>
+                    <div style="height: 200px;"> </div>
+                    <a href="../contacto/nosotros.html" id="txtLeerMasCard">Leer más →</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <div class="container-fluid"  id="contenedorBody3">
-        <div class="container-fluid"  id="contenedorBody33"> </div>
-        <div class="row d-flex justify-content-around m-0 p-0" >
-                <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
-                    <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
-                        <img id="IconEnfoquesConstruccion" src="img/Icon_Producto_Verde.png"class="card-img-start" 
-                        alt="Icono Construcción Tradicional">
-                        <div class="card-body">
-                            <h5 class="card-title" id="txtTituloCard">Nosotros</h5> 
-                            <p class="card-text" id="txtParrafoCard">Nuestro mayor orgullo es nuestra historia y equipo de trabajo, conformado por una serie 
-                                                                    de profesionales enamorados del mundo de la instrumentación, control y sostenibilidad 
-                                                                    aplicada al sector del diseño, construcción y operación de infraestructuras.
-                                                                    </p>
-                            <div style="height: 200px;"> </div>
-                            <a href="../contacto/nosotros.html" id="txtLeerMasCard">Leer más →</a>
-                        </div>
-                    </div>
+        <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
+            <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
+                <img id="IconEnfoquesConstruccion" src="img/Icon_Proyectos_Verde.png" class="card-img-start"
+                    alt="Icono Construcción Tradicional">
+                <div class="card-body">
+                    <h5 class="card-title" id="txtTituloCard">Proyectos</h5>
+                    <p class="card-text" id="txtParrafoCard">Los proyectos donde hemos desarrollado nuestros servicios
+                        son un aval de y
+                        nuestra experencia, compara nuestros proyectos con su necesidad y descubre
+                        lo que podemos lograr en su infraestructura nueva o existente.
+                    </p>
+                    <br>
+                    <div style="height: 200px;"> </div>
+                    <a href="../proyectos/proyectos.html" id="txtLeerMasCard">Leer más →</a>
                 </div>
-                <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
-                    <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
-                        <img id="IconEnfoquesConstruccion" src="img/Icon_Proyectos_Verde.png"class="card-img-start" 
-                        alt="Icono Construcción Tradicional">
-                        <div class="card-body">
-                            <h5 class="card-title" id="txtTituloCard">Proyectos</h5>
-                            <p class="card-text" id="txtParrafoCard">Los proyectos donde hemos desarrollado nuestros servicios son un aval de y 
-                                                                    nuestra experencia, compara nuestros proyectos con su necesidad y descubre 
-                                                                    lo que podemos lograr en su infraestructura nueva o existente.
-                                                                </p>
-                                                                <br>
-                            <div style="height: 200px;"> </div>
-                            <a href="../proyectos/proyectos.html" id="txtLeerMasCard" >Leer más →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
-                    <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
-                        <img id="IconEnfoquesConstruccion" src="img/Icon_Contacto_Verde.png"class="card-img-start" 
-                        alt="Icono Construcción Tradicional">
-                        <div class="card-body">
-                            <h5 class="card-title" id="txtTituloCard">Contacto</h5>
-                            <p class="card-text" id="txtParrafoCard">Estamos ansiosos por conocer su necesidad y apoyar en el desarrollo de
-                                                                    nuestros servicios en su infraestructura nueva o existente.
-                                                                    <br><br><br><br><br>
-                                                                    </p>
-                            <div style="height: 200px;"> </div>
-                            <a href="../contacto/contacto.html" id="txtLeerMasCard">Contactar →</a>
-                        </div>
-                    </div>
-                </div>
-        <div class="container-fluid"  id="contenedorBody33"> </div>
+            </div>
         </div>
-    </div>
-    <div class="container-fluid"  id="contenedorBody33">
-    </div>
+        <div class="col-3 col-md-3 col-xl-3  m-xl-0 p-xl-0  m-md-0 p-md-0">
+            <div class="card pt-xl-5 px-xl-3 pt-md-5 px-md-3 mx-5 px-5" id="Card">
+                <img id="IconEnfoquesConstruccion" src="img/Icon_Contacto_Verde.png" class="card-img-start"
+                    alt="Icono Construcción Tradicional">
+                <div class="card-body">
+                    <h5 class="card-title" id="txtTituloCard">Contacto</h5>
+                    <p class="card-text" id="txtParrafoCard">Estamos ansiosos por conocer su necesidad y apoyar en el
+                        desarrollo de
+                        nuestros servicios en su infraestructura nueva o existente.
+                        <br><br><br><br><br>
+                    </p>
+                    <div style="height: 200px;"> </div>
+                    <a href="../contacto/contacto.html" id="txtLeerMasCard">Contactar →</a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid" id="contenedorBody33"> </div>
+    </article>
+</section>
+<div class="container-fluid" id="contenedorBody33">
+</div>
+<!------------------------------------- Contenedor carrousel para mode mobile  ------------------------------------------------------->
 
-    <div class="container-fluid" id="contenedorBody3Mobile">
-        <div class="col position-absolute">
-            <div> <br> </div>
-                <div id="carouselEnfoques" class="carousel carousel-dark slide" data-bs-ride="carousel"> 
+<section class="container-fluid" id="contenedorBody3Mobile">
+    <article class="col position-absolute">
+        <div> <br> </div>
+        <div id="carouselEnfoques" class="carousel carousel-dark slide" data-bs-ride="carousel">
 
-                    <button class="carousel-control-prev" id="imgVectorFlechaIzquierda" type="button" data-bs-target="#carouselEnfoques" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" id="imgVectorFlechaDerecha" type="button" data-bs-target="#carouselEnfoques" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+            <button class="carousel-control-prev" id="imgVectorFlechaIzquierda" type="button"
+                data-bs-target="#carouselEnfoques" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" id="imgVectorFlechaDerecha" type="button"
+                data-bs-target="#carouselEnfoques" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
 
-                    <div class="carousel-inner"  id="carouselBloqueAcreditaciones">
-                        <div class="carousel-item active" data-bs-interval="6000"  id="itemCarouselEnfoques">
-                            <div class="d-flex">
-                                <div class="card pt-5 px-3" id="Card">
-                                    <img id="IconEnfoquesConstruccion" src="img/Icon_Producto_Verde.png"class="card-img-start" 
-                                    alt="Icono Construcción Tradicional">
-                                    <div class="card-body">
-                                      <h5 class="card-title" id="txtTituloCard">Nosotros</h5>
-                                        <p class="card-text" id="txtParrafoCard">Nuestro mayor orgullo es nuestra historia y equipo de trabajo, conformado por una serie 
-                                                                                de profesionales enamorados del mundo de la instrumentación, control y sostenibilidad 
-                                                                                aplicada al sector del diseño, construcción y operación de infraestructuras.
-                                                                                </p>
-                                      <div style="height: 250px;"> </div>
-                                      <a href="../contacto/nosotros.html" id="txtLeerMasCard">Leer más →</a>
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item" data-bs-interval="6000" id="itemCarouselEnfoques">
-                        <div class="d-flex">
-                            <div class="card pt-5 px-3" id="Card">
-                                <img id="IconEnfoquesConstruccion" src="img/Icon_Proyectos_Verde.png"class="card-img-start" 
+            <div class="carousel-inner" id="carouselBloqueAcreditaciones">
+                <div class="carousel-item active" data-bs-interval="6000" id="itemCarouselEnfoques">
+                    <div class="d-flex">
+                        <div class="card pt-5 px-3" id="Card">
+                            <img id="IconEnfoquesConstruccion" src="img/Icon_Producto_Verde.png" class="card-img-start"
                                 alt="Icono Construcción Tradicional">
-                                <div class="card-body">
-                                    <h5 class="card-title" id="txtTituloCard">Proyectos</h5>
-                                    <p class="card-text" id="txtParrafoCard">Los proyectos donde hemos desarrollado nuestros servicios son un aval de y 
-                                                                            nuestra experencia, compara nuestros proyectos con su necesidad y descubre 
-                                                                            lo que podemos lograr en su infraestructura nueva o existente.
-                                                                        </p>
-                                                                        <br>
-                                    <div style="height: 250px;"> </div>
-                                    <a href="../proyectos/proyectos.html" id="txtLeerMasCard" >Leer más →</a>
-                                </div>
-                            </div>
-                        </div>                     
-                    </div>
+                            <div class="card-body">
+                                <h5 class="card-title" id="txtTituloCard">Nosotros</h5>
+                                <p class="card-text" id="txtParrafoCard">Nuestro mayor orgullo es nuestra historia y
+                                    equipo de trabajo, conformado por una serie
+                                    de profesionales enamorados del mundo de la instrumentación, control y
+                                    sostenibilidad
+                                    aplicada al sector del diseño, construcción y operación de infraestructuras.
+                                </p>
+                                <div style="height: 250px;"> </div>
+                                <a href="../contacto/nosotros.html" id="txtLeerMasCard">Leer más →</a>
 
-                    <div class="carousel-item" data-bs-interval="6000" id="itemCarouselEnfoques">
-                        <div class="d-flex">
-                            <div class="card pt-5 px-3" id="Card">
-                                <img id="IconEnfoquesConstruccion" src="img/Icon_Contacto_Verde.png"class="card-img-start" 
-                                alt="Icono Construcción Tradicional">
-                                <div class="card-body">
-                                    <h5 class="card-title" id="txtTituloCard">Contacto</h5>
-                                    <p class="card-text" id="txtParrafoCard">Estamos ansiosos por conocer su necesidad y apoyar en el desarrollo de
-                                                                             nuestros servicios en su infraestructura nueva o existente.
-                                                                             <br><br><br><br><br>
-                                                                             </p>
-                                    <div style="height: 250px;"> </div>
-                                    <a href="../contacto/contacto.html" id="txtLeerMasCard">Contactar →</a>
-                                </div>
                             </div>
-                        </div>                     
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="6000" id="itemCarouselEnfoques">
+                    <div class="d-flex">
+                        <div class="card pt-5 px-3" id="Card">
+                            <img id="IconEnfoquesConstruccion" src="img/Icon_Proyectos_Verde.png" class="card-img-start"
+                                alt="Icono Construcción Tradicional">
+                            <div class="card-body">
+                                <h5 class="card-title" id="txtTituloCard">Proyectos</h5>
+                                <p class="card-text" id="txtParrafoCard">Los proyectos donde hemos desarrollado nuestros
+                                    servicios son un aval de y
+                                    nuestra experencia, compara nuestros proyectos con su necesidad y descubre
+                                    lo que podemos lograr en su infraestructura nueva o existente.
+                                </p>
+                                <br>
+                                <div style="height: 250px;"> </div>
+                                <a href="../proyectos/proyectos.html" id="txtLeerMasCard">Leer más →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="6000" id="itemCarouselEnfoques">
+                    <div class="d-flex">
+                        <div class="card pt-5 px-3" id="Card">
+                            <img id="IconEnfoquesConstruccion" src="img/Icon_Contacto_Verde.png" class="card-img-start"
+                                alt="Icono Construcción Tradicional">
+                            <div class="card-body">
+                                <h5 class="card-title" id="txtTituloCard">Contacto</h5>
+                                <p class="card-text" id="txtParrafoCard">Estamos ansiosos por conocer su necesidad y
+                                    apoyar en el desarrollo de
+                                    nuestros servicios en su infraestructura nueva o existente.
+                                    <br><br><br><br><br>
+                                </p>
+                                <div style="height: 250px;"> </div>
+                                <a href="../contacto/contacto.html" id="txtLeerMasCard">Contactar →</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  
+    </article>
+</section>
 
-            <div class="container-fluid" id="contenedorFooter">
-
-				<a id="txtContenedorFooter" href="#"><b>Transformando el sector del diseño, construcción y operación de infraestructuras</b></a>
-				<a id="logoFooter" href="#"><img src="img/Logo Innotica Blanco y Verde.png"></a>
-
-				<a id="txtNosotros" href="../contacto/nosotros.html">Nosotros</a></li>
-				<a id="txtBlog" href="../contacto/blog.html">Blog</a></li>
-				<a id="txtPodcast" href="../contacto/podcastinnova2.html">Podcast</a></li>
-				<a id="txtContactoFooter" href="../contacto/contacto.html">Contacto</a></li>
-
-				<img id="imgUbicacion" src="img/VectorUbicacion.png" alt="">
-				<img id="imgBanderaVenezuela" src="img/VectoBanderaVenezuela.png" alt="">
-				<h5 id="txtVenezuela">VENEZUELA</h5>
-				<h5 id="txtTelefonoVenezuela">+582122410510</h5>
-				<img id="imgBanderaDominicana" src="img/VectoBanderaDominicana.png" alt="">
-				<h5 id="txtDominicana">REPÚBLICA DOMINICANA</h5>
-				<h5 id="txtTelefonoDominicana">+18299463986</h5>
-				<img id="imgBanderaEstadosUnidos" src="img/VectorBanderaUSA.png" alt="">
-				<h5 id="txtEstadosUnidos">ESTADOS UNIDOS</h5>
-				<h5 id="txtTelefonoEstadosUnidos">+18299463986</h5>
-                
-
-                <img id="imgPhone" src="img/VectorPhone.png" alt="">
-
-				<a id="txtCorreoContacto" href="mailto:info@innotica.net">info@innotica.net</a></li>
-				<a href="mailto:info@innotica.net"><img id="imgCorreo" src="img/VectorCorreo.png" alt=""></a></li>
-				<a href="https://api.whatsapp.com/message/KGHKERPKWZASH1?autoload=1&app_absent=0"><img id="imgWhatsaap" src="img/VectorWhatsapp.png" alt=""></a></li>
-				<a href="https://www.linkedin.com/company/innotica/"><img id="imgLinkedin" src="img/VectorLinkedin.png" alt=""></a></li>
-				<a href="https://www.instagram.com/innotica_net/"><img id="imgInstagram" src="img/VectorInstagram.png" alt=""></a></li>
-				<a href="https://twitter.com/innotica_netlin"><img id="imgTwitter" src="img/VectorTwitter.png" alt=""></a></li>
-				<div id="lineaDivisoraFooter">  </div>
-				<div id="txtContenedorFooterDerechos">© 2013-2023. Innotica System - All Rights Reserved. Made by Innotica Dev</div>
-			</div>
+<!--------------------------------------------------- Footer ------------------------------------------------------>
+    <footer class="container-fluid" id="contenedorFooter">
+    
+        <a id="txtContenedorFooter" href="#"><b>Transformando el sector del diseño, construcción y operación de
+                infraestructuras</b></a>
+        <a id="logoFooter" href="#"><img src="img/Logo Innotica Blanco y Verde.png"></a>
+    
+        <a id="txtNosotros" href="../contacto/nosotros.html">Nosotros</a></li>
+        <a id="txtBlog" href="../contacto/blog.html">Blog</a></li>
+        <a id="txtPodcast" href="../contacto/podcastinnova2.html">Podcast</a></li>
+        <a id="txtContactoFooter" href="../contacto/contacto.html">Contacto</a></li>
+    
+        <img id="imgUbicacion" src="img/VectorUbicacion.png" alt="">
+        <img id="imgBanderaVenezuela" src="img/VectoBanderaVenezuela.png" alt="">
+        <h5 id="txtVenezuela">VENEZUELA</h5>
+        <h5 id="txtTelefonoVenezuela">+582122410510</h5>
+        <img id="imgBanderaDominicana" src="img/VectoBanderaDominicana.png" alt="">
+        <h5 id="txtDominicana">REPÚBLICA DOMINICANA</h5>
+        <h5 id="txtTelefonoDominicana">+18299463986</h5>
+        <img id="imgBanderaEstadosUnidos" src="img/VectorBanderaUSA.png" alt="">
+        <h5 id="txtEstadosUnidos">ESTADOS UNIDOS</h5>
+        <h5 id="txtTelefonoEstadosUnidos">+18299463986</h5>
+    
+    
+        <img id="imgPhone" src="img/VectorPhone.png" alt="">
+    
+        <a id="txtCorreoContacto" href="mailto:info@innotica.net">info@innotica.net</a></li>
+        <a href="mailto:info@innotica.net"><img id="imgCorreo" src="img/VectorCorreo.png" alt=""></a></li>
+        <a href="https://api.whatsapp.com/message/KGHKERPKWZASH1?autoload=1&app_absent=0"><img id="imgWhatsaap"
+                src="img/VectorWhatsapp.png" alt=""></a></li>
+        <a href="https://www.linkedin.com/company/innotica/"><img id="imgLinkedin" src="img/VectorLinkedin.png" alt=""></a>
+        </li>
+        <a href="https://www.instagram.com/innotica_net/"><img id="imgInstagram" src="img/VectorInstagram.png" alt=""></a>
+        </li>
+        <a href="https://twitter.com/innotica_netlin"><img id="imgTwitter" src="img/VectorTwitter.png" alt=""></a></li>
+        <div id="lineaDivisoraFooter"> </div>
+        <div id="txtContenedorFooterDerechos">© 2013-2023. Innotica System - All Rights Reserved. Made by Innotica Dev</div>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js">  </script>
 
