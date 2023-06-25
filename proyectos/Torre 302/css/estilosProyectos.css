@@ -1,0 +1,908 @@
+
+
+body, html { 
+    ---variableprueba:90vw;
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Mobile menor a 768px ----------------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1px) and (max-width: 768px) 
+{ 
+    #headerDesktop {
+        display:none !important;
+    }
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 420px; 
+        overflow: hidden;
+        width: 100%;
+        overflow: hidden;
+    }
+    #headerMobile{
+        width: 100%; 
+        height:56px; 
+        color: green;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile2 {
+        visibility:visible;
+        overflow: hidden;
+    }
+    #navbar-brand-mobile1 {
+        visibility: hidden;
+    }
+    #lineaSupHero {
+        visibility: hidden;
+       }  
+    #txtIntro {
+        position: absolute;
+        width: 51%;
+        height: 43px;
+        left: 9%;
+        top: 6vw;
+            
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 6.8vw;
+        line-height: 8vw;           
+        text-transform: uppercase;
+        color: #FFFFFF;
+        }
+    #parrafoHero{
+        position: absolute;
+        width: 70%;
+        height: 116px;
+        left: 9%;
+        top: 18vw;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 2.8vw;
+        line-height: 3.5vw;           
+        color: #FFFFFF;
+        text-align: left;
+    }
+    #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 325px;
+        border: 0.5px solid #FFFFFF;
+       }  
+    #imgHome {
+        position: absolute;
+        Width:32px;
+        Height:39px;
+        Top:355px;
+        left: 9.51%;
+        }
+    #leerMasIntro {
+        position: absolute;
+        width: 45.6%;
+        height: 20px;
+        left: 49%;
+        top: 375px;
+            
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 18px;
+
+        font-size: 2.8vw;
+        line-height: 3.5vw;     
+        
+        color: #FFFFFF;
+        }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    max-height: 1500px;
+    align-content: center;
+    margin-top: 0px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 5;
+}
+#txtEnlacesMobileEnfoques {
+    position: relative;
+    top: 0;
+    left: 5%;
+
+    visibility: visible;
+    font-family: 'Roboto';
+    font-style: normal; 
+    
+    font-size: 16px;
+    line-height: 25px;
+
+    text-decoration: none;
+    color: #818181;
+}
+#txtContenedorBody1 {
+    position: relative;
+    left: 6%;
+    margin-top: 25px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 35px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    position: relative;
+    width: 85%;
+    left: 6%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+#imgMobileContenedor1{
+    position: relative;
+    width: 110vw;
+    left: -10vw;  
+    z-index:10;
+    margin: 0;
+}
+#imgContenedor1{
+    display: none;
+}
+#txtDosContenedorBody1 {
+    position: relative;
+    width: 90%;
+    left: 6%;
+    margin-top: 25px;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 35px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+#txtDosOpcionesContenedorBody1{
+    position: relative;
+    width: 85%;
+    left: 6%;
+
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #404040;
+    text-decoration: none;
+}
+
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    overflow: hidden;
+    background: #1C1F2A;
+    margin: 0;
+    padding: 0;
+
+}
+#imgContenedorBody2 {
+    display: none;
+}
+#imgMobileContenedorBody2 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#txtContenedorBody2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 35px;
+    color: #64AE45;
+    text-align: center;
+    text-align: left;
+}
+#txtOpcionesContenedorBody2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+
+/*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    height: auto;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
+
+#txtContenedorBody3 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 7vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorBody3{
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #404040;
+}
+#imgContenedorBody3{
+    display:none;
+}
+#imgMobileContenedorBody3{
+    position: relative;
+}
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedorBody4{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#imgContenedorrBody4{
+    display: none;
+}
+#imgContenedorrBody4{
+    position: relative;
+}
+#txtContenedorrBody4 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 8vw;
+    line-height: 7vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorrBody4 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px; 
+    color: #404040;
+}
+
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 768 px y 1200 px -------------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 768px) and (max-width: 1200px) 
+{ 
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 466px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 100px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 5.25vw;
+        line-height: 6.75vw;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+    #parrafoHero{
+        position: absolute;
+        width: 35%;
+        height: 134px;
+        left: 60%;
+        top: 194px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.7vw;
+        line-height: 2vw; 
+
+        text-decoration: none;
+        color: #FFFFFF;
+        text-align: start;
+}
+#leerMasIntro {
+    position: absolute;
+    width: 35%;
+    height: 20px;
+    left: 60%;
+    top: 532px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3vw;
+    line-height: 31px;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+    opacity: 50%;
+}
+    #imgHome {
+        position: absolute;
+        width: 60px;
+        height: 79px;
+        left: 9.51%;
+        top: 500px;
+        opacity: 80%;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+
+    color: #404040;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+
+}
+#imgMobileContenedor1{
+    display: none;
+}
+#imgContenedor1{
+    position: relative;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
+    top: 5%
+}
+
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    max-width: 1700px;
+    background: #1C1F2A;
+    overflow: hidden;
+    display: flex;
+    vertical-align: middle;
+}
+#imgContenedorBody2 {
+    left: 0;
+    top: 50px;
+
+}
+#imgMobileContenedorBody2 {
+    display: none;
+}
+#txtContenedorBody2 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+    color: #64AE45;
+}
+#txtOpcionesContenedorBody2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#txtContenedorBody3 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorBody3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+#imgContenedorBody3{
+    position: relative;
+    top: 15%;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
+}
+#imgMobileContenedorBody3{
+    display:none;
+}
+
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedorBody4{
+    position: relative; 
+    height: auto;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorrBody4{
+    position: relative;
+    left: 2.94vw;
+    top: 12%;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
+}
+#imgMobileContenedorrBody4{
+    display:none;
+}
+
+#txtContenedorrBody4 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorrBody4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+	
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+/*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
+/*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
+
+@media (min-width: 1200px)
+{ 
+   
+    #headerMobile {
+        display: none;
+    } 
+
+    #hero {
+        position:relative; 
+        background:#1C1F2A; 
+        top: 0px; 
+        height: 600px; 
+        overflow: hidden;
+        max-width: 1700px;
+    }
+   #lineaSupHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 147px;
+        border: 0.5px solid #FFFFFF;
+    }  
+   #lineaInfHero {
+        position: absolute;
+        width: 81%;
+        height: 0px;
+        left: 9.44%;
+        top: 510px;
+        border: 0.5px solid #FFFFFF;
+   }  
+    #txtIntro {
+        position: absolute;
+        width: 415px;
+        height: 43px;
+        left: 137px;
+        top: 194px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 4.70vw;
+        font-size: 70px;
+        line-height: 90px;
+        /* identical to box height, or 61% */
+        
+        text-transform: uppercase;
+
+        color: #FFFFFF;
+    }
+        #parrafoHero{
+            position: absolute;
+            width: 35%;
+            height: 144px;
+            left: 60%;
+            top: 194px;
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 23px;
+            line-height: 34px;
+            text-decoration: none;
+            color: #FFFFFF;
+            text-align: start;
+    }
+    #leerMasIntro {
+        position: absolute;
+        width: 35%;
+        height: 20px;
+        left: 60%;
+        top: 532px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 25px;
+        line-height: 31px;
+        text-decoration: none;
+        
+        color: #FFFFFF;
+        opacity: 50%;
+    }
+    #imgHome {
+        position: absolute;
+        width: 60px;
+        height: 79px;
+        left: 9.51%;
+        top: 500px;
+        opacity: 80%;
+    }
+
+/*----------------------------------------------------- Contenedor 1  ------------------------------------------------- */
+
+#contenedorBody1{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+#txtEnlacesMobileEnfoques {
+    display: none;
+}
+#txtContenedorBody1 {
+    position: relative;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtOpcionesContenedorBody1{
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+
+    color: #404040;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+
+}
+#imgMobileContenedor1{
+    display: none;
+}
+#imgContenedor1{
+    position: relative;
+}
+
+/*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
+
+#contenedorBody2{
+    position: relative; 
+    max-width: 1700px;
+    background: #1C1F2A;
+    overflow: hidden;
+    display: flex;
+    vertical-align: middle;
+}
+#imgContenedorBody2 {
+    left: 0;
+}
+#imgMobileContenedorBody2 {
+    display: none;
+}
+#txtContenedorBody2 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+    color: #64AE45;
+}
+#txtOpcionesContenedorBody2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+/*----------------------------------------------------- Contenedor Energía Renovables  ------------------------------------------------- */
+
+#contenedorBody3{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#txtContenedorBody3 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorBody3{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+#imgContenedorBody3{
+    position: relative;
+    top: 15%;
+}
+#imgMobileContenedorBody3{
+    display:none;
+}
+
+
+/*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
+
+#contenedorBody4{
+    position: relative; 
+    height: auto;
+    max-width: 1700px;
+    align-content: center;
+    margin-top: 50px;
+    background: transparent;
+    overflow: hidden;
+    z-index: 100;
+}
+
+#imgContenedorrBody4{
+    position: relative;
+    left: 50px;
+}
+#imgMobileContenedorrBody4{
+    display:none;
+}
+
+#txtContenedorrBody4 {
+    position: relative;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 47px;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
+}
+#txtParrafoContenedorrBody4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #404040;
+}
+
+
+
+}

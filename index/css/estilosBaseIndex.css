@@ -1750,7 +1750,7 @@
 	Top:22px;
 	left: 36.88%;
 
-	background: #404040;
+	background: #64AE45;
 	text-align: center;
 }
 #lineaInfMenu {
@@ -1759,7 +1759,7 @@
 	Top: 51px;
 	left: 36.88%;
 
-	background: #404040;
+	background: #64AE45;
 	text-align: center;
 }
 #txtMenu {
@@ -1819,7 +1819,7 @@
     color: #64AE45;
 }
 #boxMenus:hover div div {
-	background: black;
+	background: #64AE45;
 }
 
 /*------------------ Diseño de los SubMenú en modo Desktop -----------------------------*/

@@ -438,7 +438,6 @@ body, html {
 #contenedorBody1{
     position: relative; 
     height: auto;
-    max-width: 1700px;
     align-content: center;
     margin-top: 50px;
     background: transparent;
@@ -450,12 +449,11 @@ body, html {
 }
 #txtContenedorBody1 {
     position: relative;
-    width: 40%;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.5vw;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
     
     color: #1C1F2A;
     text-align: start;
@@ -464,15 +462,16 @@ body, html {
 }
 #txtOpcionesContenedorBody1{
     position: relative;
-    width: 30%;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 2vw; 
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+
     color: #404040;
     text-decoration: none;
+    letter-spacing: 0.02em;
 
 }
 #imgMobileContenedor1{
@@ -480,35 +479,11 @@ body, html {
 }
 #imgContenedor1{
     position: relative;
-    left: 50px;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
+    top: 5%
 }
-#txtDosContenedorBody1 {
-    position: relative;
-    width: 40%;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 3.5vw;
-    
-    color: #1C1F2A;
-    text-align: start;
-
-    letter-spacing: 0.05em;
-}
-#txtDosOpcionesContenedorBody1{
-    position: relative;
-    width: 30%;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.4vw;
-    color: #404040;
-    text-decoration: none;
-
-}
-
 
 /*-------------------------------------------- Contenedor 2. Imagen de ciudad ----------------------------------------------------- */
 
@@ -517,26 +492,39 @@ body, html {
     max-width: 1700px;
     background: #1C1F2A;
     overflow: hidden;
+    display: flex;
+    vertical-align: middle;
 }
 #imgContenedorBody2 {
     left: 0;
+    top: 50px;
+
 }
 #imgMobileContenedorBody2 {
     display: none;
 }
 #txtContenedorBody2 {
+    position: relative;
+
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 3.1vw;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
+    color: #1C1F2A;
+    text-align: start;
+
+    letter-spacing: 0.05em;
     color: #64AE45;
 }
 #txtOpcionesContenedorBody2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
-    font-size: 1.3vw;
-    line-height: 1.9vw; 
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -555,14 +543,12 @@ body, html {
 
 #txtContenedorBody3 {
     position: relative;
-    width: 40%;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-
-    font-size: 4vw;
-    line-height: 5vw;
+    font-size: 2.94vw;
+    line-height: 3.2vw;
     
     color: #1C1F2A;
     text-align: start;
@@ -570,30 +556,33 @@ body, html {
     letter-spacing: 0.05em;
 }
 #txtParrafoContenedorBody3{
-    position: relative;
-    width: 25%;
-
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 1.9vw;  
+    font-weight: 300;
+
+    font-size: 1.50vw;
+    font-size: 1.60vw;
+
+    letter-spacing: 0.02em;
     color: #404040;
 }
 #imgContenedorBody3{
     position: relative;
-    left: 50px;
+    top: 15%;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
 }
 #imgMobileContenedorBody3{
     display:none;
 }
+
 
 /*----------------------------------------------------- Contenedor Soluciones Integrales ------------------------------------------------- */
 
 #contenedorBody4{
     position: relative; 
     height: auto;
-    max-width: 1700px;
     align-content: center;
     margin-top: 50px;
     background: transparent;
@@ -603,8 +592,11 @@ body, html {
 
 #imgContenedorrBody4{
     position: relative;
-    left: 50px;
-    top: 20px;
+    left: 2.94vw;
+    top: 12%;
+    min-width: 390px;
+    width:49.16vw;
+    max-width: 590px;
 }
 #imgMobileContenedorrBody4{
     display:none;
@@ -612,96 +604,29 @@ body, html {
 
 #txtContenedorrBody4 {
     position: relative;
-    width: 10%;
 
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 4vw;
-    line-height: 5vw;
-        
+    font-size: 2.94vw;
+    line-height: 3.2vw;
+    
     color: #1C1F2A;
     text-align: start;
 
     letter-spacing: 0.05em;
 }
 #txtParrafoContenedorrBody4 {
-    position: relative;
-    width: 25%;
-
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 400;
-    font-size: 1.3vw;
-    line-height: 1.9vw; 
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.02em;
     color: #404040;
 }
-
-/*-------------------------------------------- Contenedor 3. Cards de efoques ----------------------------------------------------- */
-
-#contenedorBody3{
-    position:relative;
-    background: #F8F9FA;
-    width: 100%;
-    max-width: 1700px;
-    overflow: hidden;
-}
-#contenedorBody33{
-    position:relative;
-    background: #F8F9FA;
-    height:40px ;
-}
-#contenedorBody3Mobile{
-    display: none; 
-}
-#IconEnfoquesConstruccion {
-    width: 35px;
-    height: 39px;
 }
 
-#txtTituloCard {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 17px;
-    line-height: 20px;
-    color: #1C1F2A;
-    text-align: left;
-}
-#txtParrafoCard {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 13px;
-    line-height: 20px;
-    color: #1C1F2A;
-    text-align: left;
-}
-
-#txtLeerMasCard {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 17px;
-    color: #64AE45;
-    text-decoration: none;
-}
-#txtLeerMasCard:hover {
-    font-weight: 500;
-    color: #1C1F2A;
-}
-#Card {
-    cursor: pointer;
-    width: 100%;
-    left: -20%;
-}
-#Card:hover {
-    transform: scale(1.01);
-    box-shadow: 10px 5px 5px grey;
-}
-		
-}
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
 /*--------------------------------------------------- Formato Desktop entre 1200px y 1700px -----------------------------------------------------*/ 
