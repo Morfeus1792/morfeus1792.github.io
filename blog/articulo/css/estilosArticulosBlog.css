@@ -62,7 +62,7 @@ body, html {
         width: 70%;
         height: 116px;
         left: 9%;
-        top: 25vw;
+        top: 20vw;
             
         font-family: 'Roboto';
         font-style: normal;
@@ -70,6 +70,7 @@ body, html {
         font-size: 3.6vw;
         line-height: 4.5vw;           
         color: #FFFFFF;
+        text-align: left;
     }
     #lineaInfHero {
         position: absolute;
