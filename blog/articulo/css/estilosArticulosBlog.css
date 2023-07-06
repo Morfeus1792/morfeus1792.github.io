@@ -251,6 +251,22 @@ background: #64AE45;
 color: #FFFFFF;
 }
 
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    color: #FFFFFF;
+    border-radius: 58px;
+    Width: 40%;
+    Height:28px;
+    margin: 1vw;
+    text-align: center;
+    cursor: pointer;
+    font-size: 8px;
+}
+#txtCategoriaActiva:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
 
 #carouselProyectosControl{
@@ -510,6 +526,23 @@ margin-right: 26px;
     color: #FFFFFF;
 }
 
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    border-radius: 58px;
+    Width: 150px;
+    Height:28px;
+    margin: 1vw;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+#txtCategoriaActiva:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
+
 /*-------------------------------------- Contenedor control de articulo - Anterior/Siguiente  -------------------------------------- */
 
 #carouselProyectosControl{
@@ -746,9 +779,16 @@ margin-right: 26px;
     font-weight: 400;
     font-size: 12px;
     line-height: 25px;
-    color: #000000;
 }
-
+#txtCategoria {
+    background: #F2F2F2;
+    border-radius: 58px;
+    Width: 150px;
+    Height:28px;
+    margin: 1vw;
+    text-align: center;
+    cursor: pointer;
+}
 #txtCategoria {
     background: #F2F2F2;
     border-radius: 58px;
@@ -759,6 +799,23 @@ margin-right: 26px;
     cursor: pointer;
 }
 #txtCategoria:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
+
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    border-radius: 58px;
+    Width: 150px;
+    Height:28px;
+    margin: 1vw;
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+#txtCategoriaActiva:hover {
     background: #64AE45;
     color: #FFFFFF;
 }

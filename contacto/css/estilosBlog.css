@@ -2,7 +2,7 @@
 
 body, html { 
     ---variableprueba:90vw;
-
+    overflow-x: hidden;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------*/ 
@@ -13,6 +13,7 @@ body, html {
 { 
     #headerDesktop {
         display:none !important;
+        overflow: hidden;
     }
     #hero {
         position:relative; 
@@ -62,7 +63,7 @@ body, html {
         width: 70%;
         height: 116px;
         left: 9%;
-        top: 25vw;
+        top: 20vw;
             
         font-family: 'Roboto';
         font-style: normal;
@@ -70,6 +71,7 @@ body, html {
         font-size: 3.6vw;
         line-height: 4.5vw;           
         color: #FFFFFF;
+        text-align: left;
     }
     #lineaInfHero {
         position: absolute;
@@ -130,7 +132,72 @@ body, html {
 
     text-decoration: none;
     color: #818181;
+    overflow: hidden;
+
 }
+
+/*-------------------------------------- Contenedor Categorías del Articulo ------------------------------------------ */
+
+#contenedorCategorias{
+    position: relative;
+    overflow: hidden;
+    Width:100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#txtTituloCategorias {
+    Height: 5.6vw;
+    margin: 1vw;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2vw;
+    line-height: 5vw;
+    color: #1C1F2A;
+}
+#txtCategoria {
+    background: #F2F2F2;
+    border-radius: 10px;
+    Height: 5.6vw;
+    margin: 1vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 5vw;
+    text-align: center;
+    cursor: pointer;
+}
+#txtCategoria:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    border-radius: 10px;
+    Height: 5.6vw;
+    margin: 1vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 5vw;
+
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+#txtCategoriaActiva:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
 /*----------------------------------------------------- Contenedor de Articulos Destacados  ------------------------------------------------- */
 
 #contenedorCarouselArtDestacados{
@@ -149,6 +216,7 @@ body, html {
     margin:0;
     padding: 0;
     object-fit:cover;
+    overflow: hidden;
 }
 
 #imgArticuloDestacado{
@@ -215,6 +283,7 @@ body, html {
 
 #contenedorCarouselArticulosDesktop {
     display: none;
+    overflow: hidden;
 }
 #contenedorCarouselArticulosMobile {
     position: relative;
@@ -236,6 +305,8 @@ body, html {
     margin:0;
     padding: 0;
     border: 1px solid grey;
+    overflow: hidden;
+
 }
 #imgArticulo{
     position: relative; 
@@ -319,6 +390,7 @@ body, html {
     color: #64AE45;
     margin-left: 0px;
     letter-spacing: 0.5px;
+    
 }
 #nombreArticulo{
     font-family: 'Montserrat';
@@ -550,6 +622,72 @@ body, html {
 }
 #txtEnlacesMobileEnfoques {
     display: none;
+}
+
+/*-------------------------------------- Contenedor Categorías del Articulo ------------------------------------------ */
+
+#contenedorCategorias{
+    position: relative;
+    Width:100%;
+    max-width:1700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#txtTituloCategorias {
+    Width: 180px;
+    Height:28px;
+    margin: 1vw;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#txtCategoria {
+    background: #F2F2F2;
+    border-radius: 58px;
+    Height:28px;
+    margin: 1vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+#txtCategoria:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    border-radius: 58px;
+    Height:28px;
+    margin: 1vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+#txtCategoriaActiva:hover {
+    background: #64AE45;
+    color: #FFFFFF;
 }
 
 /*------------------------------------------------ Carrousel Articulos ------------------------------------------------- */
@@ -876,6 +1014,71 @@ body, html {
     color: #64AE45;
 }
 
+/*-------------------------------------- Contenedor Categorías del Articulo ------------------------------------------ */
+
+#contenedorCategorias{
+    position: relative;
+    Width:100%;
+    max-width:1700px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+#txtTituloCategorias {
+    Width: 180px;
+    Height:28px;
+    margin: 1vw;
+    text-align: right;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1C1F2A;
+}
+#txtCategoria {
+    background: #F2F2F2;
+    border-radius: 58px;
+    Height:28px;
+    margin: 1vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+#txtCategoria:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
+
+#txtCategoriaActiva {
+    background: #1C1F2A;
+    border-radius: 58px;
+    Height:28px;
+    margin: 1vw;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+
+    text-align: center;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+#txtCategoriaActiva:hover {
+    background: #64AE45;
+    color: #FFFFFF;
+}
 
 /*------------------------------------------------ Carrousel Articulos ------------------------------------------------- */
 
